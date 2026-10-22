@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 300" role="img" aria-labelledby="title desc">
+  <title id="title">Ambient CO2 gas analyzer dimensions</title>
+  <desc id="desc">Indicative front elevation is 483 millimetres wide and 177 millimetres high. Side elevation is 480 millimetres deep.</desc>
+  <g fill="none" stroke="#1a2333" stroke-width="2">
+    <path d="M100 54H470M100 44V64M470 44V64"/>
+    <path d="M70 88V224M60 88H80M60 224H80"/>
+    <rect x="100" y="88" width="370" height="136" rx="12" fill="#f5f6f2"/>
+    <rect x="126" y="110" width="160" height="86" rx="7" fill="#1a2333" stroke="none"/>
+    <path d="M330 122H438M330 152H438M330 182H438" stroke="#8b92a0"/>
+    <path d="M570 54H940M570 44V64M940 44V64"/>
+    <rect x="570" y="88" width="370" height="136" rx="12" fill="#f5f6f2"/>
+    <path d="M755 88V224" stroke="#c4c7c2"/>
+  </g>
+  <g fill="#0a1220" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="285" y="38" font-size="24">483 mm</text><text x="755" y="38" font-size="24">480 mm</text>
+    <text x="48" y="162" font-size="24" transform="rotate(-90 48 162)">177 mm</text>
+  </g>
+  <g fill="#5c6573" font-family="monospace" font-size="15" letter-spacing="3" text-anchor="middle">
+    <text x="285" y="264">FRONT</text><text x="755" y="264">SIDE</text>
+  </g>
+</svg>

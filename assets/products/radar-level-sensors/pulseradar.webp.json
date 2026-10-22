@@ -1,0 +1,18 @@
+{
+  "id": "pulseradar",
+  "sourceFile": "Vepolink - PulseRadar Non-Contact Level Sensor.pdf",
+  "sourceSha256": "0e882b5b227738acd037bf63ea188129bd606af26ac2d7f21a2e8a6c98c051e8",
+  "brochure": "/assets/brochures/radar-level-sensors/vepolink-pulseradar-brochure.pdf",
+  "brochureSha256": "247a7c4881470a5f9d928dca5d28257057c5dd06ab23d0b6a6e88f4982453e35",
+  "image": {
+    "path": "/assets/products/radar-level-sensors/pulseradar.webp",
+    "width": 1184,
+    "height": 1096,
+    "sha256": "bec18fc6195564210779a322c24d4d7d71a09ecc6c78478217cc3b3716b407ad",
+    "sourcePage": 1,
+    "embeddedImage": 6,
+    "alphaMask": 7
+  },
+  "alt": "Brochure illustration of PulseRadar mounted above a water surface with a 12-degree beam",
+  "treatment": "Brochure illustration, not a product photograph; supplied configuration may vary."
+}

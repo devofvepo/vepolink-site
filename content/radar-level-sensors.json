@@ -1,0 +1,80 @@
+{
+  "updated": "2026-10-04",
+  "sensors": [
+    {
+      "id": "pulseradar",
+      "name": "PulseRadar",
+      "type": "Non-contact pulse radar level sensor",
+      "headline": "Long-range, low-power water level measurement.",
+      "description": "A low-profile 25.3 GHz pulse radar sensor for remote water-level sites, with SDI-12, RS-485 using SDI-12 commands and a configurable 4–20 mA output.",
+      "selection": "Choose for longer measuring distances and low-power field logging.",
+      "method": "Pulse radar time-of-flight",
+      "principle": "The sensor sends short radar pulses toward the water and measures the return time. A configured reference converts the measured distance into water level without putting the sensor in the water.",
+      "image": "pulseradar.webp",
+      "imageAlt": "Brochure illustration of PulseRadar mounted above a water surface with a 12-degree beam",
+      "brochure": "/assets/brochures/radar-level-sensors/vepolink-pulseradar-brochure.pdf",
+      "source": "Vepolink - PulseRadar Non-Contact Level Sensor.pdf",
+      "keyFacts": [["Distance to water", "0.4–35 m"], ["Interfaces", "SDI-12, RS-485 (SDI-12 commands), 4–20 mA"]],
+      "specGroups": [
+        {"name": "Measurement & performance", "rows": [["Principle", "25.3 GHz non-contact pulse radar"], ["Distance to water", "0.4–35 m"], ["Accuracy, 0.4–2 m", "±10 mm"], ["Accuracy, 2–30 m", "±3 mm"], ["Accuracy, 30–35 m", "±10 mm"], ["Resolution", "1 mm"], ["Beam width", "12° (±6°)"], ["Measurement time", "2–20 s"]]},
+        {"name": "Interfaces, power & build", "rows": [["Digital interfaces", "SDI-12; RS-485 using SDI-12 commands (not Modbus RTU)"], ["Analog output", "Field-scalable 4–20 mA; ±0.1% of full scale output accuracy"], ["Data logging", "Internal data logger"], ["Supply", "5.4–28 V DC; typically 12 or 24 V DC"], ["Power", "Active <290 mW (<24 mA at 12 V); resting <0.6 mW (<0.05 mA at 12 V)"], ["Maximum cable length", "100 m"], ["Housing", "UV-stabilized ASA/ABS"], ["Protection", "IP67"], ["Operating temperature", "−40 to 60 °C"], ["Storage temperature", "−40 to 85 °C"]]}
+      ],
+      "features": ["A 0.4–35 m distance range suits elevated mounting points and remote water-level monitoring.", "Low resting power supports duty-cycled field systems; size the complete sensor, logger and telemetry power budget.", "Select SDI-12, RS-485 with SDI-12 commands or a scaled 4–20 mA signal for the receiving system."],
+      "apps": ["Streams and rivers", "Tidal monitoring", "Reservoirs and lakes", "Flood warning", "Bridges and culverts"],
+      "installation": "Mount above the highest expected water level while keeping the surface at least 0.4 m from the sensor. Keep the 12° beam clear of supports, banks and obstructions. Set the datum and, where used, the 4–20 mA scaling at commissioning. Confirm the cable route and receiving interface.",
+      "care": "Inspect mounting, enclosure, cable and beam path. Check the level reading against a known reference and review the site after flood debris or structural changes. A non-contact installation avoids routine cleaning of a wetted sensor face, but does not remove the need for inspection.",
+      "confirmation": "Accuracy varies across three distance bands; the ±3 mm figure applies only from 2–30 m. Confirm the selected configuration, site geometry, power and interface before order.",
+      "related": ["radarsense-smart", "radarsense-hf"]
+    },
+    {
+      "id": "radarsense-smart",
+      "name": "RadarSense Smart",
+      "type": "Smart FMCW radar level sensor",
+      "headline": "Level measurement with remote health readings.",
+      "description": "An 80 GHz FMCW radar sensor for non-contact water-level measurement, with tilt and internal-humidity readings alongside the level data.",
+      "selection": "Choose for precise level monitoring with tilt and humidity diagnostics.",
+      "method": "80 GHz FMCW radar",
+      "principle": "A frequency-modulated continuous-wave radar signal in the 77–81 GHz band reflects from the surface. The frequency difference is used to calculate distance; a configured datum converts distance to water level.",
+      "image": "radarsense-smart.webp",
+      "imageAlt": "Brochure illustration of RadarSense Smart measuring a water surface with an eight-degree radar beam",
+      "brochure": "/assets/brochures/radar-level-sensors/vepolink-radarsense-smart-brochure.pdf",
+      "source": "Vepolink - RadarSense Smart Level Sensor.pdf",
+      "keyFacts": [["Distance to water", "0–30 m"], ["Accuracy", "±2 mm"]],
+      "specGroups": [
+        {"name": "Measurement & performance", "rows": [["Principle", "80 GHz FMCW radar (77–81 GHz band)"], ["Distance to water", "0–30 m"], ["Level accuracy", "±2 mm"], ["Resolution", "1 mm"], ["Beam angle", "8°; no blanking distance stated"], ["Sampling", "2 Hz standard option"], ["Additional readings", "Internal humidity and X/Y sensor orientation"], ["Onboard processing", "Mean, minimum, maximum, median and standard deviation; discharge Q requires a configured rating relationship"]]},
+        {"name": "Interfaces, power & build", "rows": [["Interfaces", "SDI-12 and RS-485 Modbus RTU"], ["Data logging", "Internal data logger"], ["Supply", "5.5–28.8 V DC; typically 12 or 24 V DC"], ["Current", "4 mA active; 250 µA idle, as stated for the standard sensor"], ["Housing and radome", "AlMgSi1 aluminum housing; ASA/PTFE radome"], ["Mounting", "Stainless steel 1.4301"], ["Cable", "PUR jacket and M9 connector"], ["Protection", "IP67; brochure states lower housing tolerates 1 m water column for up to one week"], ["Dimensions", "90 × 134.5 × 137 mm (H × W × D), indicative"]]}
+      ],
+      "features": ["Tilt and internal-humidity readings help identify mounting movement or condensation remotely.", "The narrow 8° beam helps at confined mounting locations; verify a clear path to the surface.", "Onboard statistics support trend analysis; discharge calculation depends on a site-specific rating relationship."],
+      "apps": ["Flood-warning networks", "Tidal and coastal level", "Stormwater basins", "Reservoirs and dams", "Stream gauging with a configured rating curve"],
+      "installation": "Mount above the highest expected level, align the sensor and keep the 8° beam clear. Configure the level datum, sampling interval and receiving protocol. Record the initial tilt and humidity readings so later changes can be interpreted. The stated absence of a measurement blanking distance does not remove the need for physical mounting clearance.",
+      "care": "Review tilt, humidity and level data remotely, then inspect the mounting, radome, connector and beam path at an interval suited to the site. Check the reading against a reference when commissioning or after movement. The brochure's temporary lower-housing inundation statement is not a general immersion rating.",
+      "confirmation": "Confirm mounting geometry, receiving interface, power budget and the selected configuration. The temporary 1 m / one-week flood-tolerance statement applies to the lower housing as described in the brochure, not permanent submersion.",
+      "related": ["radarsense-hf", "pulseradar"]
+    },
+    {
+      "id": "radarsense-hf",
+      "name": "RadarSense HF",
+      "type": "High-frequency FMCW radar level sensor",
+      "headline": "Faster scans for changing water levels.",
+      "description": "An 80 GHz FMCW radar level sensor with selectable 1, 2, 4 or 8 scans per second for fast-changing water surfaces.",
+      "selection": "Choose when rapid level changes call for up to eight scans per second.",
+      "method": "High-frequency 80 GHz FMCW radar",
+      "principle": "The 77–81 GHz FMCW measurement determines distance to the surface. Compared with the standard RadarSense sensor, the HF option increases selectable scan rate so rapid changes can be captured before an averaging interval reports the level.",
+      "image": "radarsense-hf.webp",
+      "imageAlt": "Brochure illustration of RadarSense HF scanning a fast-changing water surface",
+      "brochure": "/assets/brochures/radar-level-sensors/vepolink-radarsense-hf-brochure.pdf",
+      "source": "Vepolink - RadarSense HF Level Sensor.pdf",
+      "keyFacts": [["Distance to water", "0–30 m"], ["Sampling", "1, 2, 4 or 8 scans/s"]],
+      "specGroups": [
+        {"name": "Measurement & performance", "rows": [["Principle", "80 GHz FMCW radar (77–81 GHz band)"], ["Distance to water", "0–30 m"], ["Level accuracy", "±2 mm"], ["Resolution", "1 mm"], ["Beam angle", "8°; no blanking distance stated"], ["Sampling option", "1, 2, 4 or 8 scans/s; approximately 100 ms per scan"], ["Averaging window", "Adjustable 1–60 s; factory setting 1 s"], ["Additional readings", "Internal humidity and X/Y sensor orientation"]]},
+        {"name": "Interfaces, power & build", "rows": [["Interfaces", "SDI-12 and RS-485 Modbus RTU"], ["Data logging", "Internal data logger"], ["Supply", "5.5–28.8 V DC; typically 12 or 24 V DC"], ["Idle current", "250 µA; active current varies with scan rate and must be confirmed"], ["Housing and radome", "AlMgSi1 aluminum housing; ASA/PTFE radome"], ["Mounting", "Stainless steel 1.4301"], ["Cable", "PUR jacket and M9 connector"], ["Protection", "IP67; brochure states lower housing tolerates 1 m water column for up to one week"], ["Dimensions", "90 × 134.5 × 137 mm (H × W × D), indicative"]]}
+      ],
+      "features": ["Select 1, 2, 4 or 8 scans per second to match the site’s rate of change and reporting needs.", "Adjustable averaging over 1–60 seconds balances short-lived movement against a stable reported value.", "Tilt and internal-humidity readings remain available alongside the level measurement."],
+      "apps": ["Flash-flood warning", "Dam and gate operations", "Tidal bores and storm surge", "Hydraulic structures", "Urban stormwater surges"],
+      "installation": "Mount above the highest expected level with a clear 8° beam. Set the datum, scan rate and averaging window for the site, then confirm the receiver, logger memory, telemetry bandwidth and power budget can support the chosen sustained rate. Record initial tilt and humidity readings.",
+      "care": "Inspect the mounting, radome, connector and beam path and verify level against a reference. Review remote tilt and humidity readings for changes. Recheck the scan and averaging settings after changing alarms or telemetry. Temporary flood tolerance of the lower housing is not a permanent immersion rating.",
+      "confirmation": "The up-to-8-scans/s mode is the distinguishing HF configuration. Confirm active current and data-system capacity at the selected scan rate. The brochure’s temporary lower-housing flood tolerance does not establish permanent immersion suitability.",
+      "related": ["radarsense-smart", "pulseradar"]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="240" viewBox="0 0 360 240" role="img" aria-labelledby="title"><title id="title">Infrared light scattered at 90 degrees to the incident beam</title>
+<style>text{font:16px Arial,Helvetica,sans-serif;fill:#344052}.label{font-weight:600;fill:#0B1321}.cell{fill:#F4F3EE;stroke:#A4AAB3;stroke-width:1.5}.ray{fill:none;stroke:#35BBD2;stroke-width:3}.violet{fill:none;stroke:#9565D9;stroke-width:3}.line{fill:none;stroke:#344052;stroke-width:2}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 10 5 0 10z" fill="#344052"/></marker></defs>
+
+<rect class="cell" x="218" y="28" width="60" height="26" rx="4"/><text x="248" y="18" text-anchor="middle" class="label">90° detector</text>
+<circle class="cell" cx="48" cy="146" r="21"/><circle cx="48" cy="146" r="7" fill="#9565D9"/>
+<rect class="cell" x="218" y="119" width="60" height="54" rx="5"/>
+<path class="ray" d="M72 146H247V63" marker-end="url(#arrow)"/>
+<path class="line" d="M231 146v-17h17"/><text x="174" y="117">90°</text>
+<text x="48" y="208" text-anchor="middle" class="label">IR source</text><text x="248" y="208" text-anchor="middle" class="label">Sample</text>
+</svg>

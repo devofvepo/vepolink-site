@@ -1,0 +1,1315 @@
+{
+  "reviewed": "2026-09-23",
+  "sources": [
+    {
+      "source": {
+        "slug": "vizsens-ph-digital",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-ph-digital.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-pH-Digital.pdf"
+      },
+      "webTables": [
+        [
+          [
+            "Main material",
+            "Shell: 316L stainless steel + POM; cable: polyurethane; glass electrode"
+          ],
+          [
+            "Measurement range",
+            "0–14 pH"
+          ],
+          [
+            "Resolution",
+            "0.01 pH"
+          ],
+          [
+            "Precision",
+            "±0.1 pH"
+          ],
+          [
+            "Repeatability",
+            "±0.1 pH"
+          ],
+          [
+            "Temperature channel range",
+            "−15 to 110 °C"
+          ],
+          [
+            "Temperature resolution",
+            "0.1 °C"
+          ],
+          [
+            "Temperature accuracy",
+            "0.5 °C"
+          ],
+          [
+            "Pressure range",
+            "0–0.1 MPa"
+          ],
+          [
+            "Operating temperature",
+            "Confirm for the selected configuration"
+          ],
+          [
+            "Power supply",
+            "9–36 VDC"
+          ],
+          [
+            "Dimensions",
+            "Ø34 × 252 mm"
+          ],
+          [
+            "Protection",
+            "IP68, protective casing"
+          ],
+          [
+            "Cable length",
+            "10 m standard; extensions up to 200 m"
+          ],
+          [
+            "Communication",
+            "RS-485 / Modbus RTU"
+          ]
+        ]
+      ],
+      "webImages": [
+        {
+          "alt": "",
+          "height": 500,
+          "src": "https://www.advanceanalytik.com/products/productImages/imgpH.png",
+          "width": 500
+        }
+      ],
+      "datasheetText": "ADVANCE ANALYTIK KFT\n1\nVIZSENS-PH(DIGITAL)\npH Sensor\n2026\nVizSens-PH(Digital)\nOVERVIEW\n2 This is a digital pH sensor with an RS485 communication interface and the\n2\nstandard Modbus protocol. Stainless steel corrosion resistant shell, IP68 protection\ngrade, built-in PT1000 thermistor and compensation algorithm, with high precision,\nlong life, small drift and other advantages, suitable for all kinds of harsh working\nenvironment.\nPRODUCT FEATURES\nPower supply and output isolation design ensures\nelectrical safety.\nBuilt-in protection circuit for power supply and\ncommunication chip, offering strong anti-\ninterference ability.\nComprehensive protection circuit design for\nreliable operation without additional equipment.\nCircuit part designed within the electrode for easy\ninstallation and operation.\nRS-485 transmission interface, MODBUS-RTU\ncommunication protocol, enabling two-way\ncommunication and remote command reception.\nThe pH combination electrodes requires very little\nmaintenance and needs no electrolyte\nreplacement\n2026\nViz Sensor Series\nTECHNICAL SPECIFICATIONS\nBasic Specifications\nShell: 316L stainless steel + Polyoxymethylene;\nMain Material\nCable: Polyurethane; Electrode: Glass core\nMeasurement Range 0-14 pH 3\nResolution 0.01 pH\nPrecision ±0.1 pH\nRepeatability ±0.1 pH\nTemperature Range -15 to 110°C\nTemperature Resolution 0.1°C\nTemperature Accuracy 0.5°C\nPressure Range 0-0.1Mpa\nOperating Temperature -5 to +60°C\nPower Supply 9-36 VDC\nDimension Diameter 34mm * Length 252mm\nWater Protective Rate IP68 (Protective casing)\nCable Length Standard: 10m, maximum extendable to 200m\n2026\nAPPLICATIONS\n4 Chlor-Alkali Industry Fish farming Food and Beverage\nDesalination Plants Potable Water Treatment\nPlants (PWTP)\nNote -\nThis data sheet serves as general information about the VizSens-PH(Digital). For specific technical details,\ninstallation guidelines, and troubleshooting assistance, please refer to the official user manual provided with the\nproduct.\nDue to continuous product improvement, specifications and design are subject to change without notice. Actual\nproduct may differ slightly from illustrations.\nFor inquiries and detailed technical information, please contact sales@advanceanalytik.com.\n2026\nWe, Advance Analytik KFT, are a distinguished\nmanufacturing company based in Budapest,\nHungary. Our company’s long-standing presence in\nthis vibrant city reflects our unwavering\n12\ncommitment to excellence, innovation, and\nadaptability in a competitive industry.\nAt Advance Analytik, we specialize in precision and\nperformance, offering a wide array of advanced analytical\ninstruments. Our product range includes state-of-the-art\n5\nanalog and digital sensors, cutting-edge controllers, and\nmodular analyzers designed for diverse applications. Each\nproduct is a testament to our meticulous attention to detail\nand dedication to exceeding industry standards.\nThe backbone of our success lies in our exceptional team of professionals.\nComprised of skilled engineers, innovative designers, and dedicated support\nstaff, our team works in synergy to deliver solutions that empower our clients.\nOUR MISSION\nTo be the preferred partner for industries worldwide, offering entive and reliable analytical solutions that\ndrive innovation and ensure quality\nOUR VISION\nTo revolutionize analytical science by pioneering state-at instruments and services, empowering researchers\nand businesses to achieve new unprecedented accuracy\nWhy Choose Advance Analytik?\nCutting-edge Technology\nWe leverage the latest advancements in analytical instrumentation and software to provide our\ncustomers with state-of-the-art solutions that deliver accurate and precise results.\nCustomized Solutions\nWe understand that every industry and research field has unique requirements. That's why we\noffer customized solutions tailored to your specific needs.\nReliable Performance\nWe take pride in delivering instruments and solutions that consistently deliver reliable performance.\nExceptional Support and Service\nOur dedicated team is committed to providing comprehensive support throughout your analytical\njourney.\nTrusted Expertise\nWith years of experience in the analytical instrumentation industry, we have developed a deep\nunderstanding of our customers’ needs and challenges.\n3780 Edelény, Szentpéteri út hrsz 015/104\nsales@advanceanalytik.com\nwww.advanceanalytik.com"
+    },
+    {
+      "source": {
+        "slug": "vizsens-ec-digital",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-ec-digital.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-EC-Digital.pdf"
+      },
+      "webTables": [
+        [
+          [
+            "Main material",
+            "316L stainless steel + POM"
+          ],
+          [
+            "Dimensions",
+            "Ø34 × 210 mm"
+          ],
+          [
+            "Cable length",
+            "10 m standard; extensions up to 200 m"
+          ],
+          [
+            "Mounting thread",
+            "3/4 inch"
+          ],
+          [
+            "Measurement range",
+            "10 µS/cm–200 mS/cm"
+          ],
+          [
+            "Accuracy",
+            "±2% of full scale"
+          ],
+          [
+            "Resolution",
+            "0.01–1 µS/cm, depending on range"
+          ],
+          [
+            "Repeatability",
+            "±1%"
+          ],
+          [
+            "Temperature channel range",
+            "0–100 °C"
+          ],
+          [
+            "Electrode temperature",
+            "0–45 °C"
+          ],
+          [
+            "Pressure range",
+            "0–0.1 MPa"
+          ],
+          [
+            "Power supply",
+            "9–36 VDC"
+          ],
+          [
+            "Communication",
+            "RS-485 / Modbus"
+          ],
+          [
+            "Protection",
+            "IP68, protective casing"
+          ]
+        ]
+      ],
+      "webImages": [
+        {
+          "alt": "",
+          "height": 500,
+          "src": "https://www.advanceanalytik.com/products/productImages/imgpH.png",
+          "width": 500
+        }
+      ],
+      "datasheetText": "ADVANCE ANALYTIK KFT\n1\nVIZSENS-EC(DIGITAL)\nConductivity Sensor / Salinity Sensor\n2026\nVizSens-EC(Digital)\nOVERVIEW\n2 Digital quadrupole Conductivity/Salinity Sensor, suitable for all kinds of harsh\n2\nworking environment. It has the advantages of high precision, long life and small\ndrift. Widely used in surface water, municipal sewage, industrial wastewater,\nsewage treatment, waterworks, industrial process, aquaculture and other\nindustries.\nPRODUCT FEATURES\nCore electrode adopts quadrupole working\nprinciple, wide range, high accuracy and good\nstability.\nElectrode is made of graphite, high sensitivity,\nstrong ability to resist pollution.\nWaterproof grade IP68, 316L stainless steel\ncorrosion resistant shell, long-time work\nunderwater.\nBuilt-in PT-1000 temp. sensitive resistor, effective\ntemperature compensation.\nRS485 communication interface, the standard\nModbus protocol, ease of integration.\nSensor power supply positive and negative\nreverse connection protection.\nSensor RS485 A/B terminal is connected to the\npower supply protection.\n2026\nViz Sensor Series\nTECHNICAL SPECIFICATIONS\nPhysical Specifications\nMain Material 316L Stainless Steel + Polyoxymethylene\nDimensions Dia. 34mm* Length 210mm\nCable Length Standard: 10m, Max. extendable to 200m\n3\nMounting Thread 3/4 inch front and rear threads\nMeasurement Specifications\nConductivity : 10 us/cm - 200 ms/cm\nMeasurement Range\nSalinity : 0 - 10 ppt\nAccuracy ± 2 % F.S.\n0.01us/cm-1us/cm depends on measurement\nResolution\nrange\nRepeatability ±1% or 1us/cm\nTemperature Specifications\nTemp. measuring range 0-100 °C\nElectrode voltage resistance 0-0.1 Mpa\nElectrode temp. resistance 0-45 °C\nPressure Specifications\nPressure Range 0-0.1 Mpa\nElectrical Specifications\nPower Supply 9-36VDC\nCommunication Protocol MODBUS RS485\nProtection and Communication\nProtective Rate IP68 (Protective casing)\n⌀\n210\n2026\n34\nAPPLICATIONS\n4 Chlor-Alkali Industry Fish farming Food and Beverage\nDesalination Plants Potable Water Treatment\nPlants (PWTP)\nNote -\nThis data sheet serves as general information about the VizSens-EC(Digital). For specific technical details, installation\nguidelines, and troubleshooting assistance, please refer to the official user manual provided with the product.\nDue to continuous product improvement, specifications and design are subject to change without notice. Actual\nproduct may differ slightly from illustrations.\nFor inquiries and detailed technical information, please contact sales@advanceanalytik.com.\n2026\nWe, Advance Analytik KFT, are a distinguished\nmanufacturing company based in Budapest,\nHungary. Our company’s long-standing presence in\nthis vibrant city reflects our unwavering\n12\ncommitment to excellence, innovation, and\nadaptability in a competitive industry.\nAt Advance Analytik, we specialize in precision and\nperformance, offering a wide array of advanced analytical\ninstruments. Our product range includes state-of-the-art\n5\nanalog and digital sensors, cutting-edge controllers, and\nmodular analyzers designed for diverse applications. Each\nproduct is a testament to our meticulous attention to detail\nand dedication to exceeding industry standards.\nThe backbone of our success lies in our exceptional team of professionals.\nComprised of skilled engineers, innovative designers, and dedicated support\nstaff, our team works in synergy to deliver solutions that empower our clients.\nOUR MISSION\nTo be the preferred partner for industries worldwide, offering entive and reliable analytical solutions that\ndrive innovation and ensure quality\nOUR VISION\nTo revolutionize analytical science by pioneering state-at instruments and services, empowering researchers\nand businesses to achieve new unprecedented accuracy\nWhy Choose Advance Analytik?\nCutting-edge Technology\nWe leverage the latest advancements in analytical instrumentation and software to provide our\ncustomers with state-of-the-art solutions that deliver accurate and precise results.\nCustomized Solutions\nWe understand that every industry and research field has unique requirements. That's why we\noffer customized solutions tailored to your specific needs.\nReliable Performance\nWe take pride in delivering instruments and solutions that consistently deliver reliable performance.\nExceptional Support and Service\nOur dedicated team is committed to providing comprehensive support throughout your analytical\njourney.\nTrusted Expertise\nWith years of experience in the analytical instrumentation industry, we have developed a deep\nunderstanding of our customers’ needs and challenges.\n3780 Edelény, Szentpéteri út hrsz 015/104\nsales@advanceanalytik.com\nwww.advanceanalytik.com"
+    },
+    {
+      "source": {
+        "slug": "vizsens-odo",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-odo.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-ODO-Sensor.pdf"
+      },
+      "webTables": [
+        [
+          [
+            "Dimensions",
+            "Ø49.5 × 251.3 mm"
+          ],
+          [
+            "Measurement range",
+            "0–20 mg/L or 0–200% saturation"
+          ],
+          [
+            "Accuracy",
+            "±3% of reading or ±0.3 mg/L, whichever is greater"
+          ],
+          [
+            "Temperature accuracy",
+            "±0.5 °C"
+          ],
+          [
+            "Resolution",
+            "0.01 mg/L"
+          ],
+          [
+            "Repeatability",
+            "±0.3 mg/L"
+          ],
+          [
+            "Pressure range",
+            "≤0.3 MPa"
+          ],
+          [
+            "Body material",
+            "316L stainless steel for fresh water; titanium alloy for marine use"
+          ],
+          [
+            "Cover",
+            "Polyphenylene + glass fibre"
+          ],
+          [
+            "Cable material",
+            "Polyurethane"
+          ],
+          [
+            "Weight",
+            "1.4 kg"
+          ],
+          [
+            "Cable length",
+            "10 m standard; extensions up to 100 m"
+          ],
+          [
+            "Power supply",
+            "9–36 VDC"
+          ],
+          [
+            "Communication",
+            "RS-485 / Modbus"
+          ],
+          [
+            "Storage temperature",
+            "−15 to 60 °C"
+          ],
+          [
+            "Measuring temperature",
+            "0–45 °C"
+          ],
+          [
+            "Protection",
+            "IP68 / NEMA 6P"
+          ]
+        ]
+      ],
+      "webImages": [
+        {
+          "alt": "",
+          "height": 1024,
+          "src": "https://www.advanceanalytik.com/products/productImages/img009.png",
+          "width": 1024
+        }
+      ],
+      "datasheetText": "ADVANCE ANALYTIK KFT\n1\nVIZSENS-ODO\nOptical Dissolved Oxygen Sensor\n2026\nVizSens-ODO\nOVERVIEW\n2 The VizSens-ODO Optical Dissolved Oxygen Sensor utilizes fluorescence\n2\ntechnology to accurately measure dissolved oxygen concentration.\nA luminescent material on the sensor's cap is excited by blue LED light,\nemitting red light. The intensity and time of the red light are indicative of\noxygen molecule concentration, enabling precise calculations.\nPRODUCT FEATURES\nNew oxygen-sensitive membrane design.\nNTC temperature compensation function.\nMeasurement without oxygen consumption, flow\nrate, or stirring.\nUtilizes breakthrough fluorescence technology.\nLow maintenance requirements with built-in self-\ndiagnosis.\nPlug-and-play installation for easy setup.\nFactory calibration with optional field calibration.\nHigh anti-jamming digital sensor with standard\nsignal output.\nIntegration and networking capabilities.\n2026\nViz Sensor Series\nTECHNICAL SPECIFICATIONS\nPhysical Specifications\nDimensions Diameter 49.5 mm * Length 251.3 mm\nCable Material Polyurethane\nMeasurement Specifications - Conductivity\n3\nDO: 0-20 mg/L or 0-200% saturation\nMeasurement Range\nTemperature: 0-45 °C\nDO: ±3% or ±0.3 mg/L of measured value,\nMeasurement Accuracy\nTemperature: ±0.5 °C\nResolution 0.01 mg/L\nRepeatability ±0.3 mg/L\nPressure Range ≤ 0.3 Mpa\nMain Material\nSS316L (fresh water)\nBody\nTitanium alloy (Ocean marine)\nCover Polyphenylene + glass fiber\nWeight 1.4KG\nCable Length Standard:10m, the maximum can be extended 100m\nElectrical Specifications\nPower Supply DC: 9~36 VDC\nCommunication and Environmental Specifications\nCommunication Protocol MODBUS RS485\nStorage Temperature -15 to 60 °C\nMeasuring Temperature 0-45 °C\nLevel of Protection IP68/NEMA6P\n2026\nAPPLICATIONS\n4 Chlor-Alkali Industry Fish farming Food and Beverage\nDesalination Plants Potable Water Treatment\nPlants (PWTP)\nNote -\nThis data sheet serves as general information about the VizSens-ODO. For specific technical details, installation\nguidelines, and troubleshooting assistance, please refer to the official user manual provided with the product.\nDue to continuous product improvement, specifications and design are subject to change without notice. Actual\nproduct may differ slightly from illustrations.\nFor inquiries and detailed technical information, please contact sales@advanceanalytik.com.\n2026\nWe, Advance Analytik KFT, are a distinguished\nmanufacturing company based in Budapest,\nHungary. Our company’s long-standing presence in\nthis vibrant city reflects our unwavering\n12\ncommitment to excellence, innovation, and\nadaptability in a competitive industry.\nAt Advance Analytik, we specialize in precision and\nperformance, offering a wide array of advanced analytical\ninstruments. Our product range includes state-of-the-art\n5\nanalog and digital sensors, cutting-edge controllers, and\nmodular analyzers designed for diverse applications. Each\nproduct is a testament to our meticulous attention to detail\nand dedication to exceeding industry standards.\nThe backbone of our success lies in our exceptional team of professionals.\nComprised of skilled engineers, innovative designers, and dedicated support\nstaff, our team works in synergy to deliver solutions that empower our clients.\nOUR MISSION\nTo be the preferred partner for industries worldwide, offering entive and reliable analytical solutions that\ndrive innovation and ensure quality\nOUR VISION\nTo revolutionize analytical science by pioneering state-at instruments and services, empowering researchers\nand businesses to achieve new unprecedented accuracy\nWhy Choose Advance Analytik?\nCutting-edge Technology\nWe leverage the latest advancements in analytical instrumentation and software to provide our\ncustomers with state-of-the-art solutions that deliver accurate and precise results.\nCustomized Solutions\nWe understand that every industry and research field has unique requirements. That's why we\noffer customized solutions tailored to your specific needs.\nReliable Performance\nWe take pride in delivering instruments and solutions that consistently deliver reliable performance.\nExceptional Support and Service\nOur dedicated team is committed to providing comprehensive support throughout your analytical\njourney.\nTrusted Expertise\nWith years of experience in the analytical instrumentation industry, we have developed a deep\nunderstanding of our customers’ needs and challenges.\n3780 Edelény, Szentpéteri út hrsz 015/104\nsales@advanceanalytik.com\nwww.advanceanalytik.com"
+    },
+    {
+      "source": {
+        "slug": "vizsens-rcl",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-rcl.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-RCL.pdf"
+      },
+      "webTables": [
+        [
+          [
+            "Principle",
+            "Constant-voltage electrochemical method"
+          ],
+          [
+            "Measurement range",
+            "0–2 mg/L; 0–20 mg/L optional"
+          ],
+          [
+            "Sample pH",
+            "5–8"
+          ],
+          [
+            "Accuracy",
+            "±3% or ±0.3 mg/L, whichever is greater"
+          ],
+          [
+            "Temperature compensation",
+            "Manual or automatic"
+          ],
+          [
+            "Repeatability",
+            "±0.3 mg/L"
+          ],
+          [
+            "Pressure range",
+            "≤0.3 MPa"
+          ],
+          [
+            "Calibration",
+            "Two-point"
+          ],
+          [
+            "Flow rate",
+            "30–60 L/h"
+          ],
+          [
+            "Material",
+            "316L stainless steel shell"
+          ],
+          [
+            "Dimensions",
+            "Ø13.5 × 178.5 mm, electrode"
+          ],
+          [
+            "Cable length",
+            "Confirm for the selected configuration"
+          ],
+          [
+            "Power supply",
+            "12 VDC"
+          ],
+          [
+            "Communication",
+            "RS-485 / Modbus"
+          ],
+          [
+            "Mounting",
+            "PG13.5"
+          ],
+          [
+            "Operating temperature",
+            "0–50 °C, non-freezing"
+          ]
+        ]
+      ],
+      "webImages": [
+        {
+          "alt": "",
+          "height": 516,
+          "src": "https://www.advanceanalytik.com/products/productImages/img010.png",
+          "width": 299
+        }
+      ],
+      "datasheetText": "ADVANCE ANALYTIK KFT\n1\nVIZSENS-RCL (D)\nDigital Residual Chlorine Online sensor\n2026\nVizSens-RCL (D)\nOVERVIEW\n2 Residual Chlorine or Chlorine Dioxide online analyzer, using photopolymer\n2\nfilm and silicon crystal semiconductor as conduction elements, built-in\nchlorine and temperature probe, microelectronic components are injected and\npackaged by MEMS technology. As the concentration of free chlorine or\nchlorine dioxide in the water sample changes, the sensor generates different\ncurrent intensity, which is processed by the regulator and signal amplifier, and\nconverted into the standard MODBUS RS485 signal. The use of the sensor\ndoes not need to change the reagent, simple maintenance, to ensure the\nlong-term stability of the instrument reliability and accuracy.\nPRODUCT FEATURES\nEasy to clean and replace.\nThe electrode operates without requiring membrane\nor reagent replacement, ensuring simple\nmaintenance and long-term stability, reliability, and\naccuracy.\nDesigned with power supply and output isolation for\nenhanced electrical safety.\nBuilt-in protection circuit for the power supply and\ncommunication chip, offering strong anti-\ninterference capability.\nAdvanced protection circuitry enables reliable\nperformance without additional isolation equipment.\nRS-485 transmission interface with MODBUS-RTU\ncommunication protocol enables two-way\ncommunication and remote command reception.\n2026\nViz Sensor Series\nTECHNICAL SPECIFICATIONS\nPARAMETER SPECIFICATION\nPrinciple Constant voltage method\nMeasurement Range 0-2 mg/L, 0-20 mg/L (optional)\n3\nCalibration Two-point calibration\nTemperature Compensation Manual or automatic temperature compensation\nTemperature Coefficient 2%/°C\nPower Supply 12V DC\nCommunication Protocol MODBUS RS485\nFlow Rate 30 - 60 L/h\nOperating Temperature 0-50°C (Non-freezing)\nElectrode Dimensions Dia. 13.5mm × L 178.5mm\nMounting Dimensions PG13.5\nElectrode Materials 316L Stainless Steel Shell\nCable Length Standard 5M cable\n2026\nAPPLICATIONS\n4 Chlor-Alkali Industry Fish farming Food and Beverage\nDesalination Plants Potable Water Treatment\nPlants (PWTP)\nNote -\nThis data sheet serves as general information about the VizSens-RCL. For specific technical details, installation\nguidelines, and troubleshooting assistance, please refer to the official user manual provided with the product.\nDue to continuous product improvement, specifications and design are subject to change without notice. Actual\nproduct may differ slightly from illustrations.\nFor inquiries and detailed technical information, please contact sales@advanceanalytik.com.\n2026\nWe, Advance Analytik KFT, are a distinguished\nmanufacturing company based in Budapest,\nHungary. Our company’s long-standing presence in\nthis vibrant city reflects our unwavering\n12\ncommitment to excellence, innovation, and\nadaptability in a competitive industry.\nAt Advance Analytik, we specialize in precision and\nperformance, offering a wide array of advanced analytical\ninstruments. Our product range includes state-of-the-art\n5\nanalog and digital sensors, cutting-edge controllers, and\nmodular analyzers designed for diverse applications. Each\nproduct is a testament to our meticulous attention to detail\nand dedication to exceeding industry standards.\nThe backbone of our success lies in our exceptional team of professionals.\nComprised of skilled engineers, innovative designers, and dedicated support\nstaff, our team works in synergy to deliver solutions that empower our clients.\nOUR MISSION\nTo be the preferred partner for industries worldwide, offering entive and reliable analytical solutions that\ndrive innovation and ensure quality\nOUR VISION\nTo revolutionize analytical science by pioneering state-at instruments and services, empowering researchers\nand businesses to achieve new unprecedented accuracy\nWhy Choose Advance Analytik?\nCutting-edge Technology\nWe leverage the latest advancements in analytical instrumentation and software to provide our\ncustomers with state-of-the-art solutions that deliver accurate and precise results.\nCustomized Solutions\nWe understand that every industry and research field has unique requirements. That's why we\noffer customized solutions tailored to your specific needs.\nReliable Performance\nWe take pride in delivering instruments and solutions that consistently deliver reliable performance.\nExceptional Support and Service\nOur dedicated team is committed to providing comprehensive support throughout your analytical\njourney.\nTrusted Expertise\nWith years of experience in the analytical instrumentation industry, we have developed a deep\nunderstanding of our customers’ needs and challenges.\n3780 Edelény, Szentpéteri út hrsz 015/104\nsales@advanceanalytik.com\nwww.advanceanalytik.com"
+    },
+    {
+      "source": {
+        "slug": "vizsens-uvcod",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-uvcod.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-UVCOD.pdf"
+      },
+      "webTables": [
+        [
+          [
+            "Measuring Range",
+            "COD (using KHP calibration)： 0-2000mg/L COD (2mm)，  0-1000mg/L COD (5mm),  0-90mg/L COD (50mm),  BOD (using KHP calibration)：  0-1500mg/L, BOD(2mm),  0-750mg/L BOD(5mm),  0-60mg/L BOD (50mm)  TOC(using KHP calibration)：  0-800mg/l, TOC(2mm),  0-400mg/l TOC(5mm),  0-35mg/l, TOC(50mm)"
+          ],
+          [
+            "Accuracy",
+            "±5 %（KHP Standard solution）"
+          ],
+          [
+            "repeatibility",
+            "±2 %（KHP Standard solution）"
+          ],
+          [
+            "Resolution",
+            "0.01 mg/L"
+          ],
+          [
+            "Pressure Range",
+            "≤ 0.4Mpa"
+          ],
+          [
+            "Sensor material",
+            "Body：SUS316L (fresh water)，Titanium alloy (Ocean marine)；  Cable：Polyurethane"
+          ],
+          [
+            "Measuring temperature",
+            "0-45 °C"
+          ],
+          [
+            "Cable Length",
+            "Standard:10m,can be extended to 100m"
+          ],
+          [
+            "Sensor Protection",
+            "IP68"
+          ],
+          [
+            "Operating Temperature",
+            "0 °C to 50 °C"
+          ],
+          [
+            "Dimensions",
+            "Diameter: 34mm, Length: 217mm"
+          ],
+          [
+            "Weight",
+            "3.2 kg"
+          ]
+        ]
+      ],
+      "webImages": [
+        {
+          "alt": "",
+          "height": 500,
+          "src": "https://www.advanceanalytik.com/products/productImages/img011.png",
+          "width": 500
+        }
+      ],
+      "datasheetText": "ADVANCE ANALYTIK KFT\n1\nVIZSENS-UV\nCOD/BOD/TSS/TOC Sensor\n2026\nVizSens-UV\nOVERVIEW\n2 The VizSens-UV series COD/BOD/TSS/TOC sensor represents a new era in\n2\nenvironmental protection sensors, offering reagent-free, pollution- free,\neconomical, and eco-friendly water quality monitoring. This sensor is\ncompact, easily installable, and enables online continuous monitoring. With\nautomatic turbidity interference compensation and an integrated cleaning\ndevice, it maintains excellent stability even during prolonged monitoring.\nUtilizing the UV-Visible spectrum, this sensor measures the absorption of\norganic substances at 254nm enabling compensation for optical path\nattenuation and turbidity effects, ensuring consistent and reliable\nmeasurement values.\nPRODUCT FEATURES\nDirect immersion probe allows measurement\nwithout the need for sampling or pretreatment.\nNo chemical reagents are required, eliminating the\nrisk of secondary pollution.\nEquipped with an automatic cleaning wiper, which\nminimizes maintenance time.\nOperates within a spectral range of 200 nm to 750\nnm, with built-in color and turbidity compensation.\nProvides rapid response time for continuous\nmeasurements. Includes reverse polarity protection\nfor the sensor's power supply.\n2026\nViz Sensor Series\nTECHNICAL SPECIFICATIONS\nMeasurement Method\nCOD: 0–1000 mg/L\nBOD: 0–1000 mg/L\nTOC: 0–1000 mg/L\n3\nMeasuring Range TSS: 0–1000 mg/L\n*Range and path length can be customised as per\nrequirement.\nAccuracy and Performance\nAccuracy ±5%\nRepeatability ±2%\nResolution 0.01 mg/L\nCalibration Multi Point Calibration\nPressure Range ≤ 0.1 MPa\nBody: Titanium with Sapphire Window\nSensor Material\nCable: Polyurethane\nMeasuring Temperature 0–45 °C\nCable Length Standard: 10 m, extendable up to 100 m\nSensor Protection IP68 / NEMA 6P\nOperating Temperature 0 °C to 50 °C\nDimensions Diameter: 34 mm Length: 217 mm\n2026\n43\n34\nAPPLICATIONS\n4 Chlor-Alkali Industry Fish farming Food and Beverage\nDesalination Plants Potable Water Treatment\nPlants (PWTP)\nNote -\nThis data sheet serves as general information about the VizSens-UV. For specific technical details, installation\nguidelines, and troubleshooting assistance, please refer to the official user manual provided with the product.\nDue to continuous product improvement, specifications and design are subject to change without notice. Actual\nproduct may differ slightly from illustrations.\nFor inquiries and detailed technical information, please contact sales@advanceanalytik.com.\n2026\nWe, Advance Analytik KFT, are a distinguished\nmanufacturing company based in Budapest,\nHungary. Our company’s long-standing presence in\nthis vibrant city reflects our unwavering\n12\ncommitment to excellence, innovation, and\nadaptability in a competitive industry.\nAt Advance Analytik, we specialize in precision and\nperformance, offering a wide array of advanced analytical\ninstruments. Our product range includes state-of-the-art\n5\nanalog and digital sensors, cutting-edge controllers, and\nmodular analyzers designed for diverse applications. Each\nproduct is a testament to our meticulous attention to detail\nand dedication to exceeding industry standards.\nThe backbone of our success lies in our exceptional team of professionals.\nComprised of skilled engineers, innovative designers, and dedicated support\nstaff, our team works in synergy to deliver solutions that empower our clients.\nOUR MISSION\nTo be the preferred partner for industries worldwide, offering entive and reliable analytical solutions that\ndrive innovation and ensure quality\nOUR VISION\nTo revolutionize analytical science by pioneering state-at instruments and services, empowering researchers\nand businesses to achieve new unprecedented accuracy\nWhy Choose Advance Analytik?\nCutting-edge Technology\nWe leverage the latest advancements in analytical instrumentation and software to provide our\ncustomers with state-of-the-art solutions that deliver accurate and precise results.\nCustomized Solutions\nWe understand that every industry and research field has unique requirements. That's why we\noffer customized solutions tailored to your specific needs.\nReliable Performance\nWe take pride in delivering instruments and solutions that consistently deliver reliable performance.\nExceptional Support and Service\nOur dedicated team is committed to providing comprehensive support throughout your analytical\njourney.\nTrusted Expertise\nWith years of experience in the analytical instrumentation industry, we have developed a deep\nunderstanding of our customers’ needs and challenges.\n3780 Edelény, Szentpéteri út hrsz 015/104\nsales@advanceanalytik.com\nwww.advanceanalytik.com"
+    },
+    {
+      "source": {
+        "slug": "vizsens-ss",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-ss.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-SS.pdf"
+      },
+      "webTables": [
+        [
+          [
+            "Dimensions",
+            "Diameter: 60mm, Length: 251.5mm - (without cleaning) Diameter: 60mm, Length: 261.5mm - (with cleaning)"
+          ],
+          [
+            "Weight",
+            "1.65kg"
+          ],
+          [
+            "Protective Rate",
+            "IP68/NEMA6P"
+          ],
+          [
+            "Main Material",
+            "Body: SUS316L (fresh water), Titanium alloy (Ocean marine)"
+          ],
+          [
+            "Measurement Range",
+            "0.01-20000 mg/L, 0.01-45000 mg/L, 0.01-120000 mg/L"
+          ],
+          [
+            "Measurement Accuracy",
+            "Less than ±5% of measured value (Depending on the homogeneity of sludge)"
+          ],
+          [
+            "Resolution",
+            "0.01-1mg/L, based on range"
+          ],
+          [
+            "Repeatability",
+            "±2%"
+          ],
+          [
+            "Pressure Range",
+            "≤0.4 Mpa"
+          ],
+          [
+            "Flow Rate",
+            "≤2.5m/s, 8.2ft/s"
+          ],
+          [
+            "Power Supply",
+            "AC: 85-500VAC (50/60HZ), DC: 9~36VDC"
+          ],
+          [
+            "Output",
+            "3-way 4-20mA"
+          ],
+          [
+            "Communication Protocol",
+            "MODBUS RS485"
+          ],
+          [
+            "Measuring Temperature",
+            "0-45℃"
+          ],
+          [
+            "Cover",
+            "Polyphenylene + glass fiber"
+          ],
+          [
+            "Cable Length",
+            "Standard: 10m, the maximum may be extended to 100m"
+          ]
+        ]
+      ],
+      "webImages": [
+        {
+          "alt": "",
+          "height": 503,
+          "src": "https://www.advanceanalytik.com/products/productImages/img014.png",
+          "width": 496
+        }
+      ],
+      "datasheetText": "ADVANCE ANALYTIK KFT\n1\nVIZSENS-SS\nSuspended Solids/Sludge Sensor\n2026\nVizSens-SS\nOVERVIEW\n2 The VizSens-SS Sensor is a highly capable solution designed for precise and\n2\nreliable measurements in a variety of environments. This sensor employs\nadvanced technology and robust construction to offer a wide measurement\nrange and high accuracy. With features like plug-and-play installation and\nversatile communication protocol, it seamlessly integrates with other\nequipment, while its self-diagnosis function ensures data accuracy and\nreliability. Its compact design, optional automatic cleaning, and adherence to\nISO7027 Standard Method make it a versatile choice for accurate\nmeasurements in fresh water and marine applications.\nPRODUCT FEATURES\nDual-Beam Infrared Scattered Light Photometer\nDetection: Utilizes advanced technology for\naccurate and stable measurements.\nBuilt-in Self-Diagnosis Function: Ensures data\naccuracy and reliability.\nPlug-and-Play Sensors: Quick and easy installation\nfor user convenience.\nOptional Automatic Cleaning Function: Reduces\nsensor maintenance and enhances usability.\nISO7027 Standard Method: Employs Infrared light\nscattering technique to eliminate sample color\neffects.\nHigh anti-jamming capacity for reliable performance\nin noisy environments.\nStandard Digital Signal Output:Enables integration\nand networking with other equipment without a\ncontroller.\n2026\nViz Sensor Series\nTECHNICAL SPECIFICATIONS\nGeneral Information\nDiameter: 60mm, Length: 251.5mm - (without cleaning)\nDimensions\nDiameter: 60mm, Length: 261.5mm - (with cleaning)\nWeight 1.65Kg\n3\nProtective Rating IP68/NEMA6P\nMeasurement Specifications\n0.01-20000 mg/L\nMeasurement Range 0.01-45000 mg/L\n0.01-120000 mg/L\nLess than ±5% of measured value (Depending on the homogeneity of\nMeasurement Accuracy\nsludge)\nResolution 0.01-1mg/L, based on range\nRepeatability ±2%\nPressure Range ≤0.4 Mpa\nFlow Rate ≤ 2.5m/s, 8.2ft/s\nTemperature Specifications\nMeasuring Temperature 0-45°C\nCommunication\nCommunication Protocol MODBUS RS485\nElectrical Specifications\nMain Material Body: SUS316L (fresh water), Titanium alloy (Ocean marine)\nCover Polyphenylene + glass fiber\nCable Polyurethane\nElectrical Specifications\nCable Length Standard: 10m, maximum extendable length: 100m\nNo automatic cleaning device With automatic cleaning device\n2026\nAPPLICATIONS\n4 Chlor-Alkali Industry Fish farming Food and Beverage\nDesalination Plants Potable Water Treatment\nPlants (PWTP)\nNote -\nThis data sheet serves as general information about the VizSens-SS. For specific technical details, installation\nguidelines, and troubleshooting assistance, please refer to the official user manual provided with the product.\nDue to continuous product improvement, specifications and design are subject to change without notice. Actual\nproduct may differ slightly from illustrations.\nFor inquiries and detailed technical information, please contact sales@advanceanalytik.com.\n2026\nWe, Advance Analytik KFT, are a distinguished\nmanufacturing company based in Budapest,\nHungary. Our company’s long-standing presence in\nthis vibrant city reflects our unwavering\n12\ncommitment to excellence, innovation, and\nadaptability in a competitive industry.\nAt Advance Analytik, we specialize in precision and\nperformance, offering a wide array of advanced analytical\ninstruments. Our product range includes state-of-the-art\n5\nanalog and digital sensors, cutting-edge controllers, and\nmodular analyzers designed for diverse applications. Each\nproduct is a testament to our meticulous attention to detail\nand dedication to exceeding industry standards.\nThe backbone of our success lies in our exceptional team of professionals.\nComprised of skilled engineers, innovative designers, and dedicated support\nstaff, our team works in synergy to deliver solutions that empower our clients.\nOUR MISSION\nTo be the preferred partner for industries worldwide, offering entive and reliable analytical solutions that\ndrive innovation and ensure quality\nOUR VISION\nTo revolutionize analytical science by pioneering state-at instruments and services, empowering researchers\nand businesses to achieve new unprecedented accuracy\nWhy Choose Advance Analytik?\nCutting-edge Technology\nWe leverage the latest advancements in analytical instrumentation and software to provide our\ncustomers with state-of-the-art solutions that deliver accurate and precise results.\nCustomized Solutions\nWe understand that every industry and research field has unique requirements. That's why we\noffer customized solutions tailored to your specific needs.\nReliable Performance\nWe take pride in delivering instruments and solutions that consistently deliver reliable performance.\nExceptional Support and Service\nOur dedicated team is committed to providing comprehensive support throughout your analytical\njourney.\nTrusted Expertise\nWith years of experience in the analytical instrumentation industry, we have developed a deep\nunderstanding of our customers’ needs and challenges.\n3780 Edelény, Szentpéteri út hrsz 015/104\nsales@advanceanalytik.com\nwww.advanceanalytik.com"
+    },
+    {
+      "source": {
+        "slug": "vizsens-turb",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-turb.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-turb.pdf"
+      },
+      "webTables": [
+        [
+          [
+            "Dimensions",
+            "Diameter: 60mm, Length: 261mm"
+          ],
+          [
+            "Weight",
+            "1.65kg"
+          ],
+          [
+            "Protective Rating",
+            "IP68/NEMA6P"
+          ],
+          [
+            "Measurement Range",
+            "Turbidity: 0.01-100 NTU, 0.01−4000 NTU"
+          ],
+          [
+            "Resolution",
+            "0.01~0.1NTU, based on range"
+          ],
+          [
+            "Repeatability",
+            "±2%"
+          ],
+          [
+            "Main Material",
+            "Body: SUS316L (fresh water), Titanium alloy (Ocean marine)"
+          ],
+          [
+            "Power Supply",
+            "AC: 85-500VAC (50/60HZ), DC: 9~36VDC"
+          ],
+          [
+            "Pressure Range",
+            "≤0.4 Mpa"
+          ],
+          [
+            "Flow Rate",
+            "≤2.5m/s, 8.2ft/s"
+          ],
+          [
+            "Measurement Accuracy",
+            "Less than ±2% of the measured reading or ±0.1NTU, whichever is greater"
+          ],
+          [
+            "Measuring Temperature",
+            "0-45℃"
+          ],
+          [
+            "Body",
+            "SUS316L (fresh water), Titanium alloy (Ocean marine)"
+          ],
+          [
+            "Cover",
+            "Polyphenylene + glass fiber"
+          ],
+          [
+            "Cable",
+            "Polyurethane"
+          ],
+          [
+            "Cable Length",
+            "Standard: 10m, maximum extendable length: 100m"
+          ]
+        ]
+      ],
+      "webImages": [
+        {
+          "alt": "",
+          "height": 503,
+          "src": "https://www.advanceanalytik.com/products/productImages/img014.png",
+          "width": 496
+        }
+      ],
+      "datasheetText": "ADVANCE ANALYTIK KFT\n1\nVIZSENS-TURB\nT urbidity Sensor\n2026\nVizSens-TURB\nOVERVIEW\n2 The VizSens-Turb is a highly capable turbidity sensor known for its accurate\n2\nand stable measurements. Equipped with advanced infrared scattered light\ntechnology, it offers excellent repeatability and reliability. With a built-in self-\ndiagnosis function and optional automatic cleaning, it ensures data accuracy\nwhile reducing maintenance efforts. The sensor's digital technology provides\nhigh anti-jamming capacity and enables seamless integration with other\nequipment. The VizSens-Turb is a user- friendly solution with plug-and-play\ninstallation, making it suitable for a wide range of applications in different\nindustries.\nPRODUCT FEATURES\nThe turbidity sensor is based on the combined\ninfrared absorption and scattering light method.\nOptional Automatic Cleaning Function: Reduces\nsensor maintenance with an automated cleaning\nbrush.\nDigital Sensor with High Anti-Jamming Capacity:\nProvides reliable performance in noisy environments.\nStandard Method: Utilizes Infrared light scattering\ntechnique to eliminate sample color effects for\nprecise measurements.\nStandard Digital Signal Output:Facilitates easy\nintegration and networking with other equipment\nwithout the need for a controller.\nPlug-and-PlaySensors : Enables quick and\nstraightforward installation, ensuring hassle-free\nsetup and operation.\nPower protection, avoid wrong connection of RS485\nA / B terminal.\n2026\nViz Sensor Series\nTECHNICAL SPECIFICATIONS\nGeneral Information\nDimensions Diameter: 60mm, Length: 261mm\nWeight 1.65KG\n3\nProtective Rating IP68/NEMA6P\nMeasurement Specifications\nTurbidity: 0.01-100 NTU ,\nMeasurement Range\nTurbidity: 0.01-4000 NTU\nLess than ±2% of the measured reading or ±0.1NTU, whichever\nMeasurement Accuracy\nis greater\nResolution 0.01~0.1 NTU, based on range\nRepeatability ±2%\nPressure Range ≤0.4 Mpa\nFlow Rate ≤ 2.5 m/s, 8.2 ft/s\nTemperature Specifications\nMeasuring Temperature 0-45°C\nMaterial Specifications\nBody SUS316L (fresh water), Titanium alloy (Ocean marine)\nCover Polyphenylene + glass fiber\nCable Polyurethane\nInstallation Specifications\nCable Length Standard: 10m, maximum extendable length: 100m\nNo automatic cleaning device With automatic cleaning device\n2026\nAPPLICATIONS\n4 Chlor-Alkali Industry Fish farming Food and Beverage\nDesalination Plants Potable Water Treatment\nPlants (PWTP)\nNote -\nThis data sheet serves as general information about the VizSens-Turb. For specific technical details, installation\nguidelines, and troubleshooting assistance, please refer to the official user manual provided with the product.\nDue to continuous product improvement, specifications and design are subject to change without notice. Actual\nproduct may differ slightly from illustrations.\nFor inquiries and detailed technical information, please contact sales@advanceanalytik.com.\n2026\nWe, Advance Analytik KFT, are a distinguished\nmanufacturing company based in Budapest,\nHungary. Our company’s long-standing presence in\nthis vibrant city reflects our unwavering\n12\ncommitment to excellence, innovation, and\nadaptability in a competitive industry.\nAt Advance Analytik, we specialize in precision and\nperformance, offering a wide array of advanced analytical\ninstruments. Our product range includes state-of-the-art\n5\nanalog and digital sensors, cutting-edge controllers, and\nmodular analyzers designed for diverse applications. Each\nproduct is a testament to our meticulous attention to detail\nand dedication to exceeding industry standards.\nThe backbone of our success lies in our exceptional team of professionals.\nComprised of skilled engineers, innovative designers, and dedicated support\nstaff, our team works in synergy to deliver solutions that empower our clients.\nOUR MISSION\nTo be the preferred partner for industries worldwide, offering entive and reliable analytical solutions that\ndrive innovation and ensure quality\nOUR VISION\nTo revolutionize analytical science by pioneering state-at instruments and services, empowering researchers\nand businesses to achieve new unprecedented accuracy\nWhy Choose Advance Analytik?\nCutting-edge Technology\nWe leverage the latest advancements in analytical instrumentation and software to provide our\ncustomers with state-of-the-art solutions that deliver accurate and precise results.\nCustomized Solutions\nWe understand that every industry and research field has unique requirements. That's why we\noffer customized solutions tailored to your specific needs.\nReliable Performance\nWe take pride in delivering instruments and solutions that consistently deliver reliable performance.\nExceptional Support and Service\nOur dedicated team is committed to providing comprehensive support throughout your analytical\njourney.\nTrusted Expertise\nWith years of experience in the analytical instrumentation industry, we have developed a deep\nunderstanding of our customers’ needs and challenges.\n3780 Edelény, Szentpéteri út hrsz 015/104\nsales@advanceanalytik.com\nwww.advanceanalytik.com"
+    },
+    {
+      "source": {
+        "slug": "vizsens-turb-lo",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-turb-lo.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-turb-Lo.pdf"
+      },
+      "webTables": [
+        [
+          [
+            "Measurement Range",
+            "0.01-100 NTU"
+          ],
+          [
+            "Measurement Accuracy",
+            "The deviation of reading in 0.001~40NTU is ±2% or ±0.015NTU,  maximax criterion; it is ±5% in the range of 40-100NTU."
+          ],
+          [
+            "Resolution",
+            "0.01~0.1NTU, based on range"
+          ],
+          [
+            "Repeatability",
+            "±2%"
+          ],
+          [
+            "Pressure Range",
+            "≤0.4 Mpa"
+          ],
+          [
+            "Flow Rate",
+            "300mL/min ≤ X ≤ 700mL/min"
+          ],
+          [
+            "Pipe Fitting",
+            "Injection Port: 1/4NPT; Discharge Outlet: 1/2NPT"
+          ],
+          [
+            "Power Supply",
+            "12VDC"
+          ],
+          [
+            "Material",
+            "Machine: ABS+SUS316L; Sealing Element: Acrylonitrile Butadiene Rubber; Cable: Polyurethane"
+          ],
+          [
+            "Communication Protocol",
+            "MODBUS RS485"
+          ],
+          [
+            "Measuring Temperature",
+            "0-45℃"
+          ],
+          [
+            "Dimensions",
+            "304*207*392.5 mm (L*W*H)"
+          ],
+          [
+            "Weight",
+            "2.1kg"
+          ],
+          [
+            "Protective Rate",
+            "IP65"
+          ],
+          [
+            "Cable Length",
+            "Three-meter standard cable, The LED version can be extended up to 30 meters"
+          ]
+        ]
+      ],
+      "webImages": [
+        {
+          "alt": "",
+          "height": 342,
+          "src": "https://www.advanceanalytik.com/products/productImages/img015.png",
+          "width": 296
+        }
+      ],
+      "datasheetText": "ADVANCE ANALYTIK KFT\n1\nVIZSENS-TURBLO\nLow Range Turbidity Sensor\n2026\nVizSens-TurbLo\nOVERVIEW\n2 The VizSens-TurbLo is a highly reliable and robust turbidity sensor designed\n2\nto provide accurate and consistent measurements within a range of 0.01 to\n100 NTU. With its durable construction, easy installation, and user-friendly\noperation, this sensor is an excellent choice for environmental monitoring and\nwater treatment applications. Its exceptional accuracy and stability make it an\nindispensable tool for industries requiring precise turbidity measurements.\nPRODUCT FEATURES\nReliable Measurements: The VizSens- TurbLo\noffers dependable and consistent turbidity\nmeasurements for accurate data analysis.\nEase of Maintenance: Designed with an easy-to-\nclean configuration, reducing the effort required for\nmaintenance.\nContinuous Monitoring: Ideal for continuous\nmonitoring of turbidity levels, ensuring real-time\ninsights.\nEffortless Installation: Plug-and-play sensors\nenable quick and hassle-free installation, saving\ntime and resources.\nLow Turbidity Measurement: Capable of measuring\nlow turbidity levels, making it suitable for a variety\nof applications.\n2026\nViz Sensor Series\nTECHNICAL SPECIFICATIONS\nSpecifications Details\nMeasurement Range 0.001-100NTU\n3\nThe deviation of reading in 0.001~40NTU is ±2% or\nMeasurement Accuracy\n±0.015NTU, ±5% in the range of 40-100NTU.\nRepeatability ±2%\nResolution Ratio 0.001~0.1NTU，It depends on different ranges\nFlow Rate 300mL/min X 700mL/min\nPipe Fitting Injection Port: 1/4NPT; Discharge Outlet: 1/2NPT\nMachine: ABS+SUS316L; Sealing Element:\nMaterial\nAcrylonitrile Butadiene Rubber; Cable: PUR\nPower supply 12VDC\nCommunication protocol MODBUS RS485\nOperating Temperature 0~45 °C\nDimension & Weight 304*207*392.5 mm (L*W*H) 2.1KG\nLevel of Protection IP 65 (Indoor)\nThree-meter standard cable, The LED version can\nCable Length\nbe extended up to 30 meters\n2026\nAPPLICATIONS\n4 Chlor-Alkali Industry Fish farming Food and Beverage\nDesalination Plants Potable Water Treatment\nPlants (PWTP)\nNote -\nThis data sheet serves as general information about the VizSens-TurbLo. For specific technical details, installation\nguidelines, and troubleshooting assistance, please refer to the official user manual provided with the product.\nDue to continuous product improvement, specifications and design are subject to change without notice. Actual\nproduct may differ slightly from illustrations.\nFor inquiries and detailed technical information, please contact sales@advanceanalytik.com.\n2026\nWe, Advance Analytik KFT, are a distinguished\nmanufacturing company based in Budapest,\nHungary. Our company’s long-standing presence in\nthis vibrant city reflects our unwavering\n12\ncommitment to excellence, innovation, and\nadaptability in a competitive industry.\nAt Advance Analytik, we specialize in precision and\nperformance, offering a wide array of advanced analytical\ninstruments. Our product range includes state-of-the-art\n5\nanalog and digital sensors, cutting-edge controllers, and\nmodular analyzers designed for diverse applications. Each\nproduct is a testament to our meticulous attention to detail\nand dedication to exceeding industry standards.\nThe backbone of our success lies in our exceptional team of professionals.\nComprised of skilled engineers, innovative designers, and dedicated support\nstaff, our team works in synergy to deliver solutions that empower our clients.\nOUR MISSION\nTo be the preferred partner for industries worldwide, offering entive and reliable analytical solutions that\ndrive innovation and ensure quality\nOUR VISION\nTo revolutionize analytical science by pioneering state-at instruments and services, empowering researchers\nand businesses to achieve new unprecedented accuracy\nWhy Choose Advance Analytik?\nCutting-edge Technology\nWe leverage the latest advancements in analytical instrumentation and software to provide our\ncustomers with state-of-the-art solutions that deliver accurate and precise results.\nCustomized Solutions\nWe understand that every industry and research field has unique requirements. That's why we\noffer customized solutions tailored to your specific needs.\nReliable Performance\nWe take pride in delivering instruments and solutions that consistently deliver reliable performance.\nExceptional Support and Service\nOur dedicated team is committed to providing comprehensive support throughout your analytical\njourney.\nTrusted Expertise\nWith years of experience in the analytical instrumentation industry, we have developed a deep\nunderstanding of our customers’ needs and challenges.\n3780 Edelény, Szentpéteri út hrsz 015/104\nsales@advanceanalytik.com\nwww.advanceanalytik.com"
+    },
+    {
+      "source": {
+        "slug": "vizsens-cphl",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-cphl.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-CPHL.pdf"
+      },
+      "webTables": [
+        [
+          [
+            "Main Material",
+            "Body: SUS316L (fresh water), Titanium alloy (marine);"
+          ],
+          [
+            "Power Supply",
+            "DC 6~12V, current < 50mA"
+          ],
+          [
+            "Pressure Range",
+            "≤0.4Mpa"
+          ],
+          [
+            "Requirements",
+            "Suggest a multipoint monitoring for the distribution of Blue-Green Algae in water as it is very uneven. Water turbidity is below 50NTU."
+          ],
+          [
+            "Measurement Range",
+            "0-500 ug/L"
+          ],
+          [
+            "Measurement Accuracy",
+            "±5% of the signal level corresponding value of 1ppb RhodamineB Dye"
+          ],
+          [
+            "Resolution",
+            "0.01ug/L"
+          ],
+          [
+            "Repeatability",
+            "±3%"
+          ],
+          [
+            "Output",
+            "3-way 4-20mA"
+          ],
+          [
+            "Communication Protocol",
+            "MODBUS RS485"
+          ],
+          [
+            "Measuring Temperature",
+            "0-45℃"
+          ],
+          [
+            "Dimension and Weight",
+            "Dia 30mm * L 223mm, 0.55kg"
+          ],
+          [
+            "Protective Rate",
+            "Sensor: IP68/NEMA6P"
+          ],
+          [
+            "Cable Length",
+            "Standard: 10m, the maximum may be extended to 100m"
+          ]
+        ]
+      ],
+      "webImages": [
+        {
+          "height": 395,
+          "src": "https://www.advanceanalytik.com/products/productImages/img016.png",
+          "width": 143
+        }
+      ],
+      "datasheetText": "ADVANCE ANALYTIK KFT\n1\nVIZSENS-CPHL\nChlorophyll Sensor\n2026\nVizSens-CPHL\nOVERVIEW\n2 The chlorophyll sensor uses the characteristic that chlorophyll A has an\n2\nabsorption peak and an emission peak in the spectrum, and emits\nmonochromatic light of a specific wavelength to the water. The light intensity\nof chlorophyll A is proportional to the content of chlorophyll A in the water.\nPRODUCT FEATURES\nThe target parameter are measured based on the\nfluorescence of the pigment, which can be\nidentified before the potential water bloom causes\nimpact.\nRapid Detection: Avoids the need for extraction or\nlengthy water sample shelving, ensuring timely\nresults.\nDigital Sensor with High Anti- Jamming Capacity:\nProvides reliable performance even in noisy\nenvironments.\nFar Transmission Distance:Facilitates seamless\ndata transmission over long distances.\nStandard Digital Signal Output: Allows integration\nand networking with other equipment without a\ncontroller.\nPlug-and-Play Sensors: Ensures quick and\neffortless installation for user convenience.\nReverse Polarity Protection: Safeguards the\nsensor from potential power issues.\n2026\nViz Sensor Series\nTECHNICAL SPECIFICATIONS\nGeneral Information\nDimensions Diameter: 30mm, Length: 223mm\nWeight 0.55KG\n3\nProtective Rating IP68/NEMA6P\nMeasurement Specifications\nMeasurement Range 0-500 ug/L\n±5 % of the signal level corresponding value\nMeasurement Accuracy\nof 1ppb Rhodamine B Dye\nResolution 0.01ug/L\nRepeatability ±3%\nPressure Range ≤ 0.4 Mpa\nTemperature Specifications\nMeasuring Temperature 0-45°C\nMaterial Specifications\nBody: SUS316L (fresh water), Titanium alloy\nMain Material\n(marine);\nCover Polyoxymethylene\nCable Polyurethane\nSuggest a multipoint monitoring for the\nRequirements distribution of chlorophyll in water is very\nuneven. Water turbidity is below 50NTU.\nInstallation Specifications\nStandard: 10m, the maximum may be\nCable Length\nextended to 100m\n2026\n03\n⌀\n223\nAPPLICATIONS\n4 Chlor-Alkali Industry Fish farming Food and Beverage\nDesalination Plants Potable Water Treatment\nPlants (PWTP)\nNote -\nThis data sheet serves as general information about the VizSens-CPHL. For specific technical details, installation\nguidelines, and troubleshooting assistance, please refer to the official user manual provided with the product.\nDue to continuous product improvement, specifications and design are subject to change without notice. Actual\nproduct may differ slightly from illustrations.\nFor inquiries and detailed technical information, please contact sales@advanceanalytik.com.\n2026\nWe, Advance Analytik KFT, are a distinguished\nmanufacturing company based in Budapest,\nHungary. Our company’s long-standing presence in\nthis vibrant city reflects our unwavering\n12\ncommitment to excellence, innovation, and\nadaptability in a competitive industry.\nAt Advance Analytik, we specialize in precision and\nperformance, offering a wide array of advanced analytical\ninstruments. Our product range includes state-of-the-art\n5\nanalog and digital sensors, cutting-edge controllers, and\nmodular analyzers designed for diverse applications. Each\nproduct is a testament to our meticulous attention to detail\nand dedication to exceeding industry standards.\nThe backbone of our success lies in our exceptional team of professionals.\nComprised of skilled engineers, innovative designers, and dedicated support\nstaff, our team works in synergy to deliver solutions that empower our clients.\nOUR MISSION\nTo be the preferred partner for industries worldwide, offering entive and reliable analytical solutions that\ndrive innovation and ensure quality\nOUR VISION\nTo revolutionize analytical science by pioneering state-at instruments and services, empowering researchers\nand businesses to achieve new unprecedented accuracy\nWhy Choose Advance Analytik?\nCutting-edge Technology\nWe leverage the latest advancements in analytical instrumentation and software to provide our\ncustomers with state-of-the-art solutions that deliver accurate and precise results.\nCustomized Solutions\nWe understand that every industry and research field has unique requirements. That's why we\noffer customized solutions tailored to your specific needs.\nReliable Performance\nWe take pride in delivering instruments and solutions that consistently deliver reliable performance.\nExceptional Support and Service\nOur dedicated team is committed to providing comprehensive support throughout your analytical\njourney.\nTrusted Expertise\nWith years of experience in the analytical instrumentation industry, we have developed a deep\nunderstanding of our customers’ needs and challenges.\n3780 Edelény, Szentpéteri út hrsz 015/104\nsales@advanceanalytik.com\nwww.advanceanalytik.com"
+    },
+    {
+      "source": {
+        "slug": "vizsens-bga",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-bga.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-BGA.pdf"
+      },
+      "webTables": [
+        [
+          [
+            "Measurement Range",
+            "0—300,000 cells/mL"
+          ],
+          [
+            "Measurement Accuracy",
+            "±10% of the signal level corresponding value of 1ppb RhodamineB Dye"
+          ],
+          [
+            "Resolution",
+            "20 cells/mL"
+          ],
+          [
+            "Repeatability",
+            "±3%"
+          ],
+          [
+            "Communication Protocol",
+            "MODBUS RS485"
+          ],
+          [
+            "Main Material",
+            "Body: SUS316L + Polyvinyl Chloride,  Cover: Polyoxymethylene,  Cable: Polyurethane"
+          ],
+          [
+            "Protective Rate",
+            "IP65/NEMA4X"
+          ],
+          [
+            "Pressure Range",
+            "≤0.4Mpa"
+          ],
+          [
+            "Dimension and Weight",
+            "Dia 30mm * L 223mm, 0.55kg"
+          ],
+          [
+            "Cable length",
+            "Standard: 10m, the maximum may be extended to 100m"
+          ],
+          [
+            "Requirnments",
+            "Suggest a multipoint monitoring for the distribution of Blue-Green Algae in water as it is very uneven. Water turbidity is below 50NTU."
+          ],
+          [
+            "Power Supply",
+            "9~36 VDC"
+          ],
+          [
+            "Measuring Temperature",
+            "0-45℃"
+          ]
+        ]
+      ],
+      "webImages": [
+        {
+          "height": 395,
+          "src": "https://www.advanceanalytik.com/products/productImages/img016.png",
+          "width": 143
+        }
+      ],
+      "datasheetText": "ADVANCE ANALYTIK KFT\n1\nVIZSENS-BGA\nBlue-Green Algae Sensor\n2026\nVizSens-BGA\nOVERVIEW\n2 The Vizsens-BGA is an advanced sensor engineered for precise monitoring of\n2\nBlue- Green Algae in water. With a wide measurement range of 0 to 300,000\ncells/mL and an accuracy of ±10%, it ensures reliable detection of algae\nlevels. This compact sensor features a durable design, MODBUS RS485\ncommunication, and various features to facilitate seamless integration with\ncompatible controllers. It's ideal for multipoint monitoring of uneven algae\ndistribution, contributing to environmental monitoring and water quality\nassessment.\nPRODUCT FEATURES\nFluorescent Measuring Target Parameter: Early\nidentification of Blue-Green Algae before water\nbloom impact.\nRapid Detection: Fast and direct algae detection\nwithout sample extraction.\nDigital Sensor with High Anti Jamming Capacity:\nReliable performance in noisy environments.\nFar Transmission Distance: Seamless data\ntransmission over long distances.\nStandard Digital Signal Output: Easy integration\nwith other equipment.\nPlug-and-Play Sensors: Quick and effortless\ninstallation\n2026\nViz Sensor Series\nTECHNICAL SPECIFICATIONS\nBasic Specifications\nMeasurement Range 0—300,000 cells/mL\n3\nMeasurement Accuracy ±10% of 1ppb Rhodamine B Dye\nResolution 20 cells/mL\nRepeatibility ±3%\nCommunication Protocol MODBUS RS485\nPhysical Attributes\nBody: SUS316L + Polyvinyl Chloride,\nMain Material Cover: Polyoxymethylene,\nCable: Polyurethane\nProtective Rate IP68/NEMA6P\nPressure Range ≤ 0.4Mpa\nDimension/Weight Dia 30mm * L 223mm, 0.55KG\nCable Length Standard: 10m, extendable to 100m\nSuggest a multipoint monitoring for the\nRequirement distribution of blue-green algae in water is\nvery uneven. Water turbidity is below 50NTU.\nOperating Parameters\nPower Supply 9~36 VDC\nMeasuring Temperature 0-45°C\n2026\n03\n⌀\n223\nAPPLICATIONS\n4 Chlor-Alkali Industry Fish farming Food and Beverage\nDesalination Plants Potable Water Treatment\nPlants (PWTP)\nNote -\nThis data sheet serves as general information about the VizSens-BGA. For specific technical details, installation\nguidelines, and troubleshooting assistance, please refer to the official user manual provided with the product.\nDue to continuous product improvement, specifications and design are subject to change without notice. Actual\nproduct may differ slightly from illustrations.\nFor inquiries and detailed technical information, please contact sales@advanceanalytik.com.\n2026\nWe, Advance Analytik KFT, are a distinguished\nmanufacturing company based in Budapest,\nHungary. Our company’s long-standing presence in\nthis vibrant city reflects our unwavering\n12\ncommitment to excellence, innovation, and\nadaptability in a competitive industry.\nAt Advance Analytik, we specialize in precision and\nperformance, offering a wide array of advanced analytical\ninstruments. Our product range includes state-of-the-art\n5\nanalog and digital sensors, cutting-edge controllers, and\nmodular analyzers designed for diverse applications. Each\nproduct is a testament to our meticulous attention to detail\nand dedication to exceeding industry standards.\nThe backbone of our success lies in our exceptional team of professionals.\nComprised of skilled engineers, innovative designers, and dedicated support\nstaff, our team works in synergy to deliver solutions that empower our clients.\nOUR MISSION\nTo be the preferred partner for industries worldwide, offering entive and reliable analytical solutions that\ndrive innovation and ensure quality\nOUR VISION\nTo revolutionize analytical science by pioneering state-at instruments and services, empowering researchers\nand businesses to achieve new unprecedented accuracy\nWhy Choose Advance Analytik?\nCutting-edge Technology\nWe leverage the latest advancements in analytical instrumentation and software to provide our\ncustomers with state-of-the-art solutions that deliver accurate and precise results.\nCustomized Solutions\nWe understand that every industry and research field has unique requirements. That's why we\noffer customized solutions tailored to your specific needs.\nReliable Performance\nWe take pride in delivering instruments and solutions that consistently deliver reliable performance.\nExceptional Support and Service\nOur dedicated team is committed to providing comprehensive support throughout your analytical\njourney.\nTrusted Expertise\nWith years of experience in the analytical instrumentation industry, we have developed a deep\nunderstanding of our customers’ needs and challenges.\n3780 Edelény, Szentpéteri út hrsz 015/104\nsales@advanceanalytik.com\nwww.advanceanalytik.com"
+    },
+    {
+      "source": {
+        "slug": "vizsens-oiw",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-oiw.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-OIW.pdf"
+      },
+      "webTables": [
+        [
+          [
+            "Principle",
+            "Ultraviolet fluorescence method"
+          ],
+          [
+            "Main Material",
+            "Body: SUS316L, titanium alloy;  Cable: Polyurethane"
+          ],
+          [
+            "Measuring Range",
+            "0-50ppm"
+          ],
+          [
+            "Protection Level",
+            "IP68"
+          ],
+          [
+            "Sensor Interface",
+            "Support RS-485, MODBUS protocol"
+          ],
+          [
+            "Dimension",
+            "Diameter 45*Length 191mm"
+          ],
+          [
+            "Assembly",
+            "Input type"
+          ],
+          [
+            "Probe Cable Length",
+            "10 meters (default), Expandable upto 50 meters"
+          ],
+          [
+            "Resolution",
+            "0.999"
+          ],
+          [
+            "Repeatability",
+            "0.01 ppm"
+          ],
+          [
+            "Temperature",
+            "0 to 50°C"
+          ],
+          [
+            "Detection Limit",
+            "0.1ppm"
+          ],
+          [
+            "Self-Cleaning Brush",
+            "Optional"
+          ]
+        ]
+      ],
+      "webImages": [
+        {
+          "height": 471,
+          "src": "https://www.advanceanalytik.com/products/productImages/img018.png",
+          "width": 104
+        }
+      ],
+      "datasheetText": "ADVANCE ANALYTIK KFT\n1\nVIZSENS-OIW\nOil in water Sensor\n2026\nVizSens-OIW\nOVERVIEW\n2\nThe VizSens-OIW is an advanced oil in water sensor utilizing ultraviolet\n2\nfluorescence technology. It excels in precision and versatility, with a wide\ndetection range from 0 to 100 mg/L. Designed for efficient monitoring of oil levels\nin water, even in the presence of suspended solids, this sensor integrates\nseamlessly with compatible controllers. Its rugged construction, IP68 protection,\nand optional self- cleaning brush ensure dependable performance across various\nindustrial applications.\nPRODUCT FEATURES\nDigital Sensor: Delivers accurate and precise oil\ndetection measurements.\nRS-485 Output: Supports data transmission using\nthe MODBUS protocol.\nAutomatic Cleaning Brush: Eliminates the impact\nof oil on measurements.\nOptical and Electronic Filtering Techniques:\nEliminate ambient light effects on readings.\nUnaffected by Suspended Solids: Reliable\nperformance even in challenging environments.\n2026\nViz Sensor Series\nTECHNICAL SPECIFICATIONS\nBasic Specifications\nPrinciple Ultraviolet fluorescence method\n3\nBody: SS316L, Titanium alloy;\nMain Material\nCable: Polyurethane\nMeasuring Range 0 - 100 mg/L\nProtection Level IP68\nSensor Interface Supports RS-485, MODBUS protocol\nDimension Diameter 45*Length 191mm\n10 meters (default), Expandable upto 50\nProbe Cable Length\nmeters\nResolution 0.999\nRepeatibility 0.01 mg/L\nTemperature 0 to 50°C\nDetection Limit 0.01 mg/L\nSelf-Cleaning Brush Optional\n191\n2026\n45\nAPPLICATIONS\n4 Chlor-Alkali Industry Fish farming Food and Beverage\nDesalination Plants Potable Water Treatment\nPlants (PWTP)\nNote -\nThis data sheet serves as general information about the VizSens-OIW. For specific technical details, installation\nguidelines, and troubleshooting assistance, please refer to the official user manual provided with the product.\nDue to continuous product improvement, specifications and design are subject to change without notice. Actual\nproduct may differ slightly from illustrations.\nFor inquiries and detailed technical information, please contact sales@advanceanalytik.com.\n2026\nWe, Advance Analytik KFT, are a distinguished\nmanufacturing company based in Budapest,\nHungary. Our company’s long-standing presence in\nthis vibrant city reflects our unwavering\n12\ncommitment to excellence, innovation, and\nadaptability in a competitive industry.\nAt Advance Analytik, we specialize in precision and\nperformance, offering a wide array of advanced analytical\ninstruments. Our product range includes state-of-the-art\n5\nanalog and digital sensors, cutting-edge controllers, and\nmodular analyzers designed for diverse applications. Each\nproduct is a testament to our meticulous attention to detail\nand dedication to exceeding industry standards.\nThe backbone of our success lies in our exceptional team of professionals.\nComprised of skilled engineers, innovative designers, and dedicated support\nstaff, our team works in synergy to deliver solutions that empower our clients.\nOUR MISSION\nTo be the preferred partner for industries worldwide, offering entive and reliable analytical solutions that\ndrive innovation and ensure quality\nOUR VISION\nTo revolutionize analytical science by pioneering state-at instruments and services, empowering researchers\nand businesses to achieve new unprecedented accuracy\nWhy Choose Advance Analytik?\nCutting-edge Technology\nWe leverage the latest advancements in analytical instrumentation and software to provide our\ncustomers with state-of-the-art solutions that deliver accurate and precise results.\nCustomized Solutions\nWe understand that every industry and research field has unique requirements. That's why we\noffer customized solutions tailored to your specific needs.\nReliable Performance\nWe take pride in delivering instruments and solutions that consistently deliver reliable performance.\nExceptional Support and Service\nOur dedicated team is committed to providing comprehensive support throughout your analytical\njourney.\nTrusted Expertise\nWith years of experience in the analytical instrumentation industry, we have developed a deep\nunderstanding of our customers’ needs and challenges.\n3780 Edelény, Szentpéteri út hrsz 015/104\nsales@advanceanalytik.com\nwww.advanceanalytik.com"
+    },
+    {
+      "source": {
+        "slug": "vizsens-nh4n",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-nh4n.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-NH4N.pdf"
+      },
+      "webTables": [
+        [
+          [
+            "pH Range",
+            "5-10"
+          ],
+          [
+            "pH Accuracy",
+            "±0.1"
+          ],
+          [
+            "pH Resolution",
+            "0.01"
+          ],
+          [
+            "Ammonia Nitrogen Range",
+            "0.1-3000mg/L NH4-N"
+          ],
+          [
+            "Accuracy",
+            "±5% of the measured value or ±0.2mg/L"
+          ],
+          [
+            "Resolution",
+            "0.1 mg/L"
+          ],
+          [
+            "Protection Level",
+            "IP68/NEMA6P;"
+          ],
+          [
+            "Repeatibility",
+            "±5% or ±0.2mg/L"
+          ],
+          [
+            "Deepest Depth",
+            "10 meters underwater"
+          ],
+          [
+            "Temperature Range",
+            "0 ~ 50°C"
+          ],
+          [
+            "Probe Cable Length",
+            "5 meters (default), can be customized"
+          ],
+          [
+            "Housing Material",
+            "Polyoxymethylene (An Engineering Thermoplastic)"
+          ]
+        ]
+      ],
+      "webImages": [
+        {
+          "height": 355,
+          "src": "https://www.advanceanalytik.com/products/productImages/img019.png",
+          "width": 300
+        }
+      ],
+      "datasheetText": "ADVANCE ANALYTIK KFT\n1\nVIZSENS-NH4N\nAmmonia Nitrogen (NH4-N) Sensor\n2026\nVizSens-NH4N\nOVERVIEW\n2\nThe VizSens-NH4N is a highly accurate and reliable sensor designed for\n2\nmeasuring Ammonia Nitrogen (NH4- N) levels in water. With a pH range of 5- 10\nand a precision of ±0.1, it ensures precise and consistent readings. Operating up\nto 10 meters underwater with IP68 protection, it's suitable for various\nenvironmental applications. Compatible controllers, the VizSens-NH4N supports\nRS-485 and MODBUS protocol for seamless integration and data transmission.\nPRODUCT FEATURES\nDigital Sensor: Delivers accurate and precise\noil detection measurements.\nRS-485 Output: Supports data transmission\nusing the MODBUS protocol.\nAutomatic Cleaning Brush: Eliminates the\nimpact of oil on measurements.\nOptical and Electronic Filtering Techniques:\nEliminate ambient light effects on readings.\nUnaffected by Suspended Solids: Reliable\nperformance even in challenging environments.\n2026\nViz Sensor Series\nTECHNICAL SPECIFICATIONS\nBasic Specifications\npH Range 5-10\npH Accuracy ±0.1\n3\npH Resolution 0.01\nAmmonia Nitrogen Range 0.01 to 20,000 ppm (configurable);\nPotassium 0.01 to 50,000 ppm\nFlow Range 0 to 3 m/s\nWetted Materials PVC, PES, PVDF, PTFE, Viton, Glass, 316 SS\nAccuracy ±2% of the measured value.\nResolution 0.01 mg/L\nProtection Level IP68/NEMA6P;\nRepeatibility ±5% or ±0.2mg/L\nResponse Time Less than 1 minute\npH 4 - 10 pH ;\nCompensation\nPotassium: 0.1 to 1000 ppm\nOperating Parameters\nDeepest Depth Up to 10 meters underwater\nTemperature Range 0 ~ 50°C\nProbe Cable Length 5 meters (default), customizable\nHousing Material Polyoxymethylene (An Engineering Thermoplastic)\n2026\nAPPLICATIONS\n4 Chlor-Alkali Industry Fish farming Food and Beverage\nDesalination Plants Potable Water Treatment\nPlants (PWTP)\nNote -\nThis data sheet serves as general information about the VizSens-NH4N. For specific technical details, installation\nguidelines, and troubleshooting assistance, please refer to the official user manual provided with the product.\nDue to continuous product improvement, specifications and design are subject to change without notice. Actual\nproduct may differ slightly from illustrations.\nFor inquiries and detailed technical information, please contact sales@advanceanalytik.com.\n2026\nWe, Advance Analytik KFT, are a distinguished\nmanufacturing company based in Budapest,\nHungary. Our company’s long-standing presence in\nthis vibrant city reflects our unwavering\n12\ncommitment to excellence, innovation, and\nadaptability in a competitive industry.\nAt Advance Analytik, we specialize in precision and\nperformance, offering a wide array of advanced analytical\ninstruments. Our product range includes state-of-the-art\n5\nanalog and digital sensors, cutting-edge controllers, and\nmodular analyzers designed for diverse applications. Each\nproduct is a testament to our meticulous attention to detail\nand dedication to exceeding industry standards.\nThe backbone of our success lies in our exceptional team of professionals.\nComprised of skilled engineers, innovative designers, and dedicated support\nstaff, our team works in synergy to deliver solutions that empower our clients.\nOUR MISSION\nTo be the preferred partner for industries worldwide, offering entive and reliable analytical solutions that\ndrive innovation and ensure quality\nOUR VISION\nTo revolutionize analytical science by pioneering state-at instruments and services, empowering researchers\nand businesses to achieve new unprecedented accuracy\nWhy Choose Advance Analytik?\nCutting-edge Technology\nWe leverage the latest advancements in analytical instrumentation and software to provide our\ncustomers with state-of-the-art solutions that deliver accurate and precise results.\nCustomized Solutions\nWe understand that every industry and research field has unique requirements. That's why we\noffer customized solutions tailored to your specific needs.\nReliable Performance\nWe take pride in delivering instruments and solutions that consistently deliver reliable performance.\nExceptional Support and Service\nOur dedicated team is committed to providing comprehensive support throughout your analytical\njourney.\nTrusted Expertise\nWith years of experience in the analytical instrumentation industry, we have developed a deep\nunderstanding of our customers’ needs and challenges.\n3780 Edelény, Szentpéteri út hrsz 015/104\nsales@advanceanalytik.com\nwww.advanceanalytik.com"
+    },
+    {
+      "source": {
+        "slug": "vizsens-no3n",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-no3n.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-NO3N.pdf"
+      },
+      "webTables": [
+        [
+          [
+            "pH Range",
+            "3-10"
+          ],
+          [
+            "pH Accuracy",
+            "±0.1"
+          ],
+          [
+            "pH Resolution",
+            "0.01"
+          ],
+          [
+            "Housing Material",
+            "Polyoxymethylene"
+          ],
+          [
+            "Nitrate Range",
+            "0~3000mg/l NO3N"
+          ],
+          [
+            "Accuracy",
+            "±10% or ±0.2 mg/L (Obtained within 6h after calibration with standard solution under laboratory conditions)"
+          ],
+          [
+            "Protection Level",
+            "IP68"
+          ],
+          [
+            "Nitrate Resolution",
+            "0.1ppm"
+          ],
+          [
+            "Temperature Range",
+            "0〜50℃"
+          ],
+          [
+            "Power Supply",
+            "DC 6~12V, current<50mA"
+          ],
+          [
+            "Output Signal",
+            "Digital RS-485 output, MODBUS protocol"
+          ],
+          [
+            "Dimensions",
+            "Diameter: 55mm, Length: 345mm"
+          ],
+          [
+            "Cable Length",
+            "5 meters (default), can be customizable"
+          ]
+        ]
+      ],
+      "webImages": [
+        {
+          "height": 502,
+          "src": "https://www.advanceanalytik.com/products/productImages/img020.png",
+          "width": 124
+        }
+      ],
+      "datasheetText": "ADVANCE ANALYTIK KFT\n1\nVIZSENS-NO3N\nNitrate Nitrogen Sensor\n2026\nVizSens-NO3N\nOVERVIEW\n2\nThe VizSens NO3N is a highly accurate and reliable sensor designed for\n2\nmeasuring Nitrate nitrogen (NO3N) levels in water. With a pH range of 4-10 and a\nprecision of ±0.1, it ensures precise and consistent readings. The sensor features\na digital RS-485 output with MODBUS protocol for seamless data transmission\nand integration with compatible controllers. Operating in harsh environments with\nIP68 protection, and offering optional measurement of Potassium and Sodium,\nthe VizSens NO3N is an efficient and versatile solution for water quality\nmonitoring and environmental applications.\nPRODUCT FEATURES\nDigital Sensor: Provides accurate and precise\nNitrate measurements.\nRS-485 Output: Supports MODBUS protocol\nfor seamless data transmission.\nEconomical and Environmentally Friendly:\nEnables real-time online monitoring.\nAutomatic pH and Temperature Compensation:\nEnsures accurate readings.\nHigh Precision and Stability: Offers reliable and\nconsistent results.\n2026\nViz Sensor Series\nTECHNICAL SPECIFICATIONS\nBasic Specifications\npH Range 3 - 10\n3\npH Accuracy ±0.1\npH Resolution 0.01\nHousing Material Polyoxymethylene\nNitrate Range 0~3000mg/l NO3N\n±10% or ±0.2 mg/L (Obtained within 6h after\nAccuracy calibration with standard solution under laboratory\nconditions)\nProtection Level IP68\nNitrate Resolution 0.01ppm\nTemperature Range 0〜50°C\nPower Supply DC 6~12V, current<50mA\nOutput Signal Digital RS-485 output, MODBUS protocol\nDimension Diameter: 55mm, Length: 345mm\nCable Length 5 meter (default), customizable\n2026\nAPPLICATIONS\n4 Chlor-Alkali Industry Fish farming Food and Beverage\nDesalination Plants Potable Water Treatment\nPlants (PWTP)\nNote -\nThis data sheet serves as general information about the VizSens-NO3N. For specific technical details, installation\nguidelines, and troubleshooting assistance, please refer to the official user manual provided with the product.\nDue to continuous product improvement, specifications and design are subject to change without notice. Actual\nproduct may differ slightly from illustrations.\nFor inquiries and detailed technical information, please contact sales@advanceanalytik.com.\n2026\nWe, Advance Analytik KFT, are a distinguished\nmanufacturing company based in Budapest,\nHungary. Our company’s long-standing presence in\nthis vibrant city reflects our unwavering\n12\ncommitment to excellence, innovation, and\nadaptability in a competitive industry.\nAt Advance Analytik, we specialize in precision and\nperformance, offering a wide array of advanced analytical\ninstruments. Our product range includes state-of-the-art\n5\nanalog and digital sensors, cutting-edge controllers, and\nmodular analyzers designed for diverse applications. Each\nproduct is a testament to our meticulous attention to detail\nand dedication to exceeding industry standards.\nThe backbone of our success lies in our exceptional team of professionals.\nComprised of skilled engineers, innovative designers, and dedicated support\nstaff, our team works in synergy to deliver solutions that empower our clients.\nOUR MISSION\nTo be the preferred partner for industries worldwide, offering entive and reliable analytical solutions that\ndrive innovation and ensure quality\nOUR VISION\nTo revolutionize analytical science by pioneering state-at instruments and services, empowering researchers\nand businesses to achieve new unprecedented accuracy\nWhy Choose Advance Analytik?\nCutting-edge Technology\nWe leverage the latest advancements in analytical instrumentation and software to provide our\ncustomers with state-of-the-art solutions that deliver accurate and precise results.\nCustomized Solutions\nWe understand that every industry and research field has unique requirements. That's why we\noffer customized solutions tailored to your specific needs.\nReliable Performance\nWe take pride in delivering instruments and solutions that consistently deliver reliable performance.\nExceptional Support and Service\nOur dedicated team is committed to providing comprehensive support throughout your analytical\njourney.\nTrusted Expertise\nWith years of experience in the analytical instrumentation industry, we have developed a deep\nunderstanding of our customers’ needs and challenges.\n3780 Edelény, Szentpéteri út hrsz 015/104\nsales@advanceanalytik.com\nwww.advanceanalytik.com"
+    },
+    {
+      "source": {
+        "slug": "vizsens-o3",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-o3.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-O3.pdf"
+      },
+      "webTables": [
+        [
+          [
+            "Measurement Range",
+            "0~20 ppm"
+          ],
+          [
+            "Precision Range",
+            "0~2ppm: Less than 1%"
+          ],
+          [
+            "pH Range",
+            "2~11"
+          ],
+          [
+            "Flow rate",
+            "In the flow cell: 250~500ml/min, the flow rate has little effect on it."
+          ],
+          [
+            "Response time",
+            "T90: about 15s (up to 90% of the measured value)"
+          ],
+          [
+            "Slope calibration",
+            "On the measuring device, determined by analytical methods"
+          ],
+          [
+            "Temp compensation",
+            "Integrated automatic temp. compensation"
+          ],
+          [
+            "Material",
+            "PVC-U, Semipermeable membrane, ABS"
+          ],
+          [
+            "Operating temp",
+            "Measuring water temp.: 0~45 °C (no condensation in water),  Ambient room temp.: 0~55 °C"
+          ],
+          [
+            "Size",
+            "Diameter 25mm * length 220mm"
+          ],
+          [
+            "Cable length",
+            "Standard:10m, the maximum may be extended to 100m"
+          ]
+        ]
+      ],
+      "webImages": [
+        {
+          "height": 382,
+          "src": "https://www.advanceanalytik.com/products/productImages/vizsens-o3.png",
+          "width": 310
+        }
+      ],
+      "datasheetText": "ADVANCE ANALYTIK KFT\n1\nVIZSENS-O3\nOzone Sensor\n2026\nVizSens-O3\nOVERVIEW\n2\nVizSens-O3 electrode is a 2-electrode measurement system using the coating\n2\nmethod. The detection part adopts a special permeable membrane technology,\nwhich has the characteristics of resisting chemical (mainly surfactant)\ninterference and reducing pH dependence.\nFast speed, stable performance, low cost and low maintenance, providing users\nwith reliable and accurate data.\nPRODUCT FEATURES\nBasically not affected by PH.\nInternal processing of digital signal data, free\nfrom electromagnetic interference.\nStable work and fast response.\nLow cost and less maintenance.\n2026\nViz Sensor Series\nTECHNICAL SPECIFICATIONS\nBASIC SPECIFICATION\nMeasurement Range 0~20 ppm\n3\nPrecision Range: 0~2ppm: Less than 1%\npH Range pH：2~11\nIn the flow cell: 250~500ml/min, the flow rate has little\nFlow rate\neffect on it.\nResponse time T90: about 15s (up to 90% of the measured value)\nOn the measuring device, determined by analytical\nSlope calibration\nmethods\nTemp compensation Integrated automatic temp. compensation\nMaterial PVC-U, Semipermeable membrane, ABS\nMeasuring water temp.: 0~45 °C (no condensation in\nOperating temp water);\nAmbient room temp.: 0~55 °C\nSize Diameter 25mm * length 220mm\nCable length Standard:10m, the maximum may be extended to 100m\n2026\nAPPLICATIONS\n4 Chlor-Alkali Industry Fish farming Food and Beverage\nDesalination Plants Potable Water Treatment\nPlants (PWTP)\nNote -\nThis data sheet serves as general information about the VizSens-O3. For specific technical details, installation\nguidelines, and troubleshooting assistance, please refer to the official user manual provided with the product.\nDue to continuous product improvement, specifications and design are subject to change without notice. Actual\nproduct may differ slightly from illustrations.\nFor inquiries and detailed technical information, please contact sales@advanceanalytik.com.\n2026\nWe, Advance Analytik KFT, are a distinguished\nmanufacturing company based in Budapest,\nHungary. Our company’s long-standing presence in\nthis vibrant city reflects our unwavering\n12\ncommitment to excellence, innovation, and\nadaptability in a competitive industry.\nAt Advance Analytik, we specialize in precision and\nperformance, offering a wide array of advanced analytical\ninstruments. Our product range includes state-of-the-art\n5\nanalog and digital sensors, cutting-edge controllers, and\nmodular analyzers designed for diverse applications. Each\nproduct is a testament to our meticulous attention to detail\nand dedication to exceeding industry standards.\nThe backbone of our success lies in our exceptional team of professionals.\nComprised of skilled engineers, innovative designers, and dedicated support\nstaff, our team works in synergy to deliver solutions that empower our clients.\nOUR MISSION\nTo be the preferred partner for industries worldwide, offering entive and reliable analytical solutions that\ndrive innovation and ensure quality\nOUR VISION\nTo revolutionize analytical science by pioneering state-at instruments and services, empowering researchers\nand businesses to achieve new unprecedented accuracy\nWhy Choose Advance Analytik?\nCutting-edge Technology\nWe leverage the latest advancements in analytical instrumentation and software to provide our\ncustomers with state-of-the-art solutions that deliver accurate and precise results.\nCustomized Solutions\nWe understand that every industry and research field has unique requirements. That's why we\noffer customized solutions tailored to your specific needs.\nReliable Performance\nWe take pride in delivering instruments and solutions that consistently deliver reliable performance.\nExceptional Support and Service\nOur dedicated team is committed to providing comprehensive support throughout your analytical\njourney.\nTrusted Expertise\nWith years of experience in the analytical instrumentation industry, we have developed a deep\nunderstanding of our customers’ needs and challenges.\n3780 Edelény, Szentpéteri út hrsz 015/104\nsales@advanceanalytik.com\nwww.advanceanalytik.com"
+    },
+    {
+      "source": {
+        "slug": "vizsens-ph-analog",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-ph-analog.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-pH-Analog.pdf"
+      },
+      "webTables": [
+        [
+          [
+            "Main material",
+            "Black Polypropylene, Ag/Agcl Reference Gel"
+          ],
+          [
+            "Weight",
+            "0.2kg"
+          ],
+          [
+            "Dimensions",
+            "Dia. 28.7mm * Length 195mm"
+          ],
+          [
+            "Cable Length",
+            "Standard: 10m, extendable to 20m"
+          ],
+          [
+            "Measurement Range",
+            "0-14pH;"
+          ],
+          [
+            "Measurement Accuracy",
+            "pH: ±0.1pH; Temperature: ±0.5°C"
+          ],
+          [
+            "Temperature Range",
+            "0-80°C"
+          ],
+          [
+            "Pressure Range",
+            "≤ 0.6Mpa"
+          ],
+          [
+            "Zero Potential pH Value",
+            "7 ± 0.25pH (15mV)"
+          ],
+          [
+            "Slope",
+            "≥ 95%"
+          ],
+          [
+            "Internal Resistance",
+            "≤ 250MΩ"
+          ],
+          [
+            "Alkaline Error",
+            "0.2pH (1mol/L Na+ pH14) (25°C)"
+          ],
+          [
+            "Response Time",
+            "≤ 10 Seconds (After stirring)"
+          ]
+        ]
+      ],
+      "webImages": [
+        {
+          "height": 447,
+          "src": "https://www.advanceanalytik.com/products/productImages/img003.png",
+          "width": 273
+        }
+      ],
+      "datasheetText": "ADVANCE ANALYTIK KFT\n1\nVIZSENS-PH(ANALOG)\npH Sensor\n2026\nVizSens-PH(Analog)\nOVERVIEW\n2 The VizSens-PH(A) pH Sensor is an essential tool for accurate pH monitoring\n2\nacross various applications, including water treatment, hydrological monitoring,\nwastewater treatment, swimming pools, fish ponds, and industries such as\nfertilizers, chemicals, and biology. Designed with a composite electrode that\ncombines a glass indicating electrode and a reference electrode, this sensor\nprovides reliable pH measurement for water-based environments.\nPRODUCT FEATURES\nRepeatability and Stability: Offers good stability\nand repeatability, suitable for fresh and sea water\ntesting.\nMeasurement range:- 0 - 14pH\nSimple design: Allows for easy manual cleaning.\nAnalog-Digital Conversion Module (Optional):\nEnables digital signal output with high anti-\njamming capacity and far transmission distance.\nRS485 Digital Signal Output (Optional): Achieves\nstandard digital signal output via RS485, enabling\nintegration and networking with other equipment\nwithout a controller.\nQuick and Easy Installation: Facilitates field\ninstallation through terminal connection.\n2026\nViz Sensor Series\nTECHNICAL SPECIFICATIONS\nPhysical Specifications\nMain Material Black Polypropylene, Ag/Agcl Reference Gel\nWeight 0.2KG 3\nDimensions Dia. 28.7mm * Length 195mm\nCable Length Standard: 10m, extendable to 20m\nMeasurement Specifications\nMeasurement Range 0-14pH;\nMeasurement Accuracy pH: ±0.1pH; Temperature: ±0.5°C\nTemperature Range 0-80°C\nPressure Range ≤ 0.6 Mpa\nZero Potential pH Value 7 ± 0.25pH (15mV)\nSlope ≥ 95%\nInternal Resistance ≤ 250M𝝮\nAlkaline Error 0.2pH (1mol/L Na+ pH14) (25°C)\nResponse Time ≤ 0.6 Mpa\n2026\n23.02\n⌀\n7.82\n⌀\nAPPLICATIONS\n4 Chlor-Alkali Industry Fish farming Food and Beverage\nDesalination Plants Potable Water Treatment\nPlants (PWTP)\nNote -\nThis data sheet serves as general information about the VizSens-PH(Analog). For specific technical details,\ninstallation guidelines, and troubleshooting assistance, please refer to the official user manual provided with the\nproduct.\nDue to continuous product improvement, specifications and design are subject to change without notice. Actual\nproduct may differ slightly from illustrations.\nFor inquiries and detailed technical information, please contact sales@advanceanalytik.com.\n2026\nWe, Advance Analytik KFT, are a distinguished\nmanufacturing company based in Budapest,\nHungary. Our company’s long-standing presence in\nthis vibrant city reflects our unwavering\n12\ncommitment to excellence, innovation, and\nadaptability in a competitive industry.\nAt Advance Analytik, we specialize in precision and\nperformance, offering a wide array of advanced analytical\ninstruments. Our product range includes state-of-the-art\n5\nanalog and digital sensors, cutting-edge controllers, and\nmodular analyzers designed for diverse applications. Each\nproduct is a testament to our meticulous attention to detail\nand dedication to exceeding industry standards.\nThe backbone of our success lies in our exceptional team of professionals.\nComprised of skilled engineers, innovative designers, and dedicated support\nstaff, our team works in synergy to deliver solutions that empower our clients.\nOUR MISSION\nTo be the preferred partner for industries worldwide, offering entive and reliable analytical solutions that\ndrive innovation and ensure quality\nOUR VISION\nTo revolutionize analytical science by pioneering state-at instruments and services, empowering researchers\nand businesses to achieve new unprecedented accuracy\nWhy Choose Advance Analytik?\nCutting-edge Technology\nWe leverage the latest advancements in analytical instrumentation and software to provide our\ncustomers with state-of-the-art solutions that deliver accurate and precise results.\nCustomized Solutions\nWe understand that every industry and research field has unique requirements. That's why we\noffer customized solutions tailored to your specific needs.\nReliable Performance\nWe take pride in delivering instruments and solutions that consistently deliver reliable performance.\nExceptional Support and Service\nOur dedicated team is committed to providing comprehensive support throughout your analytical\njourney.\nTrusted Expertise\nWith years of experience in the analytical instrumentation industry, we have developed a deep\nunderstanding of our customers’ needs and challenges.\n3780 Edelény, Szentpéteri út hrsz 015/104\nsales@advanceanalytik.com\nwww.advanceanalytik.com"
+    },
+    {
+      "source": {
+        "slug": "vizsens-orp-analog",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-orp-analog.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-orp-Analog.pdf"
+      },
+      "webTables": [
+        [
+          [
+            "Main materials",
+            "Black Polypropylene, Ag/Agcl Reference Gel"
+          ],
+          [
+            "Measurement range",
+            "-2000mV ~ +2000mV"
+          ],
+          [
+            "Pressure range",
+            "≤0.6Mpa"
+          ],
+          [
+            "Temperature range",
+            "0-80℃"
+          ],
+          [
+            "Zero potential value",
+            "86 ± 15mV (25℃) (in pH 7.00 solution containing saturated quinhydrone)"
+          ],
+          [
+            "Range",
+            "≥ 170mV (25℃) (in pH 4.00 solution containing saturated quinhydrone)"
+          ],
+          [
+            "Response time",
+            "≤ 10 sec (Reach 95% of the end value) (After stirring)"
+          ],
+          [
+            "Dimensions",
+            "Dia28.7mm * L 195mm"
+          ],
+          [
+            "Weight",
+            "0.2kg"
+          ],
+          [
+            "Cable length",
+            "Standard: 10m, the maximum can be extended to 20m"
+          ]
+        ]
+      ],
+      "webImages": [
+        {
+          "height": 447,
+          "src": "https://www.advanceanalytik.com/products/productImages/img003.png",
+          "width": 273
+        }
+      ],
+      "datasheetText": "ADVANCE ANALYTIK KFT\n1\nVIZSENS-ORP(ANALOG)\nORP Sensor\n2026\nVizSens-ORP(Analog)\nOVERVIEW\n2 The VizSens-ORP(A) ORP sensor is a combination electrode that includes a\n2\nprecious metals indicator electrode with a reference electrode. It measures the\npotential difference between the working battery composed of the measuring\nelectrode and the reference electrode in a solution. By utilizing the linear\nrelationship between the ORP value of the measuring solution and the potential of\nthe working battery, it achieves online ORP monitoring.\nPRODUCT FEATURES\nRepeatability and Stability: Offers good stability\nand repeatability, suitable for fresh and sea water\ntesting.Measurement range:-2000mV ~\n+2000mV.\nSimple Cleaning and Activation: Allows for easy\ncleaning and activation.\nAnalog-Digital Conversion Module (Optional):\nEnables digital signal output with high anti-\njamming capacity and far transmission distance.\nRS485 Digital Signal Output (Optional): Achieves\nstandard digital signal output via RS485, enabling\nintegration and networking with other equipment\nwithout a controller.\nQuick and Easy Installation: Facilitates field\ninstallation through terminal connection.\n2026\nViz Sensor Series\nTECHNICAL SPECIFICATIONS\nBasic Specifications\nMain Materials Black Polypropylene, Ag/Agcl Reference Gel\nMeasurement Range -2000 mV or +2000 mV\n3\nPressure Range ≤ 0.6 Mpa\nTemperature Range 0-80 °C\n86 ± 15 mV (25°C) (in pH 7.00 solution containing\nZero Potential Value\nsaturated quinhydrone)\n≥ 170 mV (25 °C) (in pH 4.00 solution containing\nRange\nsaturated quinhydrone)\nResponse Time ≤ 10 sec (Reaches 95% of the end value) (After stirring)\nDimensions Dia 28.7 mm * L 195 mm\nWeight: 0.2Kg\nCable Length Standard: 10m, maximum extendable to 20m\n2026\n23.02\n⌀\n7.82\n⌀\nAPPLICATIONS\n4 Chlor-Alkali Industry Fish farming Food and Beverage\nDesalination Plants Potable Water Treatment\nPlants (PWTP)\nNote -\nThis data sheet serves as general information about the VizSens-ORP(Analog). For specific technical details,\ninstallation guidelines, and troubleshooting assistance, please refer to the official user manual provided with the\nproduct.\nDue to continuous product improvement, specifications and design are subject to change without notice. Actual\nproduct may differ slightly from illustrations.\nFor inquiries and detailed technical information, please contact sales@advanceanalytik.com.\n2026\nWe, Advance Analytik KFT, are a distinguished\nmanufacturing company based in Budapest,\nHungary. Our company’s long-standing presence in\nthis vibrant city reflects our unwavering\n12\ncommitment to excellence, innovation, and\nadaptability in a competitive industry.\nAt Advance Analytik, we specialize in precision and\nperformance, offering a wide array of advanced analytical\ninstruments. Our product range includes state-of-the-art\n5\nanalog and digital sensors, cutting-edge controllers, and\nmodular analyzers designed for diverse applications. Each\nproduct is a testament to our meticulous attention to detail\nand dedication to exceeding industry standards.\nThe backbone of our success lies in our exceptional team of professionals.\nComprised of skilled engineers, innovative designers, and dedicated support\nstaff, our team works in synergy to deliver solutions that empower our clients.\nOUR MISSION\nTo be the preferred partner for industries worldwide, offering entive and reliable analytical solutions that\ndrive innovation and ensure quality\nOUR VISION\nTo revolutionize analytical science by pioneering state-at instruments and services, empowering researchers\nand businesses to achieve new unprecedented accuracy\nWhy Choose Advance Analytik?\nCutting-edge Technology\nWe leverage the latest advancements in analytical instrumentation and software to provide our\ncustomers with state-of-the-art solutions that deliver accurate and precise results.\nCustomized Solutions\nWe understand that every industry and research field has unique requirements. That's why we\noffer customized solutions tailored to your specific needs.\nReliable Performance\nWe take pride in delivering instruments and solutions that consistently deliver reliable performance.\nExceptional Support and Service\nOur dedicated team is committed to providing comprehensive support throughout your analytical\njourney.\nTrusted Expertise\nWith years of experience in the analytical instrumentation industry, we have developed a deep\nunderstanding of our customers’ needs and challenges.\n3780 Edelény, Szentpéteri út hrsz 015/104\nsales@advanceanalytik.com\nwww.advanceanalytik.com"
+    },
+    {
+      "source": {
+        "slug": "vizsens-tds-analog",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-tds-analog.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-TDS-Analog.pdf"
+      },
+      "webTables": [
+        [
+          [
+            "Main Material",
+            "Black polypropylene shell, glass platinum electrode"
+          ],
+          [
+            "Weight",
+            "0.2kg"
+          ],
+          [
+            "Dimensions",
+            "Dia 28.7 mm * L 195 mm"
+          ],
+          [
+            "Cable Length",
+            "Standard: 10m, extendable to 20m"
+          ],
+          [
+            "Measurement Range",
+            "TDS: 0 to 20,000 mg/l (K = 1)"
+          ],
+          [
+            "Measurement Accuracy",
+            "±1% or 1 mg/l"
+          ],
+          [
+            "Temperature Range",
+            "0-80°C"
+          ],
+          [
+            "Pressure Range",
+            "≤0.6 Mpa"
+          ],
+          [
+            "Response Time",
+            "≤10 sec (Reach 95% of the end value after stirring)"
+          ],
+          [
+            "Temperature Compensation",
+            "PT1000"
+          ]
+        ]
+      ],
+      "webImages": [
+        {
+          "height": 447,
+          "src": "https://www.advanceanalytik.com/products/productImages/img003.png",
+          "width": 273
+        }
+      ],
+      "datasheetText": "ADVANCE ANALYTIK KFT\n1\nVIZSENS-TDS( ANALOG )\nTDS Sensor\n2026\nVizSens-TDS(Analog)\nOVERVIEW\n2 The VizSens-TDS(Analog) TDS Sensor, featuring a glass platinum electrode, is a\n2\nreliable instrument for accurate TDS monitoring. This sensor utilizes voltage and\ncurrent values to determine TDS, making it an essential tool for applications in\nwater treatment, hydrological monitoring, wastewater treatment, swimming pools,\nfish ponds, as well as in fertilizers, chemicals, and biology industries.\nPRODUCT FEATURES\nAccurate TDS Monitoring: Provides precise and reliable measurement of\nTDS,ensuring data accuracy for various applications.\nGlass Platinum Electrode: Utilizes a glass platinum electrode design, known for\nits durability and consistent performance.\nWide Measurement Range: Capable of measuring TDS within a range of 0 to\n20,000 mg/l , accommodating diverse TDS levels.\nTemperature Flexibility: Operates effectively in temperatures ranging from 0 to 80\n°C, suitable for various environmental conditions.\nPressure Compatibility: Designed to withstand pressures up to 0.6 Mpa,\nmaintaining performance under different pressure conditions.\nQuick Response Time: Offers a rapid response time of ≤10 seconds to reach\n95% of the end value after stirring,ensuring timely data capture.\nFlexible Cable Length: Supplied with a standard cable length of 10m, extendable\nto a maximum of 20m, facilitating installation flexibility.\nVersatile Applications: Suitable for a wide range of applications including water\ntreatment, hydrological monitoring, swimming pools, and more.\nReliable Medium Temperature: Capable of operating in a medium temperature\nrange of 0~80°C without freezing, enabling use in various environments.\n2026\nViz Sensor Series\nTECHNICAL SPECIFICATIONS\nPhysical Specifications\nMain Material Black polypropylene shell, glass platinum electrode\n3\nWeight 0.2Kg\nDimensions Dia 28.7 mm * L 195 mm\nCable Length Standard: 10m, extendable to 20m\nMeasurement Specifications\nMeasurement Range TDS : 0 to 20,000 mg/l (K = 1)\nMeasurement Accuracy ±1% or 1 mg/l\nTemperature Range 0-80 °C\nPressure Range 0.6 Mpa\nResponse Time 10 seconds (Reach 95% of the end value)\nTemperature Compensation PT1000\n2026\n23.02\n⌀\n7.82\n⌀\nAPPLICATIONS\n4 Chlor-Alkali Industry Fish farming Food and Beverage\nDesalination Plants Potable Water Treatment\nPlants (PWTP)\nNote -\nThis data sheet serves as general information about the VizSens-TDS( Analog ). For specific technical details,\ninstallation guidelines, and troubleshooting assistance, please refer to the official user manual provided with the\nproduct.\nDue to continuous product improvement, specifications and design are subject to change without notice. Actual\nproduct may differ slightly from illustrations.\nFor inquiries and detailed technical information, please contact sales@advanceanalytik.com.\n2026\nWe, Advance Analytik KFT, are a distinguished\nmanufacturing company based in Budapest,\nHungary. Our company’s long-standing presence in\nthis vibrant city reflects our unwavering\n12\ncommitment to excellence, innovation, and\nadaptability in a competitive industry.\nAt Advance Analytik, we specialize in precision and\nperformance, offering a wide array of advanced analytical\ninstruments. Our product range includes state-of-the-art\n5\nanalog and digital sensors, cutting-edge controllers, and\nmodular analyzers designed for diverse applications. Each\nproduct is a testament to our meticulous attention to detail\nand dedication to exceeding industry standards.\nThe backbone of our success lies in our exceptional team of professionals.\nComprised of skilled engineers, innovative designers, and dedicated support\nstaff, our team works in synergy to deliver solutions that empower our clients.\nOUR MISSION\nTo be the preferred partner for industries worldwide, offering entive and reliable analytical solutions that\ndrive innovation and ensure quality\nOUR VISION\nTo revolutionize analytical science by pioneering state-at instruments and services, empowering researchers\nand businesses to achieve new unprecedented accuracy\nWhy Choose Advance Analytik?\nCutting-edge Technology\nWe leverage the latest advancements in analytical instrumentation and software to provide our\ncustomers with state-of-the-art solutions that deliver accurate and precise results.\nCustomized Solutions\nWe understand that every industry and research field has unique requirements. That's why we\noffer customized solutions tailored to your specific needs.\nReliable Performance\nWe take pride in delivering instruments and solutions that consistently deliver reliable performance.\nExceptional Support and Service\nOur dedicated team is committed to providing comprehensive support throughout your analytical\njourney.\nTrusted Expertise\nWith years of experience in the analytical instrumentation industry, we have developed a deep\nunderstanding of our customers’ needs and challenges.\n3780 Edelény, Szentpéteri út hrsz 015/104\nsales@advanceanalytik.com\nwww.advanceanalytik.com"
+    },
+    {
+      "source": {
+        "slug": "vizsens-ec-analog",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-ec-analog.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-EC-Analog.pdf"
+      },
+      "webTables": [
+        [
+          [
+            "Main materials",
+            "Black polypropylene shell, glass platinum electrode"
+          ],
+          [
+            "Weight",
+            "0.2kg"
+          ],
+          [
+            "Dimensions",
+            "Dia28.7mm * L 195mm"
+          ],
+          [
+            "Cable length",
+            "Standard: 10m, the maximum can be extended to 20m"
+          ],
+          [
+            "Measurement range",
+            "Conductivity: 10-1000 mS/cm"
+          ],
+          [
+            "Temperature range",
+            "0-80℃"
+          ],
+          [
+            "Pressure range",
+            "≤0.6Mpa"
+          ],
+          [
+            "Response time",
+            "≤10 sec (Reach 95% of the end value) (After stirring)"
+          ],
+          [
+            "Medium temperature",
+            "0~80℃"
+          ],
+          [
+            "Temperature Compensation",
+            "PT1000A"
+          ]
+        ]
+      ],
+      "webImages": [
+        {
+          "height": 447,
+          "src": "https://www.advanceanalytik.com/products/productImages/img003.png",
+          "width": 273
+        }
+      ],
+      "datasheetText": "ADVANCE ANALYTIK KFT\n1\nVIZSENS-EC(ANALOG)\nEC Conductivity Sensor\n2026\nVizSens-EC(Analog)\nOVERVIEW\n2\nThe VizSens-EC(A) Conductivity Sensor, featuring a glass platinum electrode, is a\n2\nreliable instrument for accurate conductivity monitoring. This sensor utilizes voltage\nand current values to determine conductivity, making it an essential tool for\napplications in water treatment, hydrological monitoring, wastewater treatment,\nswimming pools, fish ponds, as well as in fertilizers, chemicals, and biology\nindustries.\nPRODUCT FEATURES\nAccurate Conductivity Monitoring: Provides precise and reliable measurement of\nconductivity,ensuring data accuracy for various applications.\nGlass Platinum Electrode: Utilizes a glass platinum electrode design, known for\nits durability and consistent performance.\nWide Measurement Range: Capable of measuring conductivity within a range of\n10 to 5000 uS/cm , accommodating diverse conductivity levels.\nTemperature Flexibility: Operates effectively in temperatures ranging from 0 to 80\n°C, suitable for various environmental conditions.\nPressure Compatibility: Designed to withstand pressures up to 0.6 Mpa,\nmaintaining performance under different pressure conditions.\nQuick Response Time: Offers a rapid response time of ≤10 seconds to reach\n95% of the end value after stirring,ensuring timely data capture.\nFlexible Cable Length: Supplied with a standard cable length of 10m, extendable\nto a maximum of 20m, facilitating installation flexibility.\nVersatile Applications: Suitable for a wide range of applications including water\ntreatment, hydrological monitoring, swimming pools, and more.\nReliable Medium Temperature: Capable of operating in a medium temperature\nrange of 0~80°C without freezing, enabling use in various environments.\n2026\nViz Sensor Series\nTECHNICAL SPECIFICATIONS\nPhysical Specifications\nMain Material Black polypropylene shell, glass platinum electrode\nWeight 0.2Kg\n3\nDimensions Dia 28.7 mm * L 195 mm\nCable Length Standard: 10m, extendable to 20m\nMeasurement Specifications\nMeasurement Range Conductivity: 10-5000 uS/cm (k = 1)\nMeasurement Accuracy ±1% or 1 us/cm\nTemperature Range 0-80 °C\nPressure Range ≤ 0.6 Mpa\nResponse Time 10 seconds (Reach 95% of the end value)\nTemperature Compensation PT1000A\n2026\n23.02\n⌀\n7.82\n⌀\nAPPLICATIONS\n4 Chlor-Alkali Industry Fish farming Food and Beverage\nDesalination Plants Potable Water Treatment\nPlants (PWTP)\nNote -\nThis data sheet serves as general information about the VizSens-EC(Analog). For specific technical details,\ninstallation guidelines, and troubleshooting assistance, please refer to the official user manual provided with the\nproduct.\nDue to continuous product improvement, specifications and design are subject to change without notice. Actual\nproduct may differ slightly from illustrations.\nFor inquiries and detailed technical information, please contact sales@advanceanalytik.com.\n2026\nWe, Advance Analytik KFT, are a distinguished\nmanufacturing company based in Budapest,\nHungary. Our company’s long-standing presence in\nthis vibrant city reflects our unwavering\n12\ncommitment to excellence, innovation, and\nadaptability in a competitive industry.\nAt Advance Analytik, we specialize in precision and\nperformance, offering a wide array of advanced analytical\ninstruments. Our product range includes state-of-the-art\n5\nanalog and digital sensors, cutting-edge controllers, and\nmodular analyzers designed for diverse applications. Each\nproduct is a testament to our meticulous attention to detail\nand dedication to exceeding industry standards.\nThe backbone of our success lies in our exceptional team of professionals.\nComprised of skilled engineers, innovative designers, and dedicated support\nstaff, our team works in synergy to deliver solutions that empower our clients.\nOUR MISSION\nTo be the preferred partner for industries worldwide, offering entive and reliable analytical solutions that\ndrive innovation and ensure quality\nOUR VISION\nTo revolutionize analytical science by pioneering state-at instruments and services, empowering researchers\nand businesses to achieve new unprecedented accuracy\nWhy Choose Advance Analytik?\nCutting-edge Technology\nWe leverage the latest advancements in analytical instrumentation and software to provide our\ncustomers with state-of-the-art solutions that deliver accurate and precise results.\nCustomized Solutions\nWe understand that every industry and research field has unique requirements. That's why we\noffer customized solutions tailored to your specific needs.\nReliable Performance\nWe take pride in delivering instruments and solutions that consistently deliver reliable performance.\nExceptional Support and Service\nOur dedicated team is committed to providing comprehensive support throughout your analytical\njourney.\nTrusted Expertise\nWith years of experience in the analytical instrumentation industry, we have developed a deep\nunderstanding of our customers’ needs and challenges.\n3780 Edelény, Szentpéteri út hrsz 015/104\nsales@advanceanalytik.com\nwww.advanceanalytik.com"
+    }
+  ]
+}

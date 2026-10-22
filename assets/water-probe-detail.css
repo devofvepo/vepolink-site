@@ -1,0 +1,574 @@
+/* Sensor detail extension of the incumbent Vepolink product system. */
+#multi-parameter-product-main.water-sensor-page {
+  --sensor-accent: #6f58d9;
+}
+
+.water-sensor-page [hidden] {
+  display: none !important;
+}
+
+.water-sensor-page :is(a, button, summary):focus-visible {
+  outline: 2px solid var(--sensor-accent);
+  outline-offset: 5px;
+}
+
+.water-sensor-page ::selection {
+  background: #ddd7f5;
+  color: var(--ink);
+}
+
+.water-sensor-page a {
+  text-underline-offset: 4px;
+}
+
+.water-sensor-page section[id] {
+  scroll-margin-top: 100px;
+}
+
+.water-sensor-page a svg {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.water-sensor-page .button {
+  gap: 10px;
+}
+
+.wpd-hero {
+  padding: 26px 0 54px;
+}
+
+.wpd-breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px 12px;
+  margin-bottom: 42px;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.wpd-breadcrumb a {
+  text-decoration: none;
+}
+
+.wpd-breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.wpd-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.12fr) minmax(0, .88fr);
+  gap: clamp(40px, 7vw, 96px);
+  align-items: center;
+}
+
+#multi-parameter-product-main.water-sensor-page h1 {
+  font-size: clamp(40px, 4.5vw, 66px);
+  line-height: 1.05;
+  letter-spacing: -.035em;
+  margin: 0 0 24px;
+}
+
+#multi-parameter-product-main.water-sensor-page h2 {
+  font-size: clamp(32px, 3.35vw, 48px);
+  letter-spacing: -.03em;
+  line-height: 1.1;
+}
+
+#multi-parameter-product-main.water-sensor-page .wpd-lead {
+  font-size: 17px;
+  line-height: 1.65;
+  max-width: 570px;
+  margin-bottom: 26px;
+}
+
+.wpd-key-facts {
+  margin: 30px 0 0;
+  border-top: 1px solid var(--line);
+}
+
+.wpd-key-facts>div {
+  display: grid;
+  grid-template-columns: .8fr 1.2fr;
+  gap: 22px;
+  padding: 13px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+#multi-parameter-product-main .wpd-key-facts dt {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--muted);
+}
+
+#multi-parameter-product-main .wpd-key-facts dd {
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: right;
+}
+
+.wpd-product-figure {
+  margin: 0;
+  min-width: 0;
+}
+
+.wpd-product-photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 380px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 18px;
+  overflow: hidden;
+
+}
+
+.wpd-product-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+
+  @media screen and (max-width: 767px) {
+    --size: 300px;
+    height: var(--size);
+    max-height: var(--size);
+  }
+}
+
+.wpd-symbol {
+  color: #646477;
+  font-size: clamp(70px, 8vw, 118px);
+  font-family: "Instrument Serif", Georgia, serif;
+  font-weight: 400;
+  letter-spacing: -.02em;
+}
+
+.wpd-product-figure--label .wpd-product-photo {
+  background: var(--paper);
+}
+
+.wpd-product-figure figcaption {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 16px 0;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.wpd-product-figure figcaption strong {
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.wpd-section-nav {
+  border-block: 1px solid var(--line);
+}
+
+.wpd-section-nav .mp-shell {
+  display: flex;
+  gap: 16px 32px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.wpd-section-nav a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 19px 0;
+  min-height: 48px;
+  color: var(--ink-2);
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.wpd-section-nav a:last-child {
+  margin-left: auto;
+}
+
+.wpd-section-nav a:hover {
+  color: var(--sensor-accent);
+  text-decoration: underline;
+}
+
+#multi-parameter-product-main.water-sensor-page .mp-section {
+  padding: 76px 0;
+}
+
+.wpd-overview,
+.wpd-section-heading,
+.wpd-spec-grid,
+.wpd-install-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 64px;
+}
+
+.wpd-overview h2 {
+  margin-bottom: 28px;
+}
+
+#multi-parameter-product-main .wpd-overview h3,
+#multi-parameter-product-main .wpd-install-grid h3 {
+  font-size: 19px;
+  margin: 0 0 14px;
+  line-height: 1.35;
+}
+
+#multi-parameter-product-main .wpd-overview p,
+#multi-parameter-product-main .wpd-install-grid p {
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+  max-width: 65ch;
+}
+
+.wpd-feature-list>p {
+  padding: 17px 0;
+  border-top: 1px solid var(--line);
+}
+
+.wpd-applications {
+  margin-top: 22px;
+}
+
+#multi-parameter-product-main .wpd-applications h3 {
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+
+.wpd-applications ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: var(--ink-2);
+  font-size: 13px;
+}
+
+.wpd-specifications {
+  background: var(--paper);
+  border-block: 1px solid var(--line);
+}
+
+.wpd-section-heading {
+  align-items: end;
+  margin-bottom: 36px;
+}
+
+#multi-parameter-product-main .wpd-section-heading p {
+  font-size: 14px;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.wpd-section-heading>a {
+  justify-self: end;
+}
+
+.wpd-spec-grid {
+  gap: 48px;
+  align-items: start;
+}
+
+#multi-parameter-product-main .wpd-spec-grid h3 {
+  font-size: 17px;
+  margin: 0;
+  padding: 22px 0 12px;
+}
+
+#multi-parameter-product-main .wpd-spec-grid dl {
+  display: block;
+}
+
+#multi-parameter-product-main .wpd-spec-grid dl>div {
+  grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr);
+  gap: 24px;
+  padding: 13px 0;
+}
+
+#multi-parameter-product-main .wpd-spec-grid dt,
+#multi-parameter-product-main .wpd-spec-grid dd {
+  font-size: 13px;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+  white-space: normal;
+  min-width: 0;
+}
+
+#multi-parameter-product-main .wpd-spec-grid dt {
+  font-weight: 500;
+}
+
+#multi-parameter-product-main .wpd-spec-grid dd {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.wpd-reference {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px 32px;
+  padding-top: 26px;
+  margin-top: 32px;
+  border-top: 1px solid var(--line);
+}
+
+.wpd-reference strong {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+#multi-parameter-product-main .wpd-reference p {
+  font-size: 12px;
+  margin: 7px 0 0;
+}
+
+.wpd-reference a,
+.wpd-system-links a,
+.wpd-section-heading>a {
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 13px;
+  color: var(--ink);
+}
+
+.wpd-install-grid article {
+  padding-top: 22px;
+  border-top: 1px solid var(--line);
+}
+
+.wpd-system-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 18px 28px;
+  margin-top: 34px;
+  border-top: 1px solid var(--line);
+  padding-top: 26px;
+}
+
+#multi-parameter-product-main .wpd-system-links p {
+  flex-basis: 100%;
+  font-size: 13px;
+  margin: 0;
+}
+
+#multi-parameter-product-main.water-sensor-page .wpd-related {
+  padding-top: 16px;
+}
+
+.wpd-related-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.wpd-related-list a {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 20px;
+  padding: 23px 0;
+  border-top: 1px solid var(--line);
+  text-decoration: none;
+}
+
+.wpd-related-list strong {
+  display: block;
+  color: var(--ink);
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.35;
+  margin-bottom: 9px;
+}
+
+.wpd-related-list span {
+  display: block;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.wpd-related-list svg {
+  color: var(--sensor-accent);
+  margin-top: 3px;
+  transition: transform .2s ease-out;
+}
+
+.wpd-related-list a:hover strong {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.wpd-related-list a:hover svg {
+  transform: translateX(3px);
+}
+
+#multi-parameter-product-main.water-sensor-page .mp-cta {
+  padding-top: 0;
+}
+
+#multi-parameter-product-main.water-sensor-page .mp-cta-panel h2 {
+  font-size: clamp(36px, 4.5vw, 62px);
+  max-width: 900px;
+}
+
+@media (max-width: 980px) {
+  .wpd-hero-grid {
+    gap: 32px;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr);
+  }
+
+  .wpd-product-photo {
+    height: 300px;
+    padding: 8px;
+  }
+
+  .wpd-overview,
+  .wpd-section-heading,
+  .wpd-spec-grid,
+  .wpd-install-grid {
+    gap: 32px;
+  }
+
+  .wpd-section-nav .mp-shell {
+    gap: 10px 24px;
+  }
+
+  .wpd-section-nav a:last-child {
+    margin-left: 0;
+  }
+
+  .wpd-hero .button {
+    font-size: 12px;
+    padding: 13px 17px;
+  }
+
+  #multi-parameter-product-main .wpd-spec-grid dl>div {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+
+  #multi-parameter-product-main .wpd-spec-grid dd {
+    text-align: left;
+  }
+}
+
+@media (max-width: 600px) {
+  .wpd-hero {
+    padding: 20px 0 30px;
+  }
+
+  .wpd-breadcrumb {
+    font-size: 11px;
+    margin-bottom: 28px;
+  }
+
+  .wpd-hero-grid,
+  .wpd-overview,
+  .wpd-section-heading,
+  .wpd-spec-grid,
+  .wpd-install-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  #multi-parameter-product-main.water-sensor-page h1 {
+    font-size: 40px;
+  }
+
+  #multi-parameter-product-main.water-sensor-page .wpd-lead {
+    font-size: 15px;
+  }
+
+  .wpd-product-photo {
+    height: auto;
+    padding: 12px;
+    flex-direction: column;
+  }
+
+  .wpd-product-figure--label .wpd-product-photo {
+    height: 170px;
+  }
+
+  .wpd-product-figure figcaption {
+    font-size: 11px;
+  }
+
+  .wpd-section-nav .mp-shell {
+    gap: 0 22px;
+  }
+
+  .wpd-section-nav a {
+    font-size: 12px;
+    padding: 12px 0;
+  }
+
+  #multi-parameter-product-main.water-sensor-page .mp-section {
+    padding: 50px 0;
+  }
+
+  .wpd-key-facts {
+    margin-top: 25px;
+  }
+
+  .wpd-key-facts>div {
+    grid-template-columns: .8fr 1.2fr;
+    gap: 16px;
+  }
+
+  .wpd-section-heading {
+    margin-bottom: 28px;
+  }
+
+  .wpd-section-heading>a {
+    justify-self: start;
+  }
+
+  .wpd-related-list {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .wpd-reference {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  #multi-parameter-product-main.water-sensor-page .mp-cta {
+    padding-top: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .water-sensor-page *,
+  .water-sensor-page *::before,
+  .water-sensor-page *::after {
+    scroll-behavior: auto !important;
+    transition: none !important;
+  }
+}
+
+.wpd-spec-grid>div {
+  min-width: 0;
+  max-width: none;
+}

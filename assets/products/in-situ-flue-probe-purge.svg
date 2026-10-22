@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="240" viewBox="0 0 360 240" role="img" aria-labelledby="title"><title id="title">Optical bench with heat-traced probe, filter and automatic purge</title>
+<style>text{font:16px Arial,Helvetica,sans-serif;fill:#344052}.label{font-weight:600;fill:#0B1321}.cell{fill:#F4F3EE;stroke:#A4AAB3;stroke-width:1.5}.ray{fill:none;stroke:#35BBD2;stroke-width:3}.violet{fill:none;stroke:#9565D9;stroke-width:3}.line{fill:none;stroke:#344052;stroke-width:2}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 10 5 0 10z" fill="#344052"/></marker></defs>
+
+<rect class="cell" x="273" y="69" width="70" height="116"/><text x="307" y="55" text-anchor="middle" class="label">Stack</text>
+<rect class="cell" x="16" y="99" width="98" height="63" rx="7"/><text x="65" y="125" text-anchor="middle" class="label">Optical</text><text x="65" y="146" text-anchor="middle" class="label">bench</text>
+<path d="M115 131H324" stroke="#EC7957" stroke-width="5"/><circle cx="307" cy="131" r="22" fill="#DDF1F3" stroke="#35BBD2" stroke-width="2"/>
+<text x="183" y="27" text-anchor="middle" class="label">Auto purge</text><path class="ray" d="M157 47H218M187 47V119" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<text x="180" y="219" text-anchor="middle">Heat-traced SS316L · 1.8 m</text>
+</svg>

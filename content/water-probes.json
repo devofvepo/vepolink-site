@@ -1,0 +1,741 @@
+{
+  "groups": [
+    {
+      "id": "core",
+      "name": "Core water quality",
+      "description": "The everyday measurements behind water treatment and process control."
+    },
+    {
+      "id": "nutrients",
+      "name": "Nutrients",
+      "description": "Follow ammonia and nitrate through treatment and receiving waters."
+    },
+    {
+      "id": "organic",
+      "name": "Organic contamination",
+      "description": "Track organic load and detect oil in the water."
+    },
+    {
+      "id": "solids-algae",
+      "name": "Solids and algae",
+      "description": "Monitor suspended matter and biological indicators."
+    }
+  ],
+  "probes": [
+    {
+      "id": "ph-digital",
+      "name": "pH",
+      "symbol": "pH",
+      "group": "core",
+      "aliases": [
+        "ph",
+        "acidity",
+        "hydrogen ion",
+        "pH",
+        "ph-digital",
+        "ph-analog",
+        "alkaline",
+        "ph analog"
+      ],
+      "description": "Acidity and alkalinity for water treatment and dosing control.",
+      "method": "Glass electrode with temperature compensation",
+      "range": "0–14 pH",
+      "rangeStatus": "supported",
+      "outputs": [
+        "digital",
+        "analog"
+      ],
+      "protocols": "Digital: RS-485 Modbus. Analog: compatible electrode input; conversion module optional.",
+      "detail": "RS-485 with Modbus RTU supports two-way communication.",
+      "care": "Keep the glass bulb and reference junction clean. Verify readings with suitable pH buffers and follow the electrode storage instructions.",
+      "variants": [
+        {
+          "id": "ph-digital",
+          "name": "Digital pH Probe",
+          "output": "Digital",
+          "url": "/products/water-monitoring-probes/ph-digital/"
+        },
+        {
+          "id": "ph-analog",
+          "name": "Analog pH Probe",
+          "output": "Analog electrode",
+          "url": "/products/water-monitoring-probes/ph-analog/"
+        }
+      ],
+      "image": "digital-electrode.webp",
+      "imageSource": {
+        "status": "source-page-assignment",
+        "source": "https://www.advanceanalytik.com/products/productImages/imgpH.png",
+        "sourcePage": "https://www.advanceanalytik.com/products/sensors/vizsens-ph-digital.html",
+        "note": "Supplier product-page assignment accepted per user clarification: similar products can share photographs; repetition alone is not treated as an error."
+      },
+      "source": {
+        "slug": "vizsens-ph-digital",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-ph-digital.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-pH-Digital.pdf"
+      },
+      "thumbnailFit": "cover"
+    },
+    {
+      "id": "orp-analog",
+      "name": "ORP / Redox",
+      "symbol": "ORP",
+      "group": "core",
+      "aliases": [
+        "orp",
+        "redox",
+        "oxidation reduction potential",
+        "ORP / Redox",
+        "ORP",
+        "orp-analog"
+      ],
+      "description": "Track oxidation-reduction conditions in treatment and disinfection.",
+      "method": "Measuring electrode against a reference electrode",
+      "range": "−2000 to +2000 mV",
+      "rangeStatus": "supported",
+      "outputs": [
+        "analog"
+      ],
+      "protocols": "Compatible electrode input or transmitter",
+      "detail": "Continuous redox potential measurement across a ±2000 mV range.",
+      "care": "Keep the electrode and reference junction free of deposits. Verify response with a suitable redox standard; the listed quinhydrone values are reference checks, not measurement accuracy.",
+      "variants": [
+        {
+          "id": "orp-analog",
+          "name": "Analog ORP Probe",
+          "output": "Analog electrode",
+          "url": "/products/water-monitoring-probes/orp-analog/"
+        }
+      ],
+      "image": "analog-electrode.webp",
+      "imageSource": {
+        "status": "source-page-assignment",
+        "source": "https://www.advanceanalytik.com/products/productImages/img003.png",
+        "sourcePage": "https://www.advanceanalytik.com/products/sensors/vizsens-orp-analog.html",
+        "note": "Supplier product-page assignment accepted per user clarification: similar products can share photographs; repetition alone is not treated as an error."
+      },
+      "source": {
+        "slug": "vizsens-orp-analog",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-orp-analog.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-orp-Analog.pdf"
+      },
+      "thumbnailFit": "cover"
+    },
+    {
+      "id": "conductivity",
+      "name": "Conductivity / EC",
+      "symbol": "EC",
+      "group": "core",
+      "aliases": [
+        "ec",
+        "conductivity",
+        "electrical conductivity",
+        "salinity",
+        "ec analog",
+        "ec digital",
+        "Conductivity / EC",
+        "EC",
+        "ec-digital",
+        "ec-analog"
+      ],
+      "description": "Measure electrical conductivity for water quality and process control.",
+      "method": "Digital: four-electrode cell. Analog: glass-platinum electrode.",
+      "range": "Range depends on model",
+      "rangeStatus": "source-conflict",
+      "outputs": [
+        "digital",
+        "analog"
+      ],
+      "protocols": "Digital: RS-485 Modbus. Analog: compatible electrode input.",
+      "detail": "The digital range is 10 µS/cm–200 mS/cm. Confirm the analog range and cell constant for the selected configuration.",
+      "care": "Inspect the cell for coating and deposits. Clean using the model instructions and verify with conductivity standards appropriate to the working range.",
+      "variants": [
+        {
+          "id": "ec-digital",
+          "name": "Digital Conductivity Probe",
+          "output": "Digital",
+          "url": "/products/water-monitoring-probes/ec-digital/"
+        },
+        {
+          "id": "ec-analog",
+          "name": "Analog Conductivity Probe",
+          "output": "Analog electrode",
+          "url": "/products/water-monitoring-probes/ec-analog/"
+        }
+      ],
+      "image": "digital-electrode.webp",
+      "imageSource": {
+        "status": "source-page-assignment",
+        "source": "https://www.advanceanalytik.com/products/productImages/imgpH.png",
+        "sourcePage": "https://www.advanceanalytik.com/products/sensors/vizsens-ec-digital.html",
+        "note": "Supplier product-page assignment accepted per user clarification: similar products can share photographs; repetition alone is not treated as an error."
+      },
+      "source": {
+        "slug": "vizsens-ec-digital",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-ec-digital.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-EC-Digital.pdf"
+      },
+      "thumbnailFit": "cover"
+    },
+    {
+      "id": "tds-analog",
+      "name": "Total dissolved solids",
+      "symbol": "TDS",
+      "group": "core",
+      "description": "Monitor dissolved solids in process and treatment water.",
+      "method": "Conductivity-derived dissolved solids measurement",
+      "range": "0–20,000 mg/L",
+      "rangeStatus": "supported",
+      "outputs": [
+        "analog"
+      ],
+      "protocols": "Compatible electrode input or transmitter",
+      "detail": "0–20,000 mg/L range specified at K = 1.",
+      "care": "Clean electrode deposits and verify against an appropriate reference. The relationship between conductivity and dissolved solids depends on the dissolved ions.",
+      "variants": [
+        {
+          "id": "tds-analog",
+          "name": "Analog TDS Probe",
+          "output": "Analog electrode",
+          "url": "/products/water-monitoring-probes/tds-analog/"
+        }
+      ],
+      "image": "analog-electrode.webp",
+      "imageSource": {
+        "status": "source-page-assignment",
+        "source": "https://www.advanceanalytik.com/products/productImages/img003.png",
+        "sourcePage": "https://www.advanceanalytik.com/products/sensors/vizsens-tds-analog.html",
+        "note": "Supplier product-page assignment accepted per user clarification: similar products can share photographs; repetition alone is not treated as an error."
+      },
+      "source": {
+        "slug": "vizsens-tds-analog",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-tds-analog.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-TDS-Analog.pdf"
+      },
+      "aliases": [
+        "Total dissolved solids",
+        "TDS",
+        "tds-analog",
+        "tds",
+        "total dissolved solids",
+        "dissolved solids"
+      ],
+      "thumbnailFit": "cover"
+    },
+    {
+      "id": "odo",
+      "name": "Dissolved oxygen",
+      "symbol": "DO",
+      "group": "core",
+      "aliases": [
+        "do",
+        "odo",
+        "optical dissolved oxygen",
+        "oxygen",
+        "saturation",
+        "Dissolved oxygen",
+        "DO"
+      ],
+      "description": "Measure dissolved oxygen optically without consuming oxygen.",
+      "method": "Luminescence quenching",
+      "range": "0–20 mg/L",
+      "rangeStatus": "supported",
+      "outputs": [
+        "digital"
+      ],
+      "protocols": "RS-485 / Modbus",
+      "detail": "Reports concentration or percentage saturation.",
+      "care": "Keep the optical cap clean and inspect it for damage. Verify calibration and replace the cap according to the selected model instructions.",
+      "variants": [
+        {
+          "id": "odo",
+          "name": "Optical Dissolved Oxygen Probe",
+          "output": "Digital",
+          "url": "/products/water-monitoring-probes/odo/"
+        }
+      ],
+      "image": "odo.webp",
+      "imageSource": {
+        "media": "image8.png",
+        "rows": [
+          64
+        ],
+        "anchorRow": 63,
+        "status": "unambiguous"
+      },
+      "source": {
+        "slug": "vizsens-odo",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-odo.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-ODO-Sensor.pdf"
+      },
+      "rangeNote": "Also expressed as 0–200% saturation."
+    },
+    {
+      "id": "turbidity",
+      "name": "Turbidity",
+      "symbol": "NTU",
+      "group": "core",
+      "aliases": [
+        "turbidity",
+        "ntu",
+        "clarity",
+        "turb",
+        "Turbidity",
+        "NTU",
+        "turbidity-low"
+      ],
+      "description": "Monitor water clarity in immersion or flow-through installations.",
+      "method": "Infrared optical sensing; flow-through option for low ranges.",
+      "range": "Up to 4000 NTU",
+      "rangeStatus": "supported",
+      "outputs": [
+        "digital"
+      ],
+      "protocols": "RS-485 / Modbus",
+      "detail": "The immersion probe has 0.01–100 and 0.01–4000 NTU ranges with optional automatic cleaning. The low-range flow assembly measures up to 100 NTU and is rated IP65 for indoor use.",
+      "care": "Clean the optical surfaces and verify with suitable turbidity standards. Include the optional brush in the maintenance plan when specified.",
+      "variants": [
+        {
+          "id": "turbidity",
+          "name": "Turbidity Probe",
+          "output": "Digital",
+          "url": "/products/water-monitoring-probes/turbidity/"
+        },
+        {
+          "id": "turbidity-low",
+          "name": "Low-range Turbidity Sensor",
+          "output": "Digital",
+          "url": "/products/water-monitoring-probes/turbidity-low/"
+        }
+      ],
+      "image": "turbidity.webp",
+      "imageSource": {
+        "source": "https://www.advanceanalytik.com/products/productImages/img014.png",
+        "sourcePage": "https://www.advanceanalytik.com/products/sensors/vizsens-turb.html",
+        "status": "source-page-assignment",
+        "note": "Supplier product-page assignment accepted per user clarification: similar products can share photographs; repetition alone is not treated as an error."
+      },
+      "source": {
+        "slug": "vizsens-turb",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-turb.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-turb.pdf"
+      },
+      "thumbnailFit": "cover"
+    },
+    {
+      "id": "rcl",
+      "name": "Residual chlorine",
+      "symbol": "RCL",
+      "group": "core",
+      "aliases": [
+        "rcl",
+        "chlorine",
+        "residual chlorine",
+        "free chlorine",
+        "total chlorine",
+        "disinfection",
+        "Residual chlorine",
+        "RCL"
+      ],
+      "description": "Monitor residual chlorine in a controlled sample flow.",
+      "method": "Constant-voltage electrochemical measurement",
+      "range": "0–2 mg/L; 0–20 optional",
+      "rangeStatus": "supported",
+      "outputs": [
+        "digital"
+      ],
+      "protocols": "RS-485 / Modbus",
+      "detail": "Standard 0–2 mg/L range with a 0–20 mg/L option.",
+      "care": "Maintain flow through the cell, keep the electrode clean and verify calibration against the appropriate reference method. Set the service interval from site conditions.",
+      "variants": [
+        {
+          "id": "rcl",
+          "name": "Residual Chlorine Probe",
+          "output": "Digital",
+          "url": "/products/water-monitoring-probes/rcl/"
+        }
+      ],
+      "image": "rcl.webp",
+      "imageSource": {
+        "status": "unambiguous",
+        "source": "https://www.advanceanalytik.com/products/sensors/vizsens-rcl.html",
+        "imageUrl": "https://www.advanceanalytik.com/products/productImages/img010.png"
+      },
+      "source": {
+        "slug": "vizsens-rcl",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-rcl.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-RCL.pdf"
+      }
+    },
+    {
+      "id": "ozone",
+      "name": "Dissolved ozone",
+      "symbol": "O₃",
+      "group": "core",
+      "description": "Measure dissolved ozone in a controlled sample flow.",
+      "method": "Two-electrode membrane measurement",
+      "range": "0–20 ppm",
+      "rangeStatus": "supported",
+      "outputs": [],
+      "protocols": "Interface to be confirmed",
+      "detail": "0–20 ppm measurement with integrated temperature compensation.",
+      "care": "Inspect the membrane and follow the electrode maintenance instructions. Calibrate the slope against the appropriate analytical reference on the receiving instrument.",
+      "variants": [
+        {
+          "id": "ozone",
+          "name": "Dissolved Ozone Probe",
+          "output": "Output to be confirmed",
+          "url": "/products/water-monitoring-probes/ozone/"
+        }
+      ],
+      "image": "ozone.webp",
+      "imageSource": {
+        "status": "unambiguous",
+        "source": "https://www.advanceanalytik.com/products/sensors/vizsens-o3.html",
+        "imageUrl": "https://www.advanceanalytik.com/products/productImages/vizsens-o3.png"
+      },
+      "source": {
+        "slug": "vizsens-o3",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-o3.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-O3.pdf"
+      },
+      "aliases": [
+        "Dissolved ozone",
+        "O₃",
+        "ozone",
+        "o3",
+        "ozone",
+        "dissolved ozone"
+      ]
+    },
+    {
+      "id": "nh4n",
+      "name": "Ammonia nitrogen",
+      "symbol": "NH₄-N",
+      "group": "nutrients",
+      "aliases": [
+        "nh4",
+        "nh4n",
+        "nh4-n",
+        "ammonia",
+        "ammonium",
+        "ammonia nitrogen",
+        "nutrient",
+        "Ammonia nitrogen",
+        "NH₄-N"
+      ],
+      "description": "Follow ammonia nitrogen through treatment and receiving waters.",
+      "method": "NH4-N measurement with compensation",
+      "range": "Range depends on model",
+      "rangeStatus": "source-conflict",
+      "outputs": [
+        "digital"
+      ],
+      "protocols": "RS-485 / Modbus",
+      "detail": "NH4-N monitoring with pH and temperature compensation.",
+      "care": "Clean the sensing surfaces and verify with appropriate standards. Set calibration and sensor maintenance intervals for the site water and interfering ions.",
+      "variants": [
+        {
+          "id": "nh4n",
+          "name": "Ammonia Nitrogen Probe",
+          "output": "Digital",
+          "url": "/products/water-monitoring-probes/nh4n/"
+        }
+      ],
+      "image": "nh4n.webp",
+      "imageSource": {
+        "media": "image3.png",
+        "rows": [
+          137
+        ],
+        "anchorRow": 134,
+        "status": "unambiguous"
+      },
+      "source": {
+        "slug": "vizsens-nh4n",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-nh4n.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-NH4N.pdf"
+      }
+    },
+    {
+      "id": "no3n",
+      "name": "Nitrate nitrogen",
+      "symbol": "NO₃-N",
+      "group": "nutrients",
+      "aliases": [
+        "no3",
+        "no3n",
+        "no3-n",
+        "nitrate",
+        "nitrate nitrogen",
+        "nutrient",
+        "Nitrate nitrogen",
+        "NO₃-N"
+      ],
+      "description": "Monitor nitrate nitrogen with pH and temperature compensation.",
+      "method": "Nitrate measurement with compensation",
+      "range": "0–3000 mg/L as NO3-N",
+      "rangeStatus": "supported",
+      "outputs": [
+        "digital"
+      ],
+      "protocols": "RS-485 / Modbus",
+      "detail": "0–3000 mg/L reported as nitrate nitrogen.",
+      "care": "Verify with standard solution and plan calibration for the site conditions. The stated accuracy is a laboratory result obtained within six hours of calibration.",
+      "variants": [
+        {
+          "id": "no3n",
+          "name": "Nitrate Nitrogen Probe",
+          "output": "Digital",
+          "url": "/products/water-monitoring-probes/no3n/"
+        }
+      ],
+      "image": "no3n.webp",
+      "imageSource": {
+        "media": "image9.png",
+        "rows": [
+          145
+        ],
+        "anchorRow": 146,
+        "status": "unambiguous"
+      },
+      "source": {
+        "slug": "vizsens-no3n",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-no3n.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-NO3N.pdf"
+      }
+    },
+    {
+      "id": "uv-cod",
+      "name": "UV COD",
+      "symbol": "COD",
+      "group": "organic",
+      "aliases": [
+        "uv",
+        "cod",
+        "uv cod",
+        "chemical oxygen demand",
+        "organic load",
+        "cod equivalent",
+        "UV COD",
+        "COD",
+        "uv-cod"
+      ],
+      "description": "Track organic load with UV-based COD-equivalent measurement.",
+      "method": "UV-visible absorption",
+      "range": "Range depends on model",
+      "rangeStatus": "source-conflict",
+      "outputs": [],
+      "protocols": "Interface to be confirmed",
+      "detail": "Direct immersion measurement without chemical reagents.",
+      "care": "Inspect and clean the optical window and cleaning mechanism. Verify the correlation against the appropriate laboratory reference method when the water matrix changes.",
+      "variants": [
+        {
+          "id": "uv-cod",
+          "name": "UV COD Probe",
+          "output": "Output to be confirmed",
+          "url": "/products/water-monitoring-probes/uv-cod/"
+        }
+      ],
+      "image": "uv-cod.webp",
+      "imageSource": {
+        "status": "unambiguous",
+        "source": "https://www.advanceanalytik.com/products/sensors/vizsens-uvcod.html",
+        "imageUrl": "https://www.advanceanalytik.com/products/productImages/img011.png"
+      },
+      "source": {
+        "slug": "vizsens-uvcod",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-uvcod.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-UVCOD.pdf"
+      }
+    },
+    {
+      "id": "oiw",
+      "name": "Oil in water",
+      "symbol": "OIW",
+      "group": "organic",
+      "aliases": [
+        "oiw",
+        "oil",
+        "oil in water",
+        "hydrocarbon",
+        "hydrocarbons",
+        "Oil in water",
+        "OIW"
+      ],
+      "description": "Detect oil in water using UV fluorescence.",
+      "method": "Ultraviolet fluorescence",
+      "range": "Range depends on model",
+      "rangeStatus": "source-conflict",
+      "outputs": [
+        "digital"
+      ],
+      "protocols": "RS-485 / Modbus",
+      "detail": "UV fluorescence with optical and electronic filtering.",
+      "care": "Inspect the optical window for oil films and deposits. Verify calibration for the target oil and the actual water matrix; plan brush maintenance if fitted.",
+      "variants": [
+        {
+          "id": "oiw",
+          "name": "Oil in Water Probe",
+          "output": "Digital",
+          "url": "/products/water-monitoring-probes/oiw/"
+        }
+      ],
+      "image": "oiw.webp",
+      "imageSource": {
+        "media": "image1.png",
+        "rows": [
+          128
+        ],
+        "anchorRow": 129,
+        "status": "unambiguous"
+      },
+      "source": {
+        "slug": "vizsens-oiw",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-oiw.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-OIW.pdf"
+      }
+    },
+    {
+      "id": "ss",
+      "name": "Suspended solids / sludge",
+      "symbol": "SS",
+      "group": "solids-algae",
+      "aliases": [
+        "ss",
+        "tss",
+        "suspended solids",
+        "sludge",
+        "sludge blanket",
+        "solids",
+        "Suspended solids / sludge",
+        "SS"
+      ],
+      "description": "Measure suspended solids and sludge concentration optically.",
+      "method": "Dual-beam infrared light scattering",
+      "range": "Up to 120,000 mg/L",
+      "rangeStatus": "supported",
+      "outputs": [
+        "digital"
+      ],
+      "protocols": "RS-485 / Modbus",
+      "detail": "Three concentration ranges up to 20,000, 45,000 or 120,000 mg/L.",
+      "care": "Keep the optical surfaces clean and check the measurement against representative samples. Accuracy depends on sludge homogeneity and the calibration used.",
+      "variants": [
+        {
+          "id": "ss",
+          "name": "Suspended Solids Probe",
+          "output": "Digital",
+          "url": "/products/water-monitoring-probes/ss/"
+        }
+      ],
+      "image": "ss.webp",
+      "imageSource": {
+        "media": "image6.png",
+        "rows": [
+          91
+        ],
+        "anchorRow": 90,
+        "status": "unambiguous"
+      },
+      "source": {
+        "slug": "vizsens-ss",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-ss.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-SS.pdf"
+      }
+    },
+    {
+      "id": "cphl",
+      "name": "Chlorophyll",
+      "symbol": "Chl-a",
+      "group": "solids-algae",
+      "aliases": [
+        "cphl",
+        "chlorophyll",
+        "chlorophyll a",
+        "algae",
+        "algal biomass",
+        "Chlorophyll",
+        "Chl-a"
+      ],
+      "description": "Track chlorophyll-a as an indicator of algal activity.",
+      "method": "Chlorophyll-a fluorescence",
+      "range": "0–500 µg/L",
+      "rangeStatus": "supported",
+      "outputs": [
+        "digital"
+      ],
+      "protocols": "RS-485 / Modbus",
+      "detail": "Direct optical measurement without sample extraction.",
+      "care": "Keep the optical window clean and verify the response using the recommended reference. Fluorescence needs interpretation alongside the site water conditions.",
+      "variants": [
+        {
+          "id": "cphl",
+          "name": "Chlorophyll-a Probe",
+          "output": "Digital",
+          "url": "/products/water-monitoring-probes/cphl/"
+        }
+      ],
+      "image": "algae.webp",
+      "imageSource": {
+        "source": "https://www.advanceanalytik.com/products/productImages/img016.png",
+        "sourcePage": "https://www.advanceanalytik.com/products/sensors/vizsens-cphl.html",
+        "status": "source-page-assignment",
+        "note": "Supplier product-page assignment accepted per user clarification: similar products can share photographs; repetition alone is not treated as an error."
+      },
+      "source": {
+        "slug": "vizsens-cphl",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-cphl.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-CPHL.pdf"
+      },
+      "thumbnailFit": "cover"
+    },
+    {
+      "id": "bga",
+      "name": "Blue-green algae",
+      "symbol": "BGA",
+      "group": "solids-algae",
+      "aliases": [
+        "bga",
+        "blue green algae",
+        "cyanobacteria",
+        "phycocyanin",
+        "algal bloom",
+        "Blue-green algae",
+        "BGA"
+      ],
+      "description": "Monitor blue-green algae using fluorescence.",
+      "method": "Pigment fluorescence",
+      "range": "0–300,000 cells/mL",
+      "rangeStatus": "supported",
+      "outputs": [
+        "digital"
+      ],
+      "protocols": "RS-485 / Modbus",
+      "detail": "0–300,000 cells/mL reported range.",
+      "care": "Keep the optical window clear and verify using the specified reference method. Fluorescence does not directly identify toxins or every cyanobacterial species.",
+      "variants": [
+        {
+          "id": "bga",
+          "name": "Blue-green Algae Probe",
+          "output": "Digital",
+          "url": "/products/water-monitoring-probes/bga/"
+        }
+      ],
+      "image": "algae.webp",
+      "imageSource": {
+        "source": "https://www.advanceanalytik.com/products/productImages/img016.png",
+        "sourcePage": "https://www.advanceanalytik.com/products/sensors/vizsens-bga.html",
+        "status": "source-page-assignment",
+        "note": "Supplier product-page assignment accepted per user clarification: similar products can share photographs; repetition alone is not treated as an error."
+      },
+      "source": {
+        "slug": "vizsens-bga",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-bga.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-BGA.pdf"
+      },
+      "thumbnailFit": "cover"
+    }
+  ],
+  "sourceAuthority": "Advance Analytik sensor pages and linked datasheets; user draft PDF superseded."
+}

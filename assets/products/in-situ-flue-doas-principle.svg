@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="252" viewBox="0 0 360 252" role="img" aria-labelledby="title"><title id="title">Separate sulfur dioxide and nitrogen dioxide absorption signatures</title>
+<style>text{font:16px Arial,Helvetica,sans-serif;fill:#344052}.label{font-weight:600;fill:#0B1321}.cell{fill:#F4F3EE;stroke:#A4AAB3;stroke-width:1.5}.ray{fill:none;stroke:#35BBD2;stroke-width:3}.violet{fill:none;stroke:#9565D9;stroke-width:3}.line{fill:none;stroke:#344052;stroke-width:2}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 10 5 0 10z" fill="#344052"/></marker></defs>
+
+<path class="line" d="M30 51V183H338"/><path class="ray" d="M32 132C61 95 73 153 105 112S151 139 180 96S222 132 252 79S288 102 336 60"/>
+<path class="violet" d="M32 163C56 151 68 98 89 139S126 93 149 150S187 103 210 142S250 74 274 124S315 97 336 106"/>
+<path class="ray" d="M80 221h28"/><text x="118" y="227" class="label">SO₂</text><path class="violet" d="M210 221h28"/><text x="248" y="227" class="label">NO₂</text>
+<text x="184" y="28" text-anchor="middle">Differential spectrum</text>
+</svg>

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "pulseradar",
+    "sourceFile": "Vepolink - PulseRadar Non-Contact Level Sensor.pdf",
+    "sourceSha256": "0e882b5b227738acd037bf63ea188129bd606af26ac2d7f21a2e8a6c98c051e8",
+    "brochure": "/assets/brochures/radar-level-sensors/vepolink-pulseradar-brochure.pdf",
+    "brochureSha256": "247a7c4881470a5f9d928dca5d28257057c5dd06ab23d0b6a6e88f4982453e35",
+    "image": {
+      "path": "/assets/products/radar-level-sensors/pulseradar.webp",
+      "width": 1184,
+      "height": 1096,
+      "sha256": "bec18fc6195564210779a322c24d4d7d71a09ecc6c78478217cc3b3716b407ad",
+      "sourcePage": 1,
+      "embeddedImage": 6,
+      "alphaMask": 7
+    },
+    "alt": "Brochure illustration of PulseRadar mounted above a water surface with a 12-degree beam",
+    "treatment": "Brochure illustration, not a product photograph; supplied configuration may vary."
+  },
+  {
+    "id": "radarsense-smart",
+    "sourceFile": "Vepolink - RadarSense Smart Level Sensor.pdf",
+    "sourceSha256": "ace4ee3d6e517ac50349ae6e813c9559a8935ff259b4aeb8188c0eb4b772a759",
+    "brochure": "/assets/brochures/radar-level-sensors/vepolink-radarsense-smart-brochure.pdf",
+    "brochureSha256": "6ff11a1342ce962ca7d9cc194eeceb9e4955e1afb5b0822b357aeca556dcf8af",
+    "image": {
+      "path": "/assets/products/radar-level-sensors/radarsense-smart.webp",
+      "width": 1184,
+      "height": 1096,
+      "sha256": "285c09bf98730a453c7f9dafc1c52890f9158dbee5e8d64f92d3f97677337ed2",
+      "sourcePage": 1,
+      "embeddedImage": 6,
+      "alphaMask": 7
+    },
+    "alt": "Brochure illustration of RadarSense Smart measuring a water surface with an eight-degree radar beam",
+    "treatment": "Brochure illustration, not a product photograph; supplied configuration may vary."
+  },
+  {
+    "id": "radarsense-hf",
+    "sourceFile": "Vepolink - RadarSense HF Level Sensor.pdf",
+    "sourceSha256": "3977c707fe8d69bc9a8d85a6e0973fc72afded53d1a8bd91c6c35152fe86e6b5",
+    "brochure": "/assets/brochures/radar-level-sensors/vepolink-radarsense-hf-brochure.pdf",
+    "brochureSha256": "a3ec33713627e8df7041e7a84fcc6d652b7cb6fb05d9801bdf4962bf25d5d246",
+    "image": {
+      "path": "/assets/products/radar-level-sensors/radarsense-hf.webp",
+      "width": 1176,
+      "height": 1096,
+      "sha256": "7678ee9ac1ca470f30b9ae8750d35a5a0a9c7828e6e1d3a2bd41846fb48c5471",
+      "sourcePage": 1,
+      "embeddedImage": 6,
+      "alphaMask": 7
+    },
+    "alt": "Brochure illustration of RadarSense HF scanning a fast-changing water surface",
+    "treatment": "Brochure illustration, not a product photograph; supplied configuration may vary."
+  }
+]

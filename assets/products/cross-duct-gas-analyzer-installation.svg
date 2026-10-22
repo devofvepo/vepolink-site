@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2070" height="730" viewBox="0 0 2070 730" role="img" aria-labelledby="title description">
+  <title id="title">Cross duct gas analyzer installation geometry</title>
+  <desc id="description">A transmitter and receiver mounted on opposed flanges measure gas across a duct or stack using a laser optical path up to twenty metres long.</desc>
+  <defs>
+    <linearGradient id="duct-fill" x1="0" x2="1"><stop offset="0" stop-color="#deddd2"/><stop offset=".5" stop-color="#f2f1e9"/><stop offset="1" stop-color="#deddd2"/></linearGradient>
+    <linearGradient id="laser-fill" x1="0" x2="1"><stop stop-color="#fb5e5e" stop-opacity=".42"/><stop offset=".5" stop-color="#fb5e5e" stop-opacity=".95"/><stop offset="1" stop-color="#fb5e5e" stop-opacity=".42"/></linearGradient>
+    <style>
+      .measure { fill:#141b29; font:600 38px 'Geist Mono', 'SFMono-Regular', Consolas, monospace; letter-spacing:1px; }
+      .component { fill:#141b29; font:600 30px 'Geist Mono', 'SFMono-Regular', Consolas, monospace; letter-spacing:2px; }
+      .label { fill:#545d6d; font:600 27px 'Geist Mono', 'SFMono-Regular', Consolas, monospace; letter-spacing:5px; }
+      .detail { fill:#858c99; font:500 20px 'Geist Mono', 'SFMono-Regular', Consolas, monospace; letter-spacing:3px; }
+      .line { stroke:#1b2331; stroke-width:4; fill:none; }
+    </style>
+  </defs>
+  <rect width="2070" height="730" fill="#fafaf7"/>
+
+  <text x="1035" y="76" text-anchor="middle" class="measure">OPTICAL PATH · UP TO 20 M</text>
+  <line x1="485" y1="120" x2="1585" y2="120" class="line"/>
+  <line x1="485" y1="96" x2="485" y2="144" class="line"/>
+  <line x1="1585" y1="96" x2="1585" y2="144" class="line"/>
+
+  <rect x="300" y="244" width="250" height="176" rx="20" fill="#f8f8f3" stroke="#85898c" stroke-width="4"/>
+  <rect x="1520" y="244" width="250" height="176" rx="20" fill="#f8f8f3" stroke="#85898c" stroke-width="4"/>
+  <rect x="650" y="215" width="770" height="234" fill="url(#duct-fill)" stroke="#85898c" stroke-width="4"/>
+  <rect x="550" y="278" width="100" height="108" fill="#f2f1e9" stroke="#d0d0c9" stroke-width="3"/>
+  <rect x="1420" y="278" width="100" height="108" fill="#f2f1e9" stroke="#d0d0c9" stroke-width="3"/>
+  <circle cx="486" cy="332" r="34" fill="#8f6de1" opacity=".9"/>
+  <circle cx="486" cy="332" r="20" fill="#59c7e3" opacity=".75"/>
+  <circle cx="1584" cy="332" r="34" fill="#71cfdf" opacity=".85"/>
+  <path d="M486 332 H1584" stroke="url(#laser-fill)" stroke-width="13"/>
+  <path d="M486 332 H1584" stroke="#fb5e5e" stroke-width="4"/>
+  <text x="350" y="347" class="component">TX</text>
+  <text x="1665" y="347" class="component">RX</text>
+
+  <line x1="300" y1="520" x2="1770" y2="520" stroke="#d9d9d2" stroke-width="3"/>
+  <line x1="790" y1="557" x2="790" y2="672" stroke="#e4e4de" stroke-width="3"/>
+  <line x1="1280" y1="557" x2="1280" y2="672" stroke="#e4e4de" stroke-width="3"/>
+  <text x="300" y="590" class="label">TRANSMITTER</text>
+  <text x="300" y="636" class="detail">TUNABLE DIODE LASER</text>
+  <text x="1035" y="590" text-anchor="middle" class="label">DUCT / STACK</text>
+  <text x="1035" y="636" text-anchor="middle" class="detail">IN-SITU · NO SAMPLE LINE</text>
+  <text x="1770" y="590" text-anchor="end" class="label">RECEIVER</text>
+  <text x="1770" y="636" text-anchor="end" class="detail">PHOTOELECTRIC CONVERSION</text>
+</svg>

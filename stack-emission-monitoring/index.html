@@ -1,0 +1,935 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="X0h5XHx26-EWVg8KaFcj9au2VLUj5USVeGJmH7JD-JA">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; img-src 'self' data:; font-src 'self' https://fonts.gstatic.com; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self' mailto:; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#fafaf7">
+  <meta name="description"
+    content="Vepolink continuous stack emission monitoring for SOx, NOx, particulate matter, CO, oxygen and flow with OCEMS telemetry, alerts and audit-ready reporting.">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://www.vepolink.com/stack-emission-monitoring/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:site_name" content="Vepolink">
+  <meta property="og:title" content="Stack Emission Monitoring (CEMS / OCEMS) - Vepolink">
+  <meta property="og:description"
+    content="Continuous, tamper-evident stack data streamed to plant teams and regulatory portals with pre-limit alerts.">
+  <meta property="og:url" content="https://www.vepolink.com/stack-emission-monitoring/">
+  <meta property="og:image" content="https://www.vepolink.com/assets/social/stack-emission-monitoring.jpg">
+  <meta property="og:image:secure_url" content="https://www.vepolink.com/assets/social/stack-emission-monitoring.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Vepolink continuous stack emission monitoring dashboard">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Stack Emission Monitoring (CEMS / OCEMS) - Vepolink">
+  <meta name="twitter:description"
+    content="Live CEMS data acquisition, OCEMS telemetry, alerts and compliance reporting for industrial stacks.">
+  <meta name="twitter:image" content="https://www.vepolink.com/assets/social/stack-emission-monitoring.jpg">
+  <meta name="twitter:image:alt" content="Vepolink continuous stack emission monitoring dashboard">
+  <title>Stack Emission Monitoring (CEMS / OCEMS) - Vepolink</title>
+  <link rel="icon" type="image/png" href="/assets/vepolink-favicon.png">
+  <link rel="preload" href="/assets/site.css?v=20261004footer4" as="style">
+  <link rel="stylesheet" href="/assets/site.css?v=20261004footer4">
+  <script defer src="/assets/shared-ui.js?v=20261004footer4"></script>
+  <script defer src="/assets/site.js?v=20261004footer4"></script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.vepolink.com/#organization",
+          "name": "VEPOLINK TECHNOLOGIES LLP",
+          "alternateName": "Vepolink",
+          "url": "https://www.vepolink.com/",
+          "logo": "https://www.vepolink.com/assets/vepolink-logo-horizontal-trimmed.png"
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.vepolink.com/stack-emission-monitoring/#service",
+          "name": "Stack Emission Monitoring (CEMS / OCEMS)",
+          "serviceType": "Continuous emission monitoring and environmental compliance telemetry",
+          "provider": { "@id": "https://www.vepolink.com/#organization" },
+          "areaServed": "IN",
+          "url": "https://www.vepolink.com/stack-emission-monitoring/"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.vepolink.com/stack-emission-monitoring/#webpage",
+          "url": "https://www.vepolink.com/stack-emission-monitoring/",
+          "name": "Stack Emission Monitoring (CEMS / OCEMS) - Vepolink",
+          "about": { "@id": "https://www.vepolink.com/stack-emission-monitoring/#service" },
+          "publisher": { "@id": "https://www.vepolink.com/#organization" },
+          "inLanguage": "en"
+        }
+      ]
+    }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#stack-main">Skip to content</a>
+  <div class="vp-idbar" role="note" aria-label="Independence Day greeting">
+    <div class="vp-idbar__in"><svg class="vp-idbar__flag" viewBox="0 0 27 18" role="img" aria-label="Flag of India">
+        <rect width="27" height="6" fill="#FF9933"></rect>
+        <rect y="6" width="27" height="6" fill="#FFFFFF"></rect>
+        <rect y="12" width="27" height="6" fill="#138808"></rect>
+        <circle cx="13.5" cy="9" r="2.3" fill="none" stroke="#000080" stroke-width=".7"></circle>
+        <circle cx="13.5" cy="9" r=".5" fill="#000080"></circle>
+      </svg><span class="vp-idbar__title">Happy 80th Independence Day</span><span class="vp-idbar__sep"
+        aria-hidden="true"></span><span class="vp-idbar__sub">here&rsquo;s to cleaner air and water for a freer
+        India</span></div>
+  </div>
+  <site-header>
+    <header class="site-header" data-header>
+      <div class="shell nav-shell">
+        <a class="brand" href="/" aria-label="Vepolink home">
+          <img src="/assets/vepolink-logo-horizontal-trimmed.png" width="206" height="40" alt="Vepolink">
+        </a>
+        <nav class="primary-nav" aria-label="Primary navigation">
+          <a class="nav-link" href="/">Home</a>
+          <div class="nav-dropdown" data-nav-dropdown>
+            <button class="nav-link nav-trigger" type="button" aria-expanded="false">
+              Solutions
+              <span aria-hidden="true">▾</span>
+            </button>
+            <div class="nav-menu" role="menu">
+              <a class="nav-menu-link" href="/water-quality-monitoring/">Water quality monitoring (WQMS)</a><a
+                class="nav-menu-link" href="/stack-emission-monitoring/">Stack emission monitoring (CEMS / OCEMS)</a><a
+                class="nav-menu-link" href="/ambient-air-monitoring/">Ambient air monitoring (CAAQMS)</a><a
+                class="nav-menu-link" href="/indoor-air-monitoring/">Indoor air quality monitoring (IAQ)</a>
+            </div>
+          </div>
+
+          <div class="nav-dropdown nav-dropdown--mega" data-nav-dropdown>
+            <button class="nav-link nav-trigger" type="button" aria-expanded="false">
+              Products
+              <span aria-hidden="true">▾</span>
+            </button>
+            <div class="nav-menu nav-menu--mega" role="menu">
+
+              <section class="nav-mega-group" aria-label="Water monitoring">
+                <p>Water monitoring</p>
+                <a class="nav-menu-link" href="/products/multi-paramater-online-water-analyzer/">Multi-Parameter Online
+                  Water Analyzer (Extractive)</a><a class="nav-menu-link"
+                  href="/products/multi-parameter-online-water-analyzer-in-situ/">Multi-Parameter Online Water Analyzer
+                  (In-situ)</a><a class="nav-menu-link" href="/products/water-monitoring-probes/">Water Quality
+                  Monitoring Probes</a><a class="nav-menu-link" href="/products/flowmeters/">Electromagnetic &amp;
+                  Ultrasonic Flowmeters</a><a class="nav-menu-link" href="/products/radar-level-sensors/">Radar Water
+                  Level Sensors</a>
+              </section>
+
+              <section class="nav-mega-group" aria-label="Ambient air">
+                <p>Ambient air</p>
+                <a class="nav-menu-link" href="/products/ambient-so2-gas-analyzer/">Ambient SO2 Gas Analyzer (UV
+                  Fluorescence)</a><a class="nav-menu-link" href="/products/ambient-nox-gas-analyzer/">Ambient NOx Gas
+                  Analyzer (Chemiluminescence)</a><a class="nav-menu-link"
+                  href="/products/ambient-co-gas-analyzer/">Ambient CO Gas Analyzer (NDIR GFC)</a><a
+                  class="nav-menu-link" href="/products/ambient-co2-gas-analyzer/">Ambient CO2 Gas Analyzer (Dual-Range
+                  NDIR GFC)</a><a class="nav-menu-link" href="/products/ambient-ozone-gas-analyzer/">Ambient Ozone Gas
+                  Analyzer (UV Absorption)</a><a class="nav-menu-link" href="/products/ambient-btex-analyzer/">Ambient
+                  BTEX Analyzer (GC-PID)</a><a class="nav-menu-link"
+                  href="/products/pm10-pm25-beta-attenuation-monitor/">PM10 &amp; PM2.5 Beta Attenuation Monitor</a><a
+                  class="nav-menu-link" href="/products/sensor-based-ambient-air-quality-monitor/">Sensor-Based Ambient
+                  Air Quality Monitor</a>
+              </section>
+
+              <section class="nav-mega-group" aria-label="Process &amp; emissions">
+                <p>Process &amp; emissions</p>
+                <a class="nav-menu-link" href="/products/in-situ-tdlas-gas-analyzer/">In-Situ TDLAS Gas Analyzer</a><a
+                  class="nav-menu-link" href="/products/in-situ-flue-stack-gas-analyzer/">In-Situ Flue / Stack Gas
+                  Analyzer</a><a class="nav-menu-link" href="/products/extractive-flue-stack-gas-analyzer/">Extractive
+                  Flue / Stack Gas Analyzer</a><a class="nav-menu-link" href="/products/cross-duct-gas-analyzer/">Cross
+                  Duct Gas Analyzer</a><a class="nav-menu-link" href="/products/iot-data-logger/">IoT Data Logger</a>
+              </section>
+
+              <section class="nav-mega-group" aria-label="Gas safety">
+                <p>Gas safety</p>
+                <a class="nav-menu-link" href="/products/portable-single-gas-detector/">Portable Single Gas
+                  Detector</a><a class="nav-menu-link" href="/products/portable-multi-gas-detector/">Portable Multi Gas
+                  Detector</a><a class="nav-menu-link" href="/products/fixed-gas-detector/">Fixed Gas Detector</a>
+              </section>
+
+            </div>
+          </div>
+
+          <div class="nav-dropdown" data-nav-dropdown>
+            <button class="nav-link nav-trigger" type="button" aria-expanded="false">
+              Company
+              <span aria-hidden="true">▾</span>
+            </button>
+            <div class="nav-menu" role="menu">
+              <a class="nav-menu-link" href="/about/">About</a>
+            </div>
+          </div>
+
+        </nav>
+        <div class="nav-actions">
+          <a href="https://enviro.vepolink.com" target="_blank" rel="noopener noreferrer">Sign in</a>
+          <a class="button button-dark" href="mailto:sales@vepolink.com">Book a walkthrough</a>
+        </div>
+        <button class="mobile-nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"
+          aria-controls="mobile-nav-panel" data-mobile-nav-toggle>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav-panel" id="mobile-nav-panel" aria-label="Mobile navigation" data-mobile-nav-panel>
+        <a class="mobile-nav-row" href="/">Home</a>
+
+        <section class="mobile-nav-group" data-mobile-nav-group>
+          <button class="mobile-nav-row" type="button" aria-expanded="false" aria-controls="mobile-nav-solutions"
+            data-mobile-nav-disclosure>
+            <span>Solutions</span>
+            <span aria-hidden="true">▾</span>
+          </button>
+          <div class="mobile-nav-submenu" id="mobile-nav-solutions" data-mobile-nav-items>
+            <a class="mobile-nav-subitem" href="/water-quality-monitoring/">
+              <span class="mobile-nav-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false">
+                  <path d="M7 13.8c2.9-3.8 4.1-6 5-8.8.9 2.8 2.1 5 5 8.8a5 5 0 1 1-10 0Z"></path>
+                </svg>
+              </span>
+              <span>
+                <strong>Water quality monitoring</strong>
+                <small>WQMS</small>
+              </span>
+            </a><a class="mobile-nav-subitem" href="/stack-emission-monitoring/">
+              <span class="mobile-nav-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false">
+                  <path d="M7 20V8h5v12M12 20V4h5v16M5 20h14M14 7c2-2 4 0 4-3"></path>
+                </svg>
+              </span>
+              <span>
+                <strong>Stack emission monitoring</strong>
+                <small>CEMS / OCEMS</small>
+              </span>
+            </a><a class="mobile-nav-subitem" href="/ambient-air-monitoring/">
+              <span class="mobile-nav-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false">
+                  <path
+                    d="M4 15c2.4 0 3.2-2.4 5.2-2.4 2.2 0 2.7 2.4 5.2 2.4 2.1 0 3.2-1.5 5.6-1.5M6 9.5c1.7 0 2.2-1.8 3.8-1.8 1.8 0 2.2 1.8 4 1.8M5 19h14">
+                  </path>
+                </svg>
+              </span>
+              <span>
+                <strong>Ambient air monitoring</strong>
+                <small>CAAQMS outdoor</small>
+              </span>
+            </a><a class="mobile-nav-subitem" href="/indoor-air-monitoring/">
+              <span class="mobile-nav-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false">
+                  <path d="M5 20V5h14v15M9 9h6M9 13h6M9 17h2M3 20h18"></path>
+                </svg>
+              </span>
+              <span>
+                <strong>Indoor air quality monitoring</strong>
+                <small>IAQ in-room</small>
+              </span>
+            </a>
+          </div>
+        </section>
+
+
+        <section class="mobile-nav-group" data-mobile-nav-group>
+          <button class="mobile-nav-row" type="button" aria-expanded="false" aria-controls="mobile-nav-products"
+            data-mobile-nav-disclosure>
+            <span>Products</span>
+            <span aria-hidden="true">▾</span>
+          </button>
+          <div class="mobile-nav-submenu" id="mobile-nav-products" data-mobile-nav-items>
+            <section class="mobile-nav-category" aria-labelledby="mobile-nav-products-water-monitoring">
+              <h3 id="mobile-nav-products-water-monitoring">Water monitoring</h3>
+              <a class="mobile-nav-subitem" href="/products/multi-paramater-online-water-analyzer/">
+                <span class="mobile-nav-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false">
+                    <path d="M5.8 7.5h12.4M5.8 12h12.4M5.8 16.5h12.4M8.2 5.3v4.4M14.8 9.8v4.4M11.2 14.3v4.4"></path>
+                  </svg>
+                </span>
+                <span>
+                  <strong>Multi-Parameter Analyzer (Extractive)</strong>
+                  <small>Sample-line optical analyzer</small>
+                </span>
+              </a><a class="mobile-nav-subitem" href="/products/multi-parameter-online-water-analyzer-in-situ/">
+                <span class="mobile-nav-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false">
+                    <path d="M12 3v3M8 6h8M9 6v10a3 3 0 0 0 6 0V6M7 20h10"></path>
+                  </svg>
+                </span>
+                <span>
+                  <strong>Multi-Parameter Analyzer (In-situ)</strong>
+                  <small>Direct-immersion UV-Vis sensor</small>
+                </span>
+              </a><a class="mobile-nav-subitem" href="/products/water-monitoring-probes/">
+                <span class="mobile-nav-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false">
+                    <path d="M6 3v4m12-4v4M4 7h4v11a2 2 0 0 1-4 0V7Zm12 0h4v11a2 2 0 0 1-4 0V7ZM4 15h4m8 0h4"></path>
+                  </svg>
+                </span>
+                <span>
+                  <strong>Water Quality Monitoring Probes</strong>
+                  <small>Browse by measurement and output</small>
+                </span>
+              </a><a class="mobile-nav-subitem" href="/products/flowmeters/">
+                <span class="mobile-nav-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false">
+                    <path d="M3 8h18v8H3V8Zm4 0V5m10 3V5M7 16v3m10-3v3M8 12h8m-3-3 3 3-3 3"></path>
+                  </svg>
+                </span>
+                <span>
+                  <strong>Electromagnetic &amp; Ultrasonic Flowmeters</strong>
+                  <small>Inline, clamp-on and open-channel measurement</small>
+                </span>
+              </a><a class="mobile-nav-subitem" href="/products/radar-level-sensors/">
+                <span class="mobile-nav-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false">
+                    <path d="M5 7h14M8 7v4m8-4v4M4 16c3-2 5-2 8 0s5 2 8 0M12 11v3M7 12l-2 2m12-2 2 2"></path>
+                  </svg>
+                </span>
+                <span>
+                  <strong>Radar Water Level Sensors</strong>
+                  <small>Non-contact river and reservoir level</small>
+                </span>
+              </a>
+            </section>
+            <section class="mobile-nav-category" aria-labelledby="mobile-nav-products-ambient-air">
+              <h3 id="mobile-nav-products-ambient-air">Ambient air</h3>
+              <a class="mobile-nav-subitem" href="/products/ambient-so2-gas-analyzer/">
+                <span class="mobile-nav-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false">
+                    <path d="M6 8.5h12M8 5h8M8 8.5v6.2a4 4 0 0 0 8 0V8.5M6 18.5h12M9 12h6"></path>
+                  </svg>
+                </span>
+                <span>
+                  <strong>Ambient SO2 Gas Analyzer</strong>
+                  <small>UV fluorescence gas analysis</small>
+                </span>
+              </a><a class="mobile-nav-subitem" href="/products/ambient-nox-gas-analyzer/">
+                <span class="mobile-nav-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false">
+                    <path d="M4 12h3l2-5 3 10 3-8 2 3h3M5 20h14M7 4h10"></path>
+                  </svg>
+                </span>
+                <span>
+                  <strong>Ambient NOx Gas Analyzer</strong>
+                  <small>Chemiluminescence NO, NO₂ &amp; NOx</small>
+                </span>
+              </a><a class="mobile-nav-subitem" href="/products/ambient-co-gas-analyzer/">
+                <span class="mobile-nav-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false">
+                    <path d="M4 12h4c1.2-4 3-6 5-6s3.8 2 5 6h2M4 16h16M7 20h10"></path>
+                  </svg>
+                </span>
+                <span>
+                  <strong>Ambient CO Gas Analyzer</strong>
+                  <small>NDIR gas filter correlation</small>
+                </span>
+              </a><a class="mobile-nav-subitem" href="/products/ambient-co2-gas-analyzer/">
+                <span class="mobile-nav-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false">
+                    <path d="M4 8h7v5H4V8Zm9 3h7v5h-7v-5ZM5 18h14M8 5h8"></path>
+                  </svg>
+                </span>
+                <span>
+                  <strong>Ambient CO2 Gas Analyzer</strong>
+                  <small>Dual-range NDIR gas analysis</small>
+                </span>
+              </a><a class="mobile-nav-subitem" href="/products/ambient-ozone-gas-analyzer/">
+                <span class="mobile-nav-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false">
+                    <path
+                      d="M4 12h3M17 12h3M12 4v3M12 17v3M6.3 6.3l2.1 2.1M15.6 15.6l2.1 2.1M17.7 6.3l-2.1 2.1M8.4 15.6l-2.1 2.1M9 12a3 3 0 1 0 6 0 3 3 0 0 0-6 0Z">
+                    </path>
+                  </svg>
+                </span>
+                <span>
+                  <strong>Ambient Ozone Gas Analyzer</strong>
+                  <small>UV absorption at 254 nm</small>
+                </span>
+              </a><a class="mobile-nav-subitem" href="/products/ambient-btex-analyzer/">
+                <span class="mobile-nav-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false">
+                    <path d="M4 18h16M6 15l2-7 2 7 2-10 2 10 2-5 2 5M5 4h14"></path>
+                  </svg>
+                </span>
+                <span>
+                  <strong>Ambient BTEX Analyzer</strong>
+                  <small>GC-PID with thermal desorption</small>
+                </span>
+              </a><a class="mobile-nav-subitem" href="/products/pm10-pm25-beta-attenuation-monitor/">
+                <span class="mobile-nav-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false">
+                    <path d="M5 19h14M7 16V8h10v8M9 8V5h6v3M9 12h6M9 15h6"></path>
+                  </svg>
+                </span>
+                <span>
+                  <strong>PM10 &amp; PM2.5 Monitor</strong>
+                  <small>Beta attenuation particulate monitor</small>
+                </span>
+              </a><a class="mobile-nav-subitem" href="/products/sensor-based-ambient-air-quality-monitor/">
+                <span class="mobile-nav-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false">
+                    <path d="M4 18h16M6 15V7h12v8M9 7V4h6v3M9 11h6M9 14h6"></path>
+                  </svg>
+                </span>
+                <span>
+                  <strong>Sensor-Based Air Quality Monitor</strong>
+                  <small>Multi-gas, PM &amp; weather station</small>
+                </span>
+              </a>
+            </section>
+            <section class="mobile-nav-category" aria-labelledby="mobile-nav-products-process-emissions">
+              <h3 id="mobile-nav-products-process-emissions">Process &amp; emissions</h3>
+              <a class="mobile-nav-subitem" href="/products/in-situ-tdlas-gas-analyzer/">
+                <span class="mobile-nav-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false">
+                    <path d="M4 12h4M16 12h4M8 8h8v8H8zM10 10h4v4h-4zM3 6h18M3 18h18"></path>
+                  </svg>
+                </span>
+                <span>
+                  <strong>In-Situ TDLAS Gas Analyzer</strong>
+                  <small>Laser absorption gas analysis</small>
+                </span>
+              </a><a class="mobile-nav-subitem" href="/products/in-situ-flue-stack-gas-analyzer/">
+                <span class="mobile-nav-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false">
+                    <path d="M5 20V6h14v14M8 6V3h8v3M3 20h18M9 11h6M12 11v5M12 16h7"></path>
+                  </svg>
+                </span>
+                <span>
+                  <strong>In-Situ Flue / Stack Gas Analyzer</strong>
+                  <small>Heat-traced multi-gas stack analyzer</small>
+                </span>
+              </a><a class="mobile-nav-subitem" href="/products/extractive-flue-stack-gas-analyzer/">
+                <span class="mobile-nav-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false">
+                    <path d="M5 20V6h14v14M8 6V3h8v3M8 10h8M8 14h8M8 17h4M3 20h18"></path>
+                  </svg>
+                </span>
+                <span>
+                  <strong>Extractive Flue / Stack Gas Analyzer</strong>
+                  <small>Heated extractive CEMS</small>
+                </span>
+              </a><a class="mobile-nav-subitem" href="/products/cross-duct-gas-analyzer/">
+                <span class="mobile-nav-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false">
+                    <path d="M3 7h5v10H3V7Zm13 0h5v10h-5V7ZM8 12h8M5 10h1M18 10h1M5 14h1M18 14h1"></path>
+                  </svg>
+                </span>
+                <span>
+                  <strong>Cross Duct Gas Analyzer</strong>
+                  <small>In-situ TDLAS process analyzer</small>
+                </span>
+              </a><a class="mobile-nav-subitem" href="/products/iot-data-logger/">
+                <span class="mobile-nav-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false">
+                    <path d="M4 7h16v13H4V7Zm3 3h7v5H7v-5Zm10 0v1m0 3v1M7 18h10M7 7V3m10 4V3"></path>
+                  </svg>
+                </span>
+                <span>
+                  <strong>IoT Data Logger</strong>
+                  <small>Connected logging · CPCB / SPCB</small>
+                </span>
+              </a>
+            </section>
+            <section class="mobile-nav-category" aria-labelledby="mobile-nav-products-gas-safety">
+              <h3 id="mobile-nav-products-gas-safety">Gas safety</h3>
+              <a class="mobile-nav-subitem" href="/products/portable-single-gas-detector/">
+                <span class="mobile-nav-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false">
+                    <path d="M8 3h8v3h2v14H6V6h2V3Zm2 5v5h4V8h-4Zm-1 8h6M9 18h2M13 18h2"></path>
+                  </svg>
+                </span>
+                <span>
+                  <strong>Portable Single Gas Detector</strong>
+                  <small>Personal one-gas safety monitor</small>
+                </span>
+              </a><a class="mobile-nav-subitem" href="/products/portable-multi-gas-detector/">
+                <span class="mobile-nav-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false">
+                    <path d="M7 3h10v3h2v15H5V6h2V3Zm2 5h2v2H9V8Zm4 0h2v2h-2V8Zm-4 5h2v2H9v-2Zm4 0h2v2h-2v-2Zm-4 5h6">
+                    </path>
+                  </svg>
+                </span>
+                <span>
+                  <strong>Portable Multi Gas Detector</strong>
+                  <small>Four-gas confined-space monitor</small>
+                </span>
+              </a><a class="mobile-nav-subitem" href="/products/fixed-gas-detector/">
+                <span class="mobile-nav-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false">
+                    <path d="M5 5h14v12H5V5Zm3 3h8v4H8V8Zm1 9v3h6v-3M8 14h2M12 14h2M16 14h1"></path>
+                  </svg>
+                </span>
+                <span>
+                  <strong>Fixed Gas Detector</strong>
+                  <small>Flameproof 24/7 gas transmitter</small>
+                </span>
+              </a>
+            </section>
+          </div>
+        </section>
+
+
+        <section class="mobile-nav-group" data-mobile-nav-group>
+          <button class="mobile-nav-row" type="button" aria-expanded="false" aria-controls="mobile-nav-company"
+            data-mobile-nav-disclosure>
+            <span>Company</span>
+            <span aria-hidden="true">▾</span>
+          </button>
+          <div class="mobile-nav-submenu" id="mobile-nav-company" data-mobile-nav-items>
+            <a class="mobile-nav-subitem" href="/about/">
+              <span class="mobile-nav-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false">
+                  <path d="M6.5 17.5v-6.3L12 6.5l5.5 4.7v6.3H14v-4h-4v4z"></path>
+                </svg>
+              </span>
+              <span>
+                <strong>About Vepolink</strong>
+                <small>Company</small>
+              </span>
+            </a>
+          </div>
+        </section>
+
+        <div class="mobile-nav-actions">
+          <a href="https://enviro.vepolink.com" target="_blank" rel="noopener noreferrer">Sign in</a>
+          <a class="button button-dark" href="mailto:sales@vepolink.com">Book a walkthrough</a>
+        </div>
+      </nav>
+    </header>
+  </site-header>
+
+  <main id="stack-main">
+    <section class="hero stack-hero" aria-labelledby="stack-hero-title">
+      <div class="shell">
+        <div class="eyebrow-row">
+          <span class="status-pill"><span></span>CEMS / OCEMS · Continuous stack monitoring</span>
+          <span class="mono muted">Direct-to-portal telemetry for CPCB &amp; SPCB</span>
+        </div>
+        <h1 id="stack-hero-title">Watch the stack,<br><em>not the deadline.</em></h1>
+        <div class="hero-grid">
+          <p>Vepolink turns SOx, NOx, particulate matter, CO, O2 and flow readings into a continuous, tamper-evident
+            record that reaches operators and regulatory portals in real time.</p>
+          <div class="hero-actions">
+            <a class="button button-dark"
+              href="mailto:sales@vepolink.com?subject=Stack%20Emission%20Monitoring%20Pilot">Request a pilot</a>
+            <a class="button button-light"
+              href="mailto:sales@vepolink.com?subject=Live%20Stack%20Monitoring%20Demonstration">See a live stack</a>
+          </div>
+        </div>
+
+        <section class="dashboard-frame stack-dashboard" id="dashboard"
+          aria-label="Live stack monitoring dashboard preview">
+          <div class="browser-bar">
+            <div class="window-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+            <p class="mono">vepolink.com / stacks / kiln-stack-02 / live</p>
+            <div class="live-badge"><span></span>Live</div>
+          </div>
+          <div class="station-bar">
+            <div>
+              <p class="mono overline">Stack · OCEMS ID 8841-CEMS-TN</p>
+              <h2>Rotary Kiln Stack 02</h2>
+              <p class="mono muted">Height 68 m · Reference O2 10% · QAL status active</p>
+            </div>
+            <div class="range-tabs" aria-label="Time range">
+              <button type="button">1H</button><button type="button" aria-pressed="true">24H</button><button
+                type="button">7D</button><button type="button">30D</button>
+            </div>
+          </div>
+          <div class="metric-grid">
+            <article class="metric-card stack-sox">
+              <div><span class="mono overline">SOx</span><span class="metric-state ok">in range</span></div>
+              <p><span data-metric="stack-sox">48</span><small>mg/Nm3</small></p><svg viewBox="0 0 220 44"
+                aria-label="SOx trend">
+                <path class="chart-fill"
+                  d="M2 32L18 28L34 30L50 22L66 25L82 18L98 23L114 19L130 27L146 25L162 31L178 24L194 28L218 20L218 44L2 44Z">
+                </path>
+                <path class="chart-line"
+                  d="M2 32L18 28L34 30L50 22L66 25L82 18L98 23L114 19L130 27L146 25L162 31L178 24L194 28L218 20"></path>
+              </svg>
+              <footer>consent range 0-100 mg/Nm3</footer>
+            </article>
+            <article class="metric-card stack-nox">
+              <div><span class="mono overline">NOx</span><span class="metric-state warn">watch</span></div>
+              <p><span data-metric="stack-nox">62</span><small>mg/Nm3</small></p><svg viewBox="0 0 220 44"
+                aria-label="NOx trend">
+                <path class="chart-fill"
+                  d="M2 37L18 35L34 31L50 33L66 28L82 25L98 29L114 21L130 19L146 23L162 16L178 20L194 12L218 9L218 44L2 44Z">
+                </path>
+                <path class="chart-line"
+                  d="M2 37L18 35L34 31L50 33L66 28L82 25L98 29L114 21L130 19L146 23L162 16L178 20L194 12L218 9"></path>
+              </svg>
+              <footer>consent range 0-100 mg/Nm3</footer>
+            </article>
+            <article class="metric-card stack-pm">
+              <div><span class="mono overline">PM</span><span class="metric-state warn">watch</span></div>
+              <p><span data-metric="stack-pm">28</span><small>mg/Nm3</small></p><svg viewBox="0 0 220 44"
+                aria-label="Particulate matter trend">
+                <path class="chart-fill"
+                  d="M2 30L18 33L34 26L50 28L66 21L82 25L98 19L114 23L130 17L146 20L162 13L178 16L194 11L218 14L218 44L2 44Z">
+                </path>
+                <path class="chart-line"
+                  d="M2 30L18 33L34 26L50 28L66 21L82 25L98 19L114 23L130 17L146 20L162 13L178 16L194 11L218 14"></path>
+              </svg>
+              <footer>consent range 0-30 mg/Nm3</footer>
+            </article>
+            <article class="metric-card stack-co">
+              <div><span class="mono overline">CO</span><span class="metric-state ok">in range</span></div>
+              <p><span data-metric="stack-co">42</span><small>mg/Nm3</small></p><svg viewBox="0 0 220 44"
+                aria-label="Carbon monoxide trend">
+                <path class="chart-fill"
+                  d="M2 27L18 31L34 25L50 32L66 24L82 29L98 21L114 27L130 23L146 30L162 22L178 26L194 20L218 25L218 44L2 44Z">
+                </path>
+                <path class="chart-line"
+                  d="M2 27L18 31L34 25L50 32L66 24L82 29L98 21L114 27L130 23L146 30L162 22L178 26L194 20L218 25"></path>
+              </svg>
+              <footer>consent range 0-100 mg/Nm3</footer>
+            </article>
+            <article class="metric-card stack-o2">
+              <div><span class="mono overline">O2 reference</span><span class="metric-state ok">in range</span></div>
+              <p><span data-metric="stack-o2">11.4</span><small>%</small></p><svg viewBox="0 0 220 44"
+                aria-label="Reference oxygen trend">
+                <path class="chart-fill"
+                  d="M2 25L18 24L34 27L50 23L66 26L82 22L98 24L114 23L130 25L146 21L162 24L178 22L194 25L218 23L218 44L2 44Z">
+                </path>
+                <path class="chart-line"
+                  d="M2 25L18 24L34 27L50 23L66 26L82 22L98 24L114 23L130 25L146 21L162 24L178 22L194 25L218 23"></path>
+              </svg>
+              <footer>reference range 6-14%</footer>
+            </article>
+            <article class="metric-card stack-flow">
+              <div><span class="mono overline">Stack flow</span><span class="metric-state ok">in range</span></div>
+              <p><span data-metric="stack-flow">18.2</span><small>m/s</small></p><svg viewBox="0 0 220 44"
+                aria-label="Stack flow trend">
+                <path class="chart-fill"
+                  d="M2 32L18 29L34 25L50 27L66 23L82 25L98 20L114 22L130 18L146 21L162 17L178 20L194 16L218 18L218 44L2 44Z">
+                </path>
+                <path class="chart-line"
+                  d="M2 32L18 29L34 25L50 27L66 23L82 25L98 20L114 22L130 18L146 21L162 17L178 20L194 16L218 18"></path>
+              </svg>
+              <footer>process range 5-25 m/s</footer>
+            </article>
+          </div>
+          <div class="alert-strip"><span aria-hidden="true"></span>
+            <p><strong>Watch · 14:32:08 IST</strong>NOx trending toward consent limit at Kiln Stack 02, corrected to 10%
+              O2.</p><button type="button">Acknowledge</button>
+          </div>
+        </section>
+
+        <dl class="stats-strip">
+          <div>
+            <dt>6</dt>
+            <dd>core stack parameters per analyser</dd>
+          </div>
+          <div>
+            <dt>OCEMS</dt>
+            <dd>direct CPCB / SPCB data feed</dd>
+          </div>
+          <div>
+            <dt>&lt;5s</dt>
+            <dd>telemetry-to-alert target</dd>
+          </div>
+          <div>
+            <dt>QAL2/3</dt>
+            <dd>EN 14181 quality framework</dd>
+          </div>
+          <div>
+            <dt>24/7</dt>
+            <dd>tamper-evident audit trail</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section" id="platform" aria-labelledby="stack-platform-title">
+      <div class="shell split-heading">
+        <div>
+          <p class="mono overline">Stack CEMS</p>
+          <h2 id="stack-platform-title">Continuous emission<br><em>monitoring, done right.</em></h2>
+        </div>
+        <p>Built for extractive lag, reference-oxygen correction, calibration drift and the reporting deadlines that
+          never move.</p>
+      </div>
+      <div class="shell capability-grid stack-capability-grid">
+        <article class="cap-card wide">
+          <div class="cap-top">
+            <p class="mono overline">01 · Continuous sampling</p><span class="cap-icon" aria-hidden="true"><svg
+                viewBox="0 0 24 24">
+                <path d="M3 20h18M6 17l4-5 3 3 5-8"></path>
+              </svg></span>
+          </div>
+          <div class="cap-visual stack-readout">
+            <div><span>Analyser input</span><strong>SOx <i></i> 48</strong><strong>NOx <i></i> 62</strong><strong>PM
+                <i></i> 28</strong></div>
+            <div><span>Correction</span><strong>O2 11.4%</strong><strong>→ 10% ref.</strong></div>
+            <div class="stack-output-trend"><span>Trend</span><svg class="stack-output-chart" viewBox="0 0 180 76"
+                role="img" aria-label="Corrected emission output trend">
+                <path class="stack-output-fill"
+                  d="M2 25L12 8L22 20L31 13L42 43L52 34L62 57L72 62L82 32L92 19L102 39L112 58L122 68L132 51L142 65L152 70L162 67L178 38L178 76L2 76Z">
+                </path>
+                <path class="stack-output-line"
+                  d="M2 25L12 8L22 20L31 13L42 43L52 34L62 57L72 62L82 32L92 19L102 39L112 58L122 68L132 51L142 65L152 70L162 67L178 38">
+                </path>
+              </svg></div>
+          </div>
+          <h3>Extractive and in-situ, on one board.</h3>
+          <p>Hot/wet extractive systems, dilution probes and in-situ analysers are normalised to corrected reference-O2
+            readings.</p><strong>Corrected to reference O2</strong>
+        </article>
+        <article class="cap-card">
+          <div class="cap-top">
+            <p class="mono overline">02 · Pre-limit alerts</p><span class="cap-icon" aria-hidden="true"><svg
+                viewBox="0 0 24 24">
+                <path d="M6 8a6 6 0 0 1 12 0c0 6 2 7 2 7H4s2-1 2-7zM10 19a2 2 0 0 0 4 0"></path>
+              </svg></span>
+          </div>
+          <div class="cap-visual alert-visual">
+            <p><i class="alert-dot"></i><span>14:32</span>NOx rising · Kiln 02</p>
+            <p><i class="warn-dot"></i><span>14:18</span>PM near limit · Stack 04</p>
+            <p><i></i><span>13:55</span>SOx restored · Boiler 01</p>
+          </div>
+          <h3>Warned before the consent breach.</h3>
+          <p>Trend-aware SMS and email rules tuned to your CTE and CTO conditions.</p><strong>Trend-based
+            warnings</strong>
+        </article>
+        <article class="cap-card">
+          <div class="cap-top">
+            <p class="mono overline">03 · OCEMS feed</p><span class="cap-icon" aria-hidden="true"><svg
+                viewBox="0 0 24 24">
+                <path d="M3 5h18v6H3zM3 13h18v6H3zM7 8h.01M7 16h.01"></path>
+              </svg></span>
+          </div>
+          <div class="cap-visual stack-route">
+            <div class="stack-route-line"><b aria-hidden="true"></b><span>DAS</span><i></i><span>OCEMS</span></div>
+            <div class="stack-route-log"><span>▸ push 5s · signed SHA-256</span><span>▸ ack ✓ CPCB · ✓ SPCB</span></div>
+          </div>
+          <h3>Straight to the regulatory portal.</h3>
+          <p>Timestamped, tamper-evident data is pushed without manual uploads or reconciliation gaps.</p>
+          <strong>Continuous portal telemetry</strong>
+        </article>
+        <article class="cap-card">
+          <div class="cap-top">
+            <p class="mono overline">04 · QAL2 / QAL3</p><span class="cap-icon" aria-hidden="true"><svg
+                viewBox="0 0 24 24">
+                <path d="M12 2 4 6v6c0 5 3.5 8 8 10 4.5-2 8-5 8-10V6z"></path>
+              </svg></span>
+          </div>
+          <div class="cap-visual report-visual">
+            <div><span>QAL3 · drift log</span><strong>Zero and span check · pass</strong><i></i><i></i><i></i><small>EN
+                14181</small></div>
+          </div>
+          <h3>Quality assurance stays visible.</h3>
+          <p>Track drift, precision, calibration functions and supporting records through the compliance lifecycle.</p>
+          <strong>Drift and calibration history</strong>
+        </article>
+        <article class="cap-card">
+          <div class="cap-top">
+            <p class="mono overline">05 · Multi-stack scale</p><span class="cap-icon" aria-hidden="true"><svg
+                viewBox="0 0 24 24">
+                <path d="M4 20V8h5v12M9 20V4h5v16M14 20v-9h6v9M2 20h20"></path>
+              </svg></span>
+          </div>
+          <div class="cap-visual scale-visual">
+            <span><i></i>Stack</span><span><i></i>Line</span><span><i></i>Plant</span><span><i></i>Group</span></div>
+          <h3>One stack or a whole plant.</h3>
+          <p>Roll up multiple DAS units, analyser types and camera feeds while retaining stack-level context.</p>
+          <strong>Plant-wide roll-up</strong>
+        </article>
+      </div>
+    </section>
+
+    <section class="stack-parameters" aria-labelledby="stack-parameters-title">
+      <div class="shell split-heading">
+        <div>
+          <p class="mono overline">Parameters monitored</p>
+          <h2 id="stack-parameters-title">Every regulated<br><em>flue-gas species.</em></h2>
+        </div>
+        <p>Configure each stack and consent condition independently across cement, power, refining, steel and chemicals.
+        </p>
+      </div>
+      <div class="shell stack-parameter-grid">
+        <article><strong>SO<sub>x</sub></strong><span>Sulphur oxides</span><small>mg/Nm³</small></article>
+        <article><strong>NO<sub>x</sub></strong><span>Nitrogen oxides</span><small>mg/Nm³</small></article>
+        <article><strong>PM</strong><span>Particulate matter</span><small>mg/Nm³</small></article>
+        <article><strong>CO</strong><span>Carbon monoxide</span><small>mg/Nm³</small></article>
+        <article><strong>O<sub>2</sub></strong><span>Reference oxygen</span><small>%</small></article>
+        <article><strong>Stack flow</strong><span>Velocity / volume</span><small>m/s</small></article>
+        <article><strong>Temperature</strong><span>Flue-gas temp</span><small>°C</small></article>
+        <article><strong>HCl / HF</strong><span>Acid gases (opt.)</span><small>mg/Nm³</small></article>
+      </div>
+    </section>
+
+    <section class="process" aria-labelledby="stack-process-title">
+      <div class="shell process-head">
+        <div>
+          <p class="mono overline">How it works</p>
+          <h2 id="stack-process-title">From analyser to plant head,<br><em>under five seconds.</em></h2>
+        </div>
+        <p>A resilient acquisition path preserves every sample and exposes the same governed record to operators,
+          managers and regulators.</p>
+      </div>
+      <ol class="shell process-grid">
+        <li><span>01</span><strong>Stack analyser</strong>
+          <p>Extractive or in-situ measurement of gases, particulate matter and process references.</p>
+        </li>
+        <li><span>02</span><strong>Industrial DAS</strong>
+          <p>Multi-protocol acquisition, timestamping, local buffering and field diagnostics.</p>
+        </li>
+        <li><span>03</span><strong>Vepolink cloud</strong>
+          <p>Normalisation, reference-O2 correction, validation and secure time-series storage.</p>
+        </li>
+        <li><span>04</span><strong>Live operations</strong>
+          <p>Stack, plant and group views for operators, supervisors and compliance teams.</p>
+        </li>
+        <li><span>05</span><strong>Portal &amp; action</strong>
+          <p>OCEMS transmission, pre-limit alerts, audit trails and scheduled reports.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section compliance" id="compliance" aria-labelledby="stack-compliance-title">
+      <div class="shell compliance-grid">
+        <div>
+          <p class="mono overline">Compliance, by design</p>
+          <h2 id="stack-compliance-title">Built around the rules<br><em>you already operate under.</em></h2>
+          <p>Reference conditions, calibration evidence, validation states and transmission acknowledgements stay
+            attached to the measurement record.</p>
+          <ul class="check-list">
+            <li><strong>EN 14181 quality workflow</strong><span>QAL2 calibration functions and QAL3 drift
+                monitoring.</span></li>
+            <li><strong>CPCB / SPCB portal telemetry</strong><span>Continuous, timestamped OCEMS data delivery.</span>
+            </li>
+            <li><strong>Tamper-evident access</strong><span>Role-based controls with event and configuration
+                history.</span></li>
+            <li><strong>Audit-ready calibration</strong><span>Zero, span, service and certificate records retained
+                together.</span></li>
+          </ul>
+        </div>
+        <aside class="rules-panel" aria-label="Stack alert rule example">
+          <p class="mono overline">Alert rules · Kiln Stack 02</p>
+          <div class="rule-row"><span></span><strong>SOx</strong><small>&lt;</small><b>100 mg/Nm3</b><em>SMS · MAIL</em>
+          </div>
+          <div class="rule-row warn"><span></span><strong>NOx</strong><small>&lt;</small><b>100 mg/Nm3</b><em>SMS ·
+              MAIL</em></div>
+          <div class="rule-row warn"><span></span><strong>PM</strong><small>&lt;</small><b>30 mg/Nm3</b><em>SMS ·
+              MAIL</em></div>
+          <div class="rule-row"><span></span><strong>O2</strong><small>ref.</small><b>10%</b><em>CORRECT</em></div>
+          <div class="route-box">
+            <div><small>Automatic breach route</small><strong>Shift In-charge → Plant Head → Compliance Officer</strong>
+            </div><span aria-hidden="true">→</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section industries" id="industries" aria-labelledby="stack-industries-title">
+      <div class="shell industries-panel">
+        <div class="industries-copy">
+          <p class="mono overline">Industries</p>
+          <h2 id="stack-industries-title">Built for stacks where data cannot be late.</h2>
+          <p>Bring combustion, process and utility stacks into one governed monitoring layer without replacing
+            serviceable analysers.</p>
+          <div class="industry-tags"><span>Cement</span><span>Thermal
+              power</span><span>Steel</span><span>Refineries</span><span>Chemicals</span><span>Waste-to-energy</span><span>Pulp
+              &amp; paper</span></div>
+        </div>
+        <aside class="industry-matrix" aria-label="Stack monitoring deployment examples">
+          <div class="matrix-row active"><span></span><strong>Cement &amp; minerals</strong><small>Kiln · cooler · coal
+              mill</small></div>
+          <div class="matrix-row"><span></span><strong>Power &amp; utilities</strong><small>Boiler · DG · captive
+              power</small></div>
+          <div class="matrix-row"><span></span><strong>Metals &amp; chemicals</strong><small>Furnace · reactor · process
+              vent</small></div>
+          <div class="matrix-row"><span></span><strong>Refining &amp; waste</strong><small>Heater · incinerator · WTE
+              stack</small></div>
+          <div class="matrix-foot mono"><span>Multi-stack</span><span>One reporting layer</span></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="partners" id="oem-partners" aria-labelledby="stack-partners-title">
+      <div class="shell">
+        <p class="mono overline">OEM analyser partners · 9</p>
+        <h2 id="stack-partners-title" class="sr-only">OEM analyser partners</h2>
+        <div data-partner-marquee>
+          <ul class="partner-list">
+            <li>Anodyne</li>
+            <li>Advance Analytik</li>
+            <li>Hemera Analysers</li>
+            <li>Process Instruments</li>
+            <li>Horiba</li>
+            <li>Vasthi Instruments</li>
+            <li>Adept</li>
+            <li>OTT Hydromet</li>
+            <li>Siemens</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="pilot" aria-labelledby="stack-cta-title">
+      <div class="shell cta-panel">
+        <div>
+          <p class="mono overline">Pilot a stack</p>
+          <h2 id="stack-cta-title">Bring one stack<br><em>online this quarter.</em></h2>
+        </div>
+        <div>
+          <p>Share the analyser make, measured species, output protocol and consent limits. We will map the DAS,
+            telemetry and reporting scope.</p><a class="button button-light-filled"
+            href="mailto:sales@vepolink.com?subject=Stack%20Emission%20Monitoring%20Pilot">Request a pilot</a><a
+            class="button button-ghost-dark"
+            href="mailto:techsupport@vepolink.com?subject=Stack%20Monitoring%20Technical%20Discussion">Talk to
+            engineering</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <site-footer>
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="/" aria-label="Vepolink home">
+            <img src="/assets/vepolink-logo-horizontal-trimmed.png" width="185" height="36" alt="Vepolink">
+          </a>
+          <p>Real-time data acquisition, monitoring and analytics for environmental compliance. Designed for industries
+            that take environment seriously.</p>
+        </div>
+        <nav class="footer-group footer-platform" aria-label="Footer platform links">
+          <h2>Platform</h2>
+          <a href="/#platform">Environmental platform</a><a href="/water-quality-monitoring/">Water quality
+            monitoring</a><a href="/stack-emission-monitoring/">Stack emission monitoring</a><a
+            href="/ambient-air-monitoring/">Ambient air monitoring</a><a href="/indoor-air-monitoring/">Indoor air
+            quality monitoring</a>
+        </nav>
+        <nav class="footer-group footer-company" aria-label="Footer company links">
+          <h2>Company</h2>
+          <a href="/about/">About</a><a href="mailto:techsupport@vepolink.com">Careers</a><a
+            href="mailto:sales@vepolink.com">Channel partners</a><a href="tel:+919810416132">Support</a><a
+            href="mailto:techsupport@vepolink.com">Contact</a>
+        </nav>
+      </div>
+      <div class="shell footer-bottom">
+        <p class="mono">© 2026 Vepolink Technologies LLP · Monitoring purity</p>
+        <nav aria-label="Legal links">
+          <a href="mailto:techsupport@vepolink.com">Privacy</a>
+          <a href="mailto:techsupport@vepolink.com">Terms</a>
+          <a href="mailto:techsupport@vepolink.com">Security</a>
+          <a href="mailto:techsupport@vepolink.com">SLA</a>
+          <a href="mailto:techsupport@vepolink.com">Data residency</a>
+        </nav>
+      </div>
+    </footer>
+  </site-footer>
+  <script defer src="/assets/vp-idbar.js?v=20260814"></script>
+</body>
+
+</html>

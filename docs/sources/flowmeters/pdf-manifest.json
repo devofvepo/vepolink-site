@@ -1,0 +1,110 @@
+[
+  {
+    "id": "emf",
+    "document": "Vepolink - EMF Flowmeter Inline Electromagnetic.pdf",
+    "sha256": "29786b8b11ba67a76ba9ef7f587cd802a626cb3915f61b1d2e32a6ddc3da9fbe",
+    "pages": 9,
+    "specificationPage": 5,
+    "image": {
+      "asset": "/assets/products/flowmeters/emf.webp",
+      "sourcePage": 1,
+      "pdfImage": "X35",
+      "kind": "Brochure illustration, not a product photograph",
+      "width": 800,
+      "height": 730
+    },
+    "brochure": {
+      "asset": "/assets/brochures/flowmeters/vepolink-emf-brochure.pdf",
+      "sha256": "29786b8b11ba67a76ba9ef7f587cd802a626cb3915f61b1d2e32a6ddc3da9fbe",
+      "bytes": 1125284,
+      "changes": "Unchanged copy of the user-supplied PDF."
+    }
+  },
+  {
+    "id": "ecoflow",
+    "document": "Vepolink - EcoFlow Flowmeter Plastic Body Electromagnetic.pdf",
+    "sha256": "844cf3ab884a9339d288bf1c40e242b96efd9e13d596af6044e71f68b3786e06",
+    "pages": 9,
+    "specificationPage": 5,
+    "image": {
+      "asset": "/assets/products/flowmeters/ecoflow.webp",
+      "sourcePage": 1,
+      "pdfImage": "X35",
+      "kind": "Brochure illustration, not a product photograph",
+      "width": 800,
+      "height": 749
+    },
+    "brochure": {
+      "asset": "/assets/brochures/flowmeters/vepolink-ecoflow-brochure.pdf",
+      "sha256": "844cf3ab884a9339d288bf1c40e242b96efd9e13d596af6044e71f68b3786e06",
+      "bytes": 1122869,
+      "changes": "Unchanged copy of the user-supplied PDF."
+    }
+  },
+  {
+    "id": "sonicline",
+    "document": "Vepolink - SonicLine Flowmeter Inline Ultrasonic.pdf",
+    "sha256": "70ed2fa1897980395081c65703a1de460a53fa55a83f2709a5dcf206417c1a1f",
+    "pages": 9,
+    "specificationPage": 5,
+    "image": {
+      "asset": "/assets/products/flowmeters/sonicline.webp",
+      "sourcePage": 1,
+      "pdfImage": "X35",
+      "kind": "Brochure illustration, not a product photograph",
+      "width": 800,
+      "height": 710
+    },
+    "brochure": {
+      "asset": "/assets/brochures/flowmeters/vepolink-sonicline-brochure.pdf",
+      "sha256": "70ed2fa1897980395081c65703a1de460a53fa55a83f2709a5dcf206417c1a1f",
+      "bytes": 1134022,
+      "changes": "Unchanged copy of the user-supplied PDF."
+    }
+  },
+  {
+    "id": "clampwave",
+    "document": "Vepolink - ClampWave Flowmeter Clamp-on Ultrasonic.pdf",
+    "sha256": "66ccfec6ab3da234fe3def957973f6b8f62ab00646d148f1bcb63838051b8684",
+    "pages": 9,
+    "specificationPage": 5,
+    "image": {
+      "asset": "/assets/products/flowmeters/clampwave.webp",
+      "sourcePage": 1,
+      "pdfImage": "X35",
+      "kind": "Brochure illustration, not a product photograph",
+      "width": 800,
+      "height": 673
+    },
+    "brochure": {
+      "asset": "/assets/brochures/flowmeters/vepolink-clampwave-brochure.pdf",
+      "sha256": "66ccfec6ab3da234fe3def957973f6b8f62ab00646d148f1bcb63838051b8684",
+      "bytes": 1090267,
+      "changes": "Unchanged copy of the user-supplied PDF."
+    }
+  },
+  {
+    "id": "echoflow",
+    "document": "Vepolink - EchoFlow Transmitter Non-contact Ultrasonic.pdf",
+    "sha256": "454307e840d2683eef8e58d7c6e3a2babd04601bcad045d2c330bbf4091cfb86",
+    "pages": 9,
+    "specificationPage": 5,
+    "image": {
+      "asset": "/assets/products/flowmeters/echoflow.webp",
+      "sourcePage": 1,
+      "pdfImage": "X35",
+      "kind": "Brochure illustration, not a product photograph",
+      "width": 800,
+      "height": 768,
+      "master": "/assets/products/flowmeters/echoflow.svg",
+      "changes": "Redrawn from the page 1 illustration to separate the transducer, level display and open-channel labels. Technical specifications and the brochure PDF are unchanged.",
+      "derivativeKind": "Vector redrawing with corrected label spacing"
+    },
+    "brochure": {
+      "asset": "/assets/brochures/flowmeters/vepolink-echoflow-brochure.pdf",
+      "sha256": "ba17973cad8924cd1b88bc5fd74e9f5c724a1cab94629f37f282c7bf537ea5df",
+      "bytes": 1179215,
+      "changes": "Page 4 supplier-specific signal-processing name replaced with generic ultrasonic wording; specifications unchanged."
+    }
+  }
+]

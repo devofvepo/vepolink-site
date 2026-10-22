@@ -1,0 +1,4 @@
+{
+  "prompt": "{\n  \"source\": \"https://www.advanceanalytik.com/products/productImages/vizsens-o3.png\",\n  \"sourcePage\": \"https://www.advanceanalytik.com/products/sensors/vizsens-o3.html\",\n  \"retrieved\": \"2026-09-23\",\n  \"status\": \"unique-source-page-assignment\",\n  \"transformation\": \"Alpha composited on white; proportional resize into 600 by 450 canvas; WebP quality 92. No physical features changed.\",\n  \"sourceSha256\": \"4a48374c563ce66f19b7344f47f0f42f846cfe4f86ef09c2675fa0b2e43e44ff\"\n}\n",
+  "createdAt": "2026-09-22T21:17:55.797Z"
+}

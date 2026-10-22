@@ -1,0 +1,18 @@
+{
+  "id": "radarsense-hf",
+  "sourceFile": "Vepolink - RadarSense HF Level Sensor.pdf",
+  "sourceSha256": "3977c707fe8d69bc9a8d85a6e0973fc72afded53d1a8bd91c6c35152fe86e6b5",
+  "brochure": "/assets/brochures/radar-level-sensors/vepolink-radarsense-hf-brochure.pdf",
+  "brochureSha256": "a3ec33713627e8df7041e7a84fcc6d652b7cb6fb05d9801bdf4962bf25d5d246",
+  "image": {
+    "path": "/assets/products/radar-level-sensors/radarsense-hf.webp",
+    "width": 1176,
+    "height": 1096,
+    "sha256": "7678ee9ac1ca470f30b9ae8750d35a5a0a9c7828e6e1d3a2bd41846fb48c5471",
+    "sourcePage": 1,
+    "embeddedImage": 6,
+    "alphaMask": 7
+  },
+  "alt": "Brochure illustration of RadarSense HF scanning a fast-changing water surface",
+  "treatment": "Brochure illustration, not a product photograph; supplied configuration may vary."
+}

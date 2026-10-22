@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="768" viewBox="0 0 800 768" role="img" aria-labelledby="title"><title id="title">EchoFlow transducer above an open channel with level-to-flow controller</title>
+<style>text{font:16px Arial,Helvetica,sans-serif;fill:#344052}.label{font-weight:600;fill:#0B1321}.cell{fill:#F4F3EE;stroke:#A4AAB3;stroke-width:1.5}.ray{fill:none;stroke:#35BBD2;stroke-width:3}.violet{fill:none;stroke:#9565D9;stroke-width:3}.line{fill:none;stroke:#344052;stroke-width:2}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 10 5 0 10z" fill="#344052"/></marker></defs>
+
+<path d="M188 118H542V146H265V264H231V146H188Z" fill="#F4F3EE" stroke="#AAAFA9" stroke-width="2"/>
+<rect class="cell" x="548" y="110" width="184" height="197" rx="18"/><rect x="568" y="130" width="144" height="96" rx="8" fill="#151C2B"/>
+<text x="640" y="188" text-anchor="middle" style="font-size:34px;font-weight:600;fill:#FFFFFF">2.84 m</text><path class="ray" d="M582 209H696"/>
+<text x="640" y="263" text-anchor="middle" style="font-size:23px">Level → flow</text>
+<path class="line" d="M454 278V174H548"/>
+<rect class="cell" x="333" y="274" width="163" height="148" rx="20"/><text x="415" y="313" text-anchor="middle" style="font-size:23px">Transducer</text><circle cx="415" cy="369" r="30" fill="#344052"/><circle cx="415" cy="369" r="18" fill="#151C2B"/>
+<path class="ray" d="M390 431Q375 467 390 502T390 555M415 431Q400 467 415 502T415 555M440 431Q425 467 440 502T440 555"/>
+<path d="M165 623L270 568H560L665 623V676H165Z" class="cell"/><path d="M274 599H556V644H274Z" fill="#CAE9EE"/>
+<text x="415" y="725" text-anchor="middle" style="font-size:26px">Open channel / flume</text>
+</svg>

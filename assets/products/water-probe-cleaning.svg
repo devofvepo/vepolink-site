@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="254" viewBox="0 0 360 254" role="img" aria-labelledby="title"><title id="title">Two alternative optical-window cleaning methods: mechanical wiper or pressurized air</title>
+<style>text{font:16px Arial,Helvetica,sans-serif;fill:#344052}.label{font-weight:600;fill:#0B1321}.cell{fill:#F4F3EE;stroke:#A4AAB3;stroke-width:1.5}.ray{fill:none;stroke:#35BBD2;stroke-width:3}.violet{fill:none;stroke:#9565D9;stroke-width:3}.line{fill:none;stroke:#344052;stroke-width:2}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 10 5 0 10z" fill="#344052"/></marker></defs>
+
+<text x="84" y="22" text-anchor="middle" class="label">Mechanical wiper</text><text x="276" y="22" text-anchor="middle" class="label">Air jet</text>
+<rect x="34" y="57" width="100" height="110" rx="7" class="cell"/><circle cx="84" cy="111" r="31" fill="#DDF1F3" stroke="#35BBD2"/>
+<path class="line" d="M84 149V99L104 85"/><circle cx="84" cy="149" r="4" fill="#344052"/>
+<path class="violet" d="M49 93A39 39 0 0 1 117 93" marker-end="url(#arrow)"/>
+<rect x="226" y="57" width="100" height="110" rx="7" class="cell"/><circle cx="276" cy="111" r="31" fill="#DDF1F3" stroke="#35BBD2"/>
+<path class="line" d="M192 55v38h27" marker-end="url(#arrow)"/><path class="ray" d="M230 94l33 12M230 107h36M230 120l33-12"/>
+<text x="84" y="203" text-anchor="middle">Optical window</text><text x="276" y="203" text-anchor="middle">Optical window</text>
+<text x="180" y="237" text-anchor="middle">Choose either cleaning method</text>
+</svg>

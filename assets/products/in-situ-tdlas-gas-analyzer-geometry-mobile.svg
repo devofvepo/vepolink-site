@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="410" viewBox="0 0 340 410" role="img" aria-labelledby="title desc">
+  <title id="title">One-side TDLAS installation, folded optical path</title>
+  <desc id="desc">The analyzer head mounts on one flange. Its laser enters the duct, reaches a reflector and returns to the receiver in the same head.</desc>
+  <defs>
+    <marker id="forward" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 7 3.5 0 7Z" fill="#279db5"/></marker>
+    <marker id="return" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 7 3.5 0 7Z" fill="#8851c0"/></marker>
+  </defs>
+  <g font-family="Arial, sans-serif" fill="#1a2333">
+    <rect x="70" y="16" width="200" height="80" rx="8" fill="#fafaf7" stroke="#a9afb5" stroke-width="2"/>
+    <text x="170" y="48" text-anchor="middle" font-size="18" font-weight="600">Analyzer head</text>
+    <text x="170" y="76" text-anchor="middle" font-size="15" fill="#596578">TX · RX · reference cell</text>
+    <rect x="20" y="163" width="300" height="185" rx="3" fill="#f2f1eb" stroke="#a9afb5" stroke-width="2"/>
+    <rect x="130" y="153" width="80" height="18" fill="#fafaf7" stroke="#a9afb5" stroke-width="2"/>
+    <text x="24" y="132" font-size="16">One flange</text>
+    <path d="M105 137 128 158" fill="none" stroke="#596578"/>
+    <text x="38" y="198" font-size="16">Duct</text>
+    <path d="M145 96V304" fill="none" stroke="#279db5" stroke-width="2.5" marker-end="url(#forward)"/>
+    <path d="M195 304V105" fill="none" stroke="#8851c0" stroke-width="2.5" marker-end="url(#return)"/>
+    <rect x="124" y="313" width="92" height="8" rx="2" fill="#a9afb5"/>
+    <text x="223" y="295" font-size="16">Reflector</text>
+    <path d="M230 300 216 313" fill="none" stroke="#596578"/>
+    <path d="M30 378H55" stroke="#279db5" stroke-width="2.5" marker-end="url(#forward)"/>
+    <text x="65" y="384" font-size="16">Laser</text>
+    <path d="M178 378H203" stroke="#8851c0" stroke-width="2.5" marker-end="url(#return)"/>
+    <text x="213" y="384" font-size="16">Return beam</text>
+  </g>
+</svg>

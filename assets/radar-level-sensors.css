@@ -1,0 +1,39 @@
+/* The hub extends the water-probe catalog; the children extend product details. */
+.level-page .probe-specimen-photo { background: #f1f3f2; }
+.level-page .probe-specimen img { mix-blend-mode: normal; }
+.level-page .probe-hero h1 { text-wrap: balance; }
+.level-page .level-card { display: flex; flex-direction: column; }
+.level-page .level-card .probe-card-intro { grid-template-columns: minmax(0, 1fr) 112px; min-height: 178px; flex: 1; }
+.level-page .level-card .probe-card-intro h3 { font-size: clamp(20px, 2vw, 25px); line-height: 1.2; letter-spacing: -.025em; margin: 0 0 14px; }
+.level-page .level-card .probe-photo { height: 112px; }
+.level-page .level-card .probe-photo img { object-fit: contain; }
+.level-page .level-card .probe-photo-fallback { font-size: 16px; text-align: center; }
+.level-page .level-card .probe-option { min-height: 96px; }
+.level-page .level-card .probe-option-output { max-width: 24ch; }
+.level-page .probe-catalog-note { margin-top: 22px; }
+.level-selection-list { border-top: 1px solid var(--line); }
+.level-selection-list a { display: grid; grid-template-columns: minmax(165px, .55fr) minmax(0, 1.4fr) 20px; gap: 24px; align-items: center; min-height: 90px; padding: 22px 8px; border-bottom: 1px solid var(--line); color: var(--ink); text-decoration: none; }
+.level-selection-list a:hover { background: #f0edf8; }
+.level-selection-list strong { font-size: 20px; letter-spacing: -.02em; }
+.level-selection-list span { color: var(--muted); font-size: 14px; line-height: 1.5; }
+.level-selection-list svg { color: #6f58d9; }
+.radar-detail-page .wpd-product-photo { background: #f1f3f2; }
+.radar-detail-page .wpd-product-photo img { object-fit: contain; }
+.radar-detail-page .wpd-key-facts dd { overflow-wrap: anywhere; }
+.level-page :is(a, button, summary):focus-visible, .radar-detail-page :is(a, button):focus-visible { outline: 2px solid #6f58d9; outline-offset: 4px; }
+@media (max-width: 1050px) {
+  .level-page .level-card .probe-card-intro { grid-template-columns: minmax(0, 1fr) 80px; min-height: 168px; }
+  .level-page .level-card .probe-photo { height: 80px; }
+}
+@media (max-width: 980px) {
+  .level-page .probe-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 600px) {
+  .level-page .probe-grid { grid-template-columns: 1fr; }
+  .level-page .level-card .probe-card-intro { min-height: 146px; grid-template-columns: minmax(0, 1fr) 80px; }
+  .level-page .level-card .probe-photo { height: 80px; }
+  .level-page .level-card .probe-option { min-height: 80px; }
+  .level-selection-list a { grid-template-columns: minmax(0, 1fr) 20px; gap: 6px 16px; }
+  .level-selection-list span { grid-column: 1; grid-row: 2; }
+  .level-selection-list svg { grid-column: 2; grid-row: 1 / span 2; }
+}

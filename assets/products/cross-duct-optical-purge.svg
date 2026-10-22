@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="240" viewBox="0 0 360 240" role="img" aria-labelledby="title"><title id="title">Nitrogen or instrument air keeps the optical window clean and cool</title>
+<style>text{font:16px Arial,Helvetica,sans-serif;fill:#344052}.label{font-weight:600;fill:#0B1321}.cell{fill:#F4F3EE;stroke:#A4AAB3;stroke-width:1.5}.ray{fill:none;stroke:#35BBD2;stroke-width:3}.violet{fill:none;stroke:#9565D9;stroke-width:3}.line{fill:none;stroke:#344052;stroke-width:2}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 10 5 0 10z" fill="#344052"/></marker></defs>
+
+<text x="94" y="24" text-anchor="middle" class="label">N₂ / air purge</text>
+<path class="ray" d="M94 42V85" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect class="cell" x="34" y="96" width="120" height="87" rx="7"/><circle cx="94" cy="139" r="29" fill="#DDF1F3" stroke="#344052" stroke-width="2"/>
+<path class="violet" d="M155 139H246" marker-end="url(#arrow)"/>
+<rect class="cell" x="261" y="107" width="82" height="65" rx="6"/><text x="302" y="133" text-anchor="middle" class="label">Clean</text><text x="302" y="155" text-anchor="middle" class="label">Cool</text>
+<text x="94" y="218" text-anchor="middle">Optical window</text>
+</svg>

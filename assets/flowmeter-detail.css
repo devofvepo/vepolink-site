@@ -1,0 +1,16 @@
+/* Flowmeters share the approved probe product-page composition. */
+.flowmeter-detail-page .wpd-symbol {
+    font-size: clamp(32px, 5vw, 64px);
+    overflow-wrap: anywhere;
+    text-align: center;
+}
+
+#multi-parameter-product-main.flowmeter-detail-page .wpd-key-facts dd {
+    min-width: 0;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
+
+.flowmeter-detail-page :is(.wpd-reference a, .wpd-system-links a, .wpd-section-heading > a) {
+    min-height: 44px;
+}

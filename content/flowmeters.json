@@ -1,0 +1,665 @@
+{
+  "updated": "2026-10-04",
+  "groups": [
+    {
+      "id": "inline",
+      "name": "Inline flowmeters",
+      "shortName": "Inline",
+      "description": "A measuring section in a full pipe. Choose by liquid conductivity, materials, pressure and temperature.",
+      "image": "emf",
+      "hint": "For a new or replaceable pipe section"
+    },
+    {
+      "id": "clamp-on",
+      "name": "Clamp-on flowmeters",
+      "shortName": "Clamp-on",
+      "description": "External transducers measure through the pipe wall, without cutting into the process.",
+      "image": "clampwave",
+      "hint": "Add measurement to an existing pipe"
+    },
+    {
+      "id": "open-channel",
+      "name": "Open-channel flow measurement",
+      "shortName": "Open channel",
+      "description": "A non-contact transmitter measures head at a flume or weir and converts it to flow.",
+      "image": "echoflow",
+      "hint": "For flow through a flume or weir"
+    }
+  ],
+  "meters": [
+    {
+      "id": "emf",
+      "name": "EMF",
+      "type": "Inline electromagnetic flowmeter",
+      "technology": "electromagnetic",
+      "group": "inline",
+      "description": "Full-bore measurement for conductive water, wastewater, slurries and process liquids.",
+      "image": "emf.webp",
+      "imageAlt": "Illustration of an EMF inline flow tube with an integral transmitter",
+      "fit": "Liquid conductivity above 20 µS/cm. Select the liner and electrodes for the liquid chemistry.",
+      "installation": "Keep the tube full, provide the specified straight runs and confirm grounding. Check the zero and output scaling at commissioning.",
+      "sourceId": "emf",
+      "url": "/products/flowmeters/emf/",
+      "keyFacts": [
+        [
+          "Nominal bore",
+          "DN10–3000; larger sizes on request"
+        ],
+        [
+          "Output",
+          "4–20 mA; pulse/frequency optional"
+        ]
+      ],
+      "specGroups": [
+        {
+          "name": "Measurement & performance",
+          "rows": [
+            [
+              "Nominal bore",
+              "DN10–3000; larger sizes on request"
+            ],
+            [
+              "Velocity",
+              "0.2–12 m/s, bidirectional"
+            ],
+            [
+              "Accuracy",
+              "±0.5% of measured value"
+            ],
+            [
+              "Measuring principle",
+              "Faraday’s law of electromagnetic induction"
+            ],
+            [
+              "Accuracy option",
+              "±0.2% of measured value on request"
+            ],
+            [
+              "Repeatability",
+              "±0.2% of span"
+            ],
+            [
+              "Liquid conductivity",
+              "Above 20 µS/cm"
+            ],
+            [
+              "Excitation",
+              "Pulsed DC"
+            ],
+            [
+              "Reported values",
+              "Instantaneous flow; forward, reverse and net totalised volume"
+            ]
+          ]
+        },
+        {
+          "name": "Installation & connection",
+          "rows": [
+            [
+              "Output",
+              "4–20 mA; pulse/frequency optional"
+            ],
+            [
+              "Transmitter",
+              "Integral or remote, with field-interchangeable electronics; 10 m remote cable as standard"
+            ],
+            [
+              "Standard materials",
+              "SS304 measuring tube, carbon-steel housing, SS316L electrodes and rubber lining"
+            ],
+            [
+              "Liner option",
+              "PTFE for the specified process duty"
+            ],
+            [
+              "Pressure options",
+              "10 / 16 / 25 / 40 kg/cm²; confirm the selected assembly rating"
+            ],
+            [
+              "Temperature limits",
+              "Up to 70 °C for other linings; PTFE up to 120 °C integral or 180 °C remote, subject to configuration"
+            ],
+            [
+              "Power options",
+              "12–60 VDC or 80–300 VAC/DC; solar-powered configuration on request"
+            ],
+            [
+              "Protection",
+              "Sensor IP65; IP67/IP68 optional. Transmitter IP67"
+            ],
+            [
+              "Connections",
+              "Flange, wafer, tri-clamp or SMS; ANSI 150 standard flange option. Confirm the complete assembly rating and piping standard"
+            ],
+            [
+              "Display",
+              "2-line LCD; selectable m³, litre, gallon and ft³ units"
+            ],
+            [
+              "Diagnostics",
+              "Empty-pipe detection, flow direction and fault status"
+            ]
+          ]
+        }
+      ],
+      "headline": "Inline electromagnetic flowmeter.",
+      "method": "Electromagnetic induction",
+      "principle": "A conductive liquid moving through the meter’s magnetic field induces a voltage at the electrodes. The transmitter converts that signal into velocity and volumetric flow. The full-bore tube has no moving measuring parts; the liquid must fill it completely.",
+      "features": [
+        "Integral and remote transmitter options let you position the display for access and the process environment.",
+        "Forward, reverse and net totalisers support bidirectional measurement. Empty-pipe detection, flow direction and fault diagnostics help with commissioning and operation.",
+        "Choose the lining, electrodes and process connection together for the liquid chemistry and operating duty."
+      ],
+      "apps": [
+        "Water supply",
+        "Wastewater treatment",
+        "Sludge and slurry lines",
+        "Compatible chemical processes",
+        "Food and beverage processes"
+      ],
+      "care": "Inspect the liner and electrodes for coating, abrasion or chemical attack. Check grounding, zero, flow direction and output scaling during verification. Request the supplied meter’s calibration record and set a periodic verification schedule for the application.",
+      "confirmation": "Liquid conductivity must be above 20 µS/cm. Temperature, lining, pressure and connection options must be specified together; maximum limits are not automatically available in one assembly.",
+      "related": [
+        "ecoflow",
+        "sonicline",
+        "clampwave"
+      ],
+      "brochure": "/assets/brochures/flowmeters/vepolink-emf-brochure.pdf"
+    },
+    {
+      "id": "ecoflow",
+      "name": "EcoFlow",
+      "type": "Plastic-body electromagnetic flowmeter",
+      "technology": "electromagnetic",
+      "group": "inline",
+      "description": "A lightweight plastic-body meter for compatible conductive liquids, with a remote transmitter.",
+      "image": "ecoflow.webp",
+      "imageAlt": "Illustration of an EcoFlow plastic-body flowmeter and remote transmitter",
+      "fit": "Up to 5 kg/cm² and 55 °C. Check chemical compatibility with both HDPE and the SS316L electrodes.",
+      "installation": "Support the pipe on both sides of the flanges, keep the tube full and confirm grounding. Check the process stays inside the pressure and temperature limits.",
+      "sourceId": "ecoflow",
+      "url": "/products/flowmeters/ecoflow/",
+      "keyFacts": [
+        [
+          "Nominal bore",
+          "DN10–200"
+        ],
+        [
+          "Output",
+          "4–20 mA"
+        ]
+      ],
+      "specGroups": [
+        {
+          "name": "Measurement & performance",
+          "rows": [
+            [
+              "Nominal bore",
+              "DN10–200"
+            ],
+            [
+              "Velocity",
+              "0.2–12 m/s, bidirectional"
+            ],
+            [
+              "Accuracy",
+              "±1% of measured value"
+            ],
+            [
+              "Measuring principle",
+              "Faraday’s law of electromagnetic induction"
+            ],
+            [
+              "Liquid",
+              "Conductive liquids; confirm the minimum conductivity for the supplied model"
+            ],
+            [
+              "Repeatability",
+              "±0.2% of span"
+            ]
+          ]
+        },
+        {
+          "name": "Installation & connection",
+          "rows": [
+            [
+              "Output",
+              "4–20 mA"
+            ],
+            [
+              "Body and flow tube",
+              "Molded HDPE; no separate liner"
+            ],
+            [
+              "Electrodes",
+              "SS316L as standard"
+            ],
+            [
+              "Working pressure",
+              "5 kg/cm²"
+            ],
+            [
+              "Working temperature",
+              "Up to 55 °C"
+            ],
+            [
+              "Transmitter",
+              "Remote assembly, with field-interchangeable electronics and a standard 10 m cable"
+            ],
+            [
+              "Power options",
+              "12–60 VDC or 80–300 VAC/DC; solar-powered configuration on request"
+            ],
+            [
+              "Protection",
+              "Sensor IP65; IP67/IP68 optional. Transmitter IP67"
+            ],
+            [
+              "Connection",
+              "Flanged, ANSI 150 standard. Confirm flange dimensions and the complete assembly pressure rating"
+            ],
+            [
+              "Display",
+              "2-line LCD at the remote transmitter; selectable m³, litre, gallon and ft³ units"
+            ]
+          ]
+        }
+      ],
+      "headline": "Plastic-body electromagnetic flowmeter.",
+      "method": "Electromagnetic measurement in an HDPE tube",
+      "principle": "Electrodes detect the voltage generated as a conductive liquid moves through a magnetic field. EcoFlow uses a molded HDPE measuring tube without a separate liner, connected to a remote transmitter for flow indication and output.",
+      "features": [
+        "A lightweight HDPE body and flow tube suit compatible conductive liquids within the stated pressure and temperature limits.",
+        "The remote transmitter keeps the local display accessible, with a standard cable between sensor and transmitter.",
+        "Check the electrodes as well as the body: the standard wetted electrodes are SS316L, so chemical compatibility depends on both materials."
+      ],
+      "apps": [
+        "Effluent treatment",
+        "Water treatment",
+        "Chemical dosing and transfer",
+        "Compatible acidic or alkaline liquids"
+      ],
+      "care": "Inspect the HDPE body, flange supports and electrode condition. Verify grounding, full-pipe operation, zero and output scaling. Check for deposits and follow a cleaning method compatible with both HDPE and SS316L.",
+      "confirmation": "Confirm the minimum liquid conductivity for the supplied model. The HDPE body and SS316L electrodes must both suit the liquid; verify the complete assembly’s pressure rating and flange dimensions.",
+      "related": [
+        "emf",
+        "sonicline",
+        "clampwave"
+      ],
+      "brochure": "/assets/brochures/flowmeters/vepolink-ecoflow-brochure.pdf"
+    },
+    {
+      "id": "sonicline",
+      "name": "SonicLine",
+      "type": "Inline ultrasonic flowmeter",
+      "technology": "ultrasonic",
+      "group": "inline",
+      "description": "Transit-time measurement for suitable conductive and non-conductive liquids, with an unobstructed bore.",
+      "image": "sonicline.webp",
+      "imageAlt": "Illustration of a SonicLine inline ultrasonic sensor and wall-mounted transmitter",
+      "fit": "Liquid viscosity up to 350 cSt. Standard process limits: 40 bar and −20 to 200 °C; confirm the combined duty.",
+      "installation": "Install the inline sensor with a full bore and adequate straight pipe. Plan the initial installation separately from transducer servicing; live service requires the appropriate fittings and procedure.",
+      "sourceId": "sonicline",
+      "url": "/products/flowmeters/sonicline/",
+      "keyFacts": [
+        [
+          "Nominal bore",
+          "DN50–1200"
+        ],
+        [
+          "Interfaces",
+          "4–20 mA, pulse, relay; HART / PA options"
+        ]
+      ],
+      "specGroups": [
+        {
+          "name": "Measurement & performance",
+          "rows": [
+            [
+              "Nominal bore",
+              "DN50–1200"
+            ],
+            [
+              "Nominal flow",
+              "Qn 10–4200 m³/h, size-dependent"
+            ],
+            [
+              "Accuracy",
+              "±0.5% of flow rate"
+            ],
+            [
+              "Measuring principle",
+              "Transit-time ultrasonic"
+            ],
+            [
+              "Acoustic paths",
+              "Two as standard; four on request"
+            ],
+            [
+              "Liquid viscosity",
+              "Up to 350 cSt; verify acoustic suitability for the application"
+            ]
+          ]
+        },
+        {
+          "name": "Installation & connection",
+          "rows": [
+            [
+              "Working pressure",
+              "Maximum 40 bar, standard configuration"
+            ],
+            [
+              "Medium temperature",
+              "−20 to 200 °C, standard configuration"
+            ],
+            [
+              "Transmitter",
+              "Wall-mounted; −20 to 85 °C operating temperature"
+            ],
+            [
+              "Materials",
+              "EN 1.0345-P235GH steel measuring tube; AISI 316 or similar stainless-steel transducers"
+            ],
+            [
+              "Outputs",
+              "One analog, one pulse and one relay output. Confirm HART or PROFIBUS PA interface configuration"
+            ],
+            [
+              "Power options",
+              "24 V AC/DC or 115/230 VAC"
+            ],
+            [
+              "Protection",
+              "IP65 (NEMA 4)"
+            ],
+            [
+              "Transducer servicing",
+              "Under-pressure replacement with the specified retractable fitting and service procedure"
+            ],
+            [
+              "Display",
+              "2 × 16-character backlit LCD"
+            ],
+            [
+              "Sensor input",
+              "1- or 2-track interfaces; confirm the selected system configuration"
+            ]
+          ]
+        }
+      ],
+      "headline": "Inline ultrasonic flowmeter.",
+      "method": "Transit-time ultrasound through a dedicated flow tube",
+      "principle": "Transducers send sound upstream and downstream through the liquid. Flow changes the travel time in each direction; the transmitter uses the difference to calculate velocity and volumetric flow. The acoustic path allows measurement of suitable conductive and non-conductive liquids.",
+      "features": [
+        "Two acoustic paths are standard, with a four-path configuration available on request.",
+        "An unobstructed measuring bore and a separate wall-mounted transmitter provide process measurement and accessible local indication.",
+        "Transducers can be replaced under pressure only with the specified retractable fittings and service procedure. Plan the initial inline installation separately."
+      ],
+      "apps": [
+        "Industrial process liquids",
+        "Water and wastewater",
+        "District heating and cooling",
+        "Petrochemical processes",
+        "Utility flow monitoring"
+      ],
+      "care": "Verify signal quality, zero and the configured flow range during commissioning and periodic checks. Inspect electrical connections and the process assembly. Under-pressure transducer work requires the correct service fittings, procedure and trained personnel.",
+      "confirmation": "These are standard-configuration limits. Flow range depends on size; verify acoustic suitability and combined pressure, temperature, material and interface requirements for the selected assembly.",
+      "related": [
+        "clampwave",
+        "emf",
+        "ecoflow"
+      ],
+      "brochure": "/assets/brochures/flowmeters/vepolink-sonicline-brochure.pdf"
+    },
+    {
+      "id": "clampwave",
+      "name": "ClampWave",
+      "type": "Clamp-on ultrasonic flowmeter",
+      "technology": "ultrasonic",
+      "group": "clamp-on",
+      "description": "Transit-time flow measurement from outside an existing pipe, with no wetted sensor parts.",
+      "image": "clampwave.webp",
+      "imageAlt": "Illustration of ClampWave external transducers clamped to a pipe and connected to a transmitter",
+      "fit": "The pipe must run full and transmit a usable acoustic signal. Select sensors for its material, wall thickness and temperature.",
+      "installation": "Prepare the pipe surface, apply the specified coupling material and set transducer spacing from the actual pipe dimensions. Verify signal quality; aeration, solids, scale and lining need an application check.",
+      "sourceId": "clampwave",
+      "url": "/products/flowmeters/clampwave/",
+      "keyFacts": [
+        [
+          "Pipe size",
+          "12.7 mm–10 m, sensor-dependent"
+        ],
+        [
+          "Interfaces",
+          "4–20 mA, relay, pulse/frequency, Modbus RTU"
+        ]
+      ],
+      "specGroups": [
+        {
+          "name": "Measurement & performance",
+          "rows": [
+            [
+              "Pipe size",
+              "12.7 mm–10 m, sensor-dependent"
+            ],
+            [
+              "Velocity",
+              "±12 m/s, bidirectional"
+            ],
+            [
+              "Accuracy",
+              "1% of flow rate at velocity ≥0.3 m/s"
+            ],
+            [
+              "Measuring principle",
+              "Non-intrusive transit-time ultrasonic"
+            ],
+            [
+              "Sensor choices",
+              "Wide-beam, universal or high-temperature, selected for the application"
+            ],
+            [
+              "Flow sensitivity",
+              "0.001 m/s, independent of flow rate"
+            ],
+            [
+              "Repeatability",
+              "±0.25%, stated per ISO 11631"
+            ]
+          ]
+        },
+        {
+          "name": "Installation & connection",
+          "rows": [
+            [
+              "Transmitter temperature",
+              "−10 to 50 °C operating; −20 to 60 °C storage"
+            ],
+            [
+              "Display and channels",
+              "240 × 160 graphical display; single channel"
+            ],
+            [
+              "Inputs",
+              "Two digital inputs for totaliser start/stop and reset"
+            ],
+            [
+              "Outputs",
+              "One 4–20 mA, one relay and one pulse/frequency; Modbus RTU"
+            ],
+            [
+              "Power options",
+              "100–240 VAC at 20 VA or 11.5–28.5 VDC at 10 W"
+            ],
+            [
+              "Enclosure",
+              "Polycarbonate, IP65 (NEMA 4); transmitter 176 × 240 × 87 mm (W × H × D)"
+            ],
+            [
+              "Service interfaces",
+              "Removable microSD card and USB port"
+            ],
+            [
+              "Transducer material",
+              "AISI 316 or similar stainless steel"
+            ],
+            [
+              "Pipe materials",
+              "Steel EN 1.0345-P235GH and common pipe materials, subject to acoustic suitability"
+            ]
+          ]
+        }
+      ],
+      "headline": "Clamp-on ultrasonic flowmeter.",
+      "method": "Transit-time ultrasound from outside the pipe",
+      "principle": "Two external transducers send ultrasound through the pipe wall and liquid in opposing directions. The difference in travel time gives flow velocity; the transmitter uses the entered pipe dimensions to calculate volumetric flow. Sensors remain outside the process.",
+      "features": [
+        "Add flow measurement to an existing full pipe without cutting or draining it. There are no wetted sensor parts.",
+        "Choose wide-beam, universal or high-temperature sensors for the pipe material, dimensions and process conditions.",
+        "The single-channel transmitter provides local indication, totaliser control inputs and plant interfaces, with microSD and USB service access."
+      ],
+      "apps": [
+        "Water and wastewater lines",
+        "Process water",
+        "Heating and cooling circuits",
+        "Industrial utilities",
+        "Retrofit flow monitoring"
+      ],
+      "care": "Check coupling material, transducer contact and mounting stability. Recheck spacing and pipe settings after a sensor is moved. Compare signal quality and flow readings during periodic verification; aeration, solids, scale and pipe lining can affect the acoustic path.",
+      "confirmation": "The stated 1% accuracy applies at velocity ≥0.3 m/s. Pipe-size coverage depends on sensor selection. Transmitter temperature limits do not establish the process-temperature rating of the selected sensors.",
+      "related": [
+        "sonicline",
+        "emf",
+        "echoflow"
+      ],
+      "brochure": "/assets/brochures/flowmeters/vepolink-clampwave-brochure.pdf"
+    },
+    {
+      "id": "echoflow",
+      "name": "EchoFlow",
+      "type": "Non-contact ultrasonic flow transmitter",
+      "technology": "ultrasonic",
+      "group": "open-channel",
+      "description": "Measures liquid level above a flume or weir, then derives flow from its head–discharge relationship.",
+      "image": "echoflow.webp",
+      "imageAlt": "Illustration of an EchoFlow ultrasonic transmitter mounted above an open channel",
+      "fit": "Flow range and accuracy depend on the flume or weir, its geometry and the configured head–discharge curve. The level range is not a flow range.",
+      "installation": "Mount vertically with the required beam clearance at the primary device’s specified head-measurement point. Confirm the flume or weir geometry, level reference and flow conversion before use.",
+      "sourceId": "echoflow",
+      "url": "/products/flowmeters/echoflow/",
+      "keyFacts": [
+        [
+          "Level range",
+          "0.25–12 m"
+        ],
+        [
+          "Interfaces",
+          "4–20 mA / HART or PROFIBUS PA"
+        ]
+      ],
+      "specGroups": [
+        {
+          "name": "Measurement & performance",
+          "rows": [
+            [
+              "Level range",
+              "0.25–12 m"
+            ],
+            [
+              "Level accuracy",
+              "± the greater of 0.15% of range or 6 mm"
+            ],
+            [
+              "Level resolution",
+              "3 mm"
+            ],
+            [
+              "Measuring principle",
+              "Non-contact ultrasonic pulse-echo, with level-to-flow conversion"
+            ],
+            [
+              "Level repeatability",
+              "3 mm"
+            ],
+            [
+              "Flow conversion",
+              "Configured head–discharge curve for the installed flume or weir"
+            ]
+          ]
+        },
+        {
+          "name": "Installation & connection",
+          "rows": [
+            [
+              "Interfaces",
+              "4–20 mA / HART or PROFIBUS PA"
+            ],
+            [
+              "Operating temperature",
+              "−40 to 85 °C"
+            ],
+            [
+              "Working pressure",
+              "0.5 bar g"
+            ],
+            [
+              "Materials",
+              "PBT enclosure; ETFE or PVDF transducer face; Buna-N seal"
+            ],
+            [
+              "Power",
+              "Nominal 24 VDC loop power for 4–20 mA/HART, or PROFIBUS PA bus power"
+            ],
+            [
+              "Protection",
+              "Type 4X/6 and IP67/IP68 enclosure; measurement is above the liquid"
+            ],
+            [
+              "Mounting",
+              "3 inch (80 mm) universal flange; confirm mounting dimensions"
+            ],
+            [
+              "Configuration",
+              "Infrared programmer, PC device manager or HART communicator, as configured"
+            ],
+            [
+              "Signal processing",
+              "False-echo suppression for fixed obstructions; verify the real surface echo at commissioning"
+            ],
+            [
+              "Display",
+              "Local LCD with bar graph; level, flow and totalised volume"
+            ],
+            [
+              "Cable length",
+              "Specified for the site layout; confirm cable type, route and interface limits"
+            ]
+          ]
+        }
+      ],
+      "headline": "Non-contact ultrasonic flow transmitter.",
+      "method": "Pulse-echo level measurement, converted to flow",
+      "principle": "A transducer mounted above the liquid sends an ultrasonic pulse and times its returning echo. This gives the distance to the surface and the liquid level. At a flume or weir, the configured head–discharge relationship converts the measured head into flow.",
+      "features": [
+        "The transducer measures from above the channel without contacting the liquid.",
+        "A correctly specified primary device, such as a Parshall flume or a V-notch or rectangular weir, provides the relationship between head and flow.",
+        "Local indication and the selected plant interface carry level, calculated flow and totalised volume. False-echo suppression helps distinguish the surface from fixed obstructions."
+      ],
+      "apps": [
+        "Wastewater inlet and outlet channels",
+        "Effluent discharge",
+        "Irrigation channels",
+        "Stormwater measurement",
+        "Flumes and weirs"
+      ],
+      "care": "Keep the transducer face and acoustic path clear. Check the measured level against a reference, inspect the flume or weir for deposits or damage, and verify the head–discharge settings. Foam, vapour and obstructions require a signal check under actual operating conditions.",
+      "confirmation": "The range, resolution, repeatability and accuracy below describe level measurement. Flow range and accuracy depend on the flume or weir, its geometry, condition and configured head–discharge relationship.",
+      "related": [
+        "emf",
+        "clampwave",
+        "sonicline"
+      ],
+      "brochure": "/assets/brochures/flowmeters/vepolink-echoflow-brochure.pdf"
+    }
+  ]
+}

@@ -1,0 +1,671 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#fafaf7">
+  <title>Page not found — Vepolink</title>
+  <link rel="icon" type="image/png" href="/assets/vepolink-favicon.png">
+  <link rel="stylesheet" href="/assets/site.css?v=20261004footer4">
+  <style>
+    .not-found-page {
+      min-height: calc(100dvh - 67px);
+      padding: 112px 48px 120px;
+      overflow: hidden;
+    }
+
+    .not-found-grid {
+      width: min(1320px, 100%);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(360px, 1fr);
+      gap: clamp(48px, 8vw, 96px);
+      align-items: start;
+    }
+
+    .not-found-status-pill {
+      margin-bottom: 32px;
+    }
+
+    .not-found-status-pill > span {
+      background: var(--alert);
+    }
+
+    .not-found-copy h1 {
+      max-width: 720px;
+      margin: 0;
+      color: var(--ink);
+      font-size: clamp(48px, 6vw, 84px);
+      font-weight: 500;
+      letter-spacing: -0.045em;
+      line-height: 0.98;
+    }
+
+    .not-found-copy h1 em {
+      color: var(--cyan);
+      font-family: "Instrument Serif", Georgia, serif;
+      font-style: italic;
+      font-weight: 400;
+      letter-spacing: -0.02em;
+    }
+
+    .not-found-copy > .not-found-description {
+      max-width: 540px;
+      margin: 28px 0 0;
+      color: var(--muted);
+      font-size: 18px;
+      line-height: 1.55;
+    }
+
+    .not-found-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 36px;
+    }
+
+    .not-found-actions a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      min-height: 44px;
+      padding: 11px 18px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-size: 13.5px;
+      font-weight: 600;
+    }
+
+    .not-found-actions a:first-child {
+      background: var(--ink);
+      color: var(--paper-2);
+    }
+
+    .not-found-actions a:last-child {
+      border: 1px solid var(--line);
+      background: var(--card);
+      color: var(--ink);
+    }
+
+    .not-found-arrow {
+      font-size: 17px;
+      line-height: 1;
+    }
+
+    .not-found-panel {
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: var(--card);
+    }
+
+    .not-found-panel-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--line-2);
+    }
+
+    .not-found-panel-head span {
+      color: var(--muted);
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .not-found-status {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+    }
+
+    .not-found-status::before {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--ok);
+    }
+
+    .not-found-destinations {
+      display: grid;
+    }
+
+    .not-found-destination {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 18px 20px;
+      border-top: 1px solid var(--line-2);
+      color: inherit;
+      text-decoration: none;
+      transition: background 150ms ease;
+    }
+
+    .not-found-destination:first-child {
+      border-top: 0;
+    }
+
+    .not-found-destination:hover {
+      background: var(--paper);
+    }
+
+    .not-found-destination strong,
+    .not-found-destination small {
+      display: block;
+    }
+
+    .not-found-destination strong {
+      color: var(--ink);
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+    }
+
+    .not-found-destination small {
+      margin-top: 3px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .not-found-destination .not-found-arrow {
+      color: var(--muted-2);
+    }
+
+    @media (max-width: 900px) {
+      .not-found-page {
+        padding: 64px 22px 80px;
+      }
+
+      .not-found-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .not-found-panel-head {
+        flex-wrap: wrap;
+        gap: 8px 20px;
+      }
+
+      .not-found-actions a {
+        width: 100%;
+        justify-content: center;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .not-found-page {
+        padding-top: 48px;
+      }
+
+      .not-found-copy > .not-found-description {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <site-header>
+    <header class="site-header" data-header>
+      <div class="shell nav-shell">
+        <a class="brand" href="/" aria-label="Vepolink home">
+          <img src="/assets/vepolink-logo-horizontal-trimmed.png" width="206" height="40" alt="Vepolink">
+        </a>
+        <nav class="primary-nav" aria-label="Primary navigation">
+          <a class="nav-link" href="/">Home</a>
+      <div class="nav-dropdown" data-nav-dropdown>
+        <button class="nav-link nav-trigger" type="button" aria-expanded="false">
+          Solutions
+          <span aria-hidden="true">▾</span>
+        </button>
+        <div class="nav-menu" role="menu">
+          <a class="nav-menu-link" href="/water-quality-monitoring/">Water quality monitoring (WQMS)</a><a class="nav-menu-link" href="/stack-emission-monitoring/">Stack emission monitoring (CEMS / OCEMS)</a><a class="nav-menu-link" href="/ambient-air-monitoring/">Ambient air monitoring (CAAQMS)</a><a class="nav-menu-link" href="/indoor-air-monitoring/">Indoor air quality monitoring (IAQ)</a>
+        </div>
+      </div>
+
+      <div class="nav-dropdown nav-dropdown--mega" data-nav-dropdown>
+        <button class="nav-link nav-trigger" type="button" aria-expanded="false">
+          Products
+          <span aria-hidden="true">▾</span>
+        </button>
+        <div class="nav-menu nav-menu--mega" role="menu">
+
+              <section class="nav-mega-group" aria-label="Water monitoring">
+                <p>Water monitoring</p>
+                <a class="nav-menu-link" href="/products/multi-paramater-online-water-analyzer/">Multi-Parameter Online Water Analyzer (Extractive)</a><a class="nav-menu-link" href="/products/multi-parameter-online-water-analyzer-in-situ/">Multi-Parameter Online Water Analyzer (In-situ)</a><a class="nav-menu-link" href="/products/water-monitoring-probes/">Water Quality Monitoring Probes</a><a class="nav-menu-link" href="/products/flowmeters/">Electromagnetic &amp; Ultrasonic Flowmeters</a><a class="nav-menu-link" href="/products/radar-level-sensors/">Radar Water Level Sensors</a>
+              </section>
+
+              <section class="nav-mega-group" aria-label="Ambient air">
+                <p>Ambient air</p>
+                <a class="nav-menu-link" href="/products/ambient-so2-gas-analyzer/">Ambient SO2 Gas Analyzer (UV Fluorescence)</a><a class="nav-menu-link" href="/products/ambient-nox-gas-analyzer/">Ambient NOx Gas Analyzer (Chemiluminescence)</a><a class="nav-menu-link" href="/products/ambient-co-gas-analyzer/">Ambient CO Gas Analyzer (NDIR GFC)</a><a class="nav-menu-link" href="/products/ambient-co2-gas-analyzer/">Ambient CO2 Gas Analyzer (Dual-Range NDIR GFC)</a><a class="nav-menu-link" href="/products/ambient-ozone-gas-analyzer/">Ambient Ozone Gas Analyzer (UV Absorption)</a><a class="nav-menu-link" href="/products/ambient-btex-analyzer/">Ambient BTEX Analyzer (GC-PID)</a><a class="nav-menu-link" href="/products/pm10-pm25-beta-attenuation-monitor/">PM10 &amp; PM2.5 Beta Attenuation Monitor</a><a class="nav-menu-link" href="/products/sensor-based-ambient-air-quality-monitor/">Sensor-Based Ambient Air Quality Monitor</a>
+              </section>
+
+              <section class="nav-mega-group" aria-label="Process &amp; emissions">
+                <p>Process &amp; emissions</p>
+                <a class="nav-menu-link" href="/products/in-situ-tdlas-gas-analyzer/">In-Situ TDLAS Gas Analyzer</a><a class="nav-menu-link" href="/products/in-situ-flue-stack-gas-analyzer/">In-Situ Flue / Stack Gas Analyzer</a><a class="nav-menu-link" href="/products/extractive-flue-stack-gas-analyzer/">Extractive Flue / Stack Gas Analyzer</a><a class="nav-menu-link" href="/products/cross-duct-gas-analyzer/">Cross Duct Gas Analyzer</a><a class="nav-menu-link" href="/products/iot-data-logger/">IoT Data Logger</a>
+              </section>
+
+              <section class="nav-mega-group" aria-label="Gas safety">
+                <p>Gas safety</p>
+                <a class="nav-menu-link" href="/products/portable-single-gas-detector/">Portable Single Gas Detector</a><a class="nav-menu-link" href="/products/portable-multi-gas-detector/">Portable Multi Gas Detector</a><a class="nav-menu-link" href="/products/fixed-gas-detector/">Fixed Gas Detector</a>
+              </section>
+
+        </div>
+      </div>
+
+      <div class="nav-dropdown" data-nav-dropdown>
+        <button class="nav-link nav-trigger" type="button" aria-expanded="false">
+          Company
+          <span aria-hidden="true">▾</span>
+        </button>
+        <div class="nav-menu" role="menu">
+          <a class="nav-menu-link" href="/about/">About</a>
+        </div>
+      </div>
+
+        </nav>
+        <div class="nav-actions">
+          <a href="https://enviro.vepolink.com" target="_blank" rel="noopener noreferrer">Sign in</a>
+          <a class="button button-dark" href="mailto:sales@vepolink.com">Book a walkthrough</a>
+        </div>
+        <button class="mobile-nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-nav-panel" data-mobile-nav-toggle>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav-panel" id="mobile-nav-panel" aria-label="Mobile navigation" data-mobile-nav-panel>
+        <a class="mobile-nav-row" href="/">Home</a>
+
+      <section class="mobile-nav-group" data-mobile-nav-group>
+        <button class="mobile-nav-row" type="button" aria-expanded="false" aria-controls="mobile-nav-solutions" data-mobile-nav-disclosure>
+          <span>Solutions</span>
+          <span aria-hidden="true">▾</span>
+        </button>
+        <div class="mobile-nav-submenu" id="mobile-nav-solutions" data-mobile-nav-items>
+          <a class="mobile-nav-subitem" href="/water-quality-monitoring/">
+            <span class="mobile-nav-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M7 13.8c2.9-3.8 4.1-6 5-8.8.9 2.8 2.1 5 5 8.8a5 5 0 1 1-10 0Z"></path>
+              </svg>
+            </span>
+            <span>
+              <strong>Water quality monitoring</strong>
+              <small>WQMS</small>
+            </span>
+          </a><a class="mobile-nav-subitem" href="/stack-emission-monitoring/">
+            <span class="mobile-nav-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M7 20V8h5v12M12 20V4h5v16M5 20h14M14 7c2-2 4 0 4-3"></path>
+              </svg>
+            </span>
+            <span>
+              <strong>Stack emission monitoring</strong>
+              <small>CEMS / OCEMS</small>
+            </span>
+          </a><a class="mobile-nav-subitem" href="/ambient-air-monitoring/">
+            <span class="mobile-nav-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M4 15c2.4 0 3.2-2.4 5.2-2.4 2.2 0 2.7 2.4 5.2 2.4 2.1 0 3.2-1.5 5.6-1.5M6 9.5c1.7 0 2.2-1.8 3.8-1.8 1.8 0 2.2 1.8 4 1.8M5 19h14"></path>
+              </svg>
+            </span>
+            <span>
+              <strong>Ambient air monitoring</strong>
+              <small>CAAQMS outdoor</small>
+            </span>
+          </a><a class="mobile-nav-subitem" href="/indoor-air-monitoring/">
+            <span class="mobile-nav-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M5 20V5h14v15M9 9h6M9 13h6M9 17h2M3 20h18"></path>
+              </svg>
+            </span>
+            <span>
+              <strong>Indoor air quality monitoring</strong>
+              <small>IAQ in-room</small>
+            </span>
+          </a>
+        </div>
+      </section>
+
+
+      <section class="mobile-nav-group" data-mobile-nav-group>
+        <button class="mobile-nav-row" type="button" aria-expanded="false" aria-controls="mobile-nav-products" data-mobile-nav-disclosure>
+          <span>Products</span>
+          <span aria-hidden="true">▾</span>
+        </button>
+        <div class="mobile-nav-submenu" id="mobile-nav-products" data-mobile-nav-items>
+          <section class="mobile-nav-category" aria-labelledby="mobile-nav-products-water-monitoring">
+            <h3 id="mobile-nav-products-water-monitoring">Water monitoring</h3>
+            <a class="mobile-nav-subitem" href="/products/multi-paramater-online-water-analyzer/">
+            <span class="mobile-nav-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M5.8 7.5h12.4M5.8 12h12.4M5.8 16.5h12.4M8.2 5.3v4.4M14.8 9.8v4.4M11.2 14.3v4.4"></path>
+              </svg>
+            </span>
+            <span>
+              <strong>Multi-Parameter Analyzer (Extractive)</strong>
+              <small>Sample-line optical analyzer</small>
+            </span>
+          </a><a class="mobile-nav-subitem" href="/products/multi-parameter-online-water-analyzer-in-situ/">
+            <span class="mobile-nav-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M12 3v3M8 6h8M9 6v10a3 3 0 0 0 6 0V6M7 20h10"></path>
+              </svg>
+            </span>
+            <span>
+              <strong>Multi-Parameter Analyzer (In-situ)</strong>
+              <small>Direct-immersion UV-Vis sensor</small>
+            </span>
+          </a><a class="mobile-nav-subitem" href="/products/water-monitoring-probes/">
+            <span class="mobile-nav-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M6 3v4m12-4v4M4 7h4v11a2 2 0 0 1-4 0V7Zm12 0h4v11a2 2 0 0 1-4 0V7ZM4 15h4m8 0h4"></path>
+              </svg>
+            </span>
+            <span>
+              <strong>Water Quality Monitoring Probes</strong>
+              <small>Browse by measurement and output</small>
+            </span>
+          </a><a class="mobile-nav-subitem" href="/products/flowmeters/">
+            <span class="mobile-nav-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M3 8h18v8H3V8Zm4 0V5m10 3V5M7 16v3m10-3v3M8 12h8m-3-3 3 3-3 3"></path>
+              </svg>
+            </span>
+            <span>
+              <strong>Electromagnetic &amp; Ultrasonic Flowmeters</strong>
+              <small>Inline, clamp-on and open-channel measurement</small>
+            </span>
+          </a><a class="mobile-nav-subitem" href="/products/radar-level-sensors/">
+            <span class="mobile-nav-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M5 7h14M8 7v4m8-4v4M4 16c3-2 5-2 8 0s5 2 8 0M12 11v3M7 12l-2 2m12-2 2 2"></path>
+              </svg>
+            </span>
+            <span>
+              <strong>Radar Water Level Sensors</strong>
+              <small>Non-contact river and reservoir level</small>
+            </span>
+          </a>
+          </section><section class="mobile-nav-category" aria-labelledby="mobile-nav-products-ambient-air">
+            <h3 id="mobile-nav-products-ambient-air">Ambient air</h3>
+            <a class="mobile-nav-subitem" href="/products/ambient-so2-gas-analyzer/">
+            <span class="mobile-nav-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M6 8.5h12M8 5h8M8 8.5v6.2a4 4 0 0 0 8 0V8.5M6 18.5h12M9 12h6"></path>
+              </svg>
+            </span>
+            <span>
+              <strong>Ambient SO2 Gas Analyzer</strong>
+              <small>UV fluorescence gas analysis</small>
+            </span>
+          </a><a class="mobile-nav-subitem" href="/products/ambient-nox-gas-analyzer/">
+            <span class="mobile-nav-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M4 12h3l2-5 3 10 3-8 2 3h3M5 20h14M7 4h10"></path>
+              </svg>
+            </span>
+            <span>
+              <strong>Ambient NOx Gas Analyzer</strong>
+              <small>Chemiluminescence NO, NO₂ &amp; NOx</small>
+            </span>
+          </a><a class="mobile-nav-subitem" href="/products/ambient-co-gas-analyzer/">
+            <span class="mobile-nav-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M4 12h4c1.2-4 3-6 5-6s3.8 2 5 6h2M4 16h16M7 20h10"></path>
+              </svg>
+            </span>
+            <span>
+              <strong>Ambient CO Gas Analyzer</strong>
+              <small>NDIR gas filter correlation</small>
+            </span>
+          </a><a class="mobile-nav-subitem" href="/products/ambient-co2-gas-analyzer/">
+            <span class="mobile-nav-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M4 8h7v5H4V8Zm9 3h7v5h-7v-5ZM5 18h14M8 5h8"></path>
+              </svg>
+            </span>
+            <span>
+              <strong>Ambient CO2 Gas Analyzer</strong>
+              <small>Dual-range NDIR gas analysis</small>
+            </span>
+          </a><a class="mobile-nav-subitem" href="/products/ambient-ozone-gas-analyzer/">
+            <span class="mobile-nav-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M4 12h3M17 12h3M12 4v3M12 17v3M6.3 6.3l2.1 2.1M15.6 15.6l2.1 2.1M17.7 6.3l-2.1 2.1M8.4 15.6l-2.1 2.1M9 12a3 3 0 1 0 6 0 3 3 0 0 0-6 0Z"></path>
+              </svg>
+            </span>
+            <span>
+              <strong>Ambient Ozone Gas Analyzer</strong>
+              <small>UV absorption at 254 nm</small>
+            </span>
+          </a><a class="mobile-nav-subitem" href="/products/ambient-btex-analyzer/">
+            <span class="mobile-nav-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M4 18h16M6 15l2-7 2 7 2-10 2 10 2-5 2 5M5 4h14"></path>
+              </svg>
+            </span>
+            <span>
+              <strong>Ambient BTEX Analyzer</strong>
+              <small>GC-PID with thermal desorption</small>
+            </span>
+          </a><a class="mobile-nav-subitem" href="/products/pm10-pm25-beta-attenuation-monitor/">
+            <span class="mobile-nav-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M5 19h14M7 16V8h10v8M9 8V5h6v3M9 12h6M9 15h6"></path>
+              </svg>
+            </span>
+            <span>
+              <strong>PM10 &amp; PM2.5 Monitor</strong>
+              <small>Beta attenuation particulate monitor</small>
+            </span>
+          </a><a class="mobile-nav-subitem" href="/products/sensor-based-ambient-air-quality-monitor/">
+            <span class="mobile-nav-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M4 18h16M6 15V7h12v8M9 7V4h6v3M9 11h6M9 14h6"></path>
+              </svg>
+            </span>
+            <span>
+              <strong>Sensor-Based Air Quality Monitor</strong>
+              <small>Multi-gas, PM &amp; weather station</small>
+            </span>
+          </a>
+          </section><section class="mobile-nav-category" aria-labelledby="mobile-nav-products-process-emissions">
+            <h3 id="mobile-nav-products-process-emissions">Process &amp; emissions</h3>
+            <a class="mobile-nav-subitem" href="/products/in-situ-tdlas-gas-analyzer/">
+            <span class="mobile-nav-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M4 12h4M16 12h4M8 8h8v8H8zM10 10h4v4h-4zM3 6h18M3 18h18"></path>
+              </svg>
+            </span>
+            <span>
+              <strong>In-Situ TDLAS Gas Analyzer</strong>
+              <small>Laser absorption gas analysis</small>
+            </span>
+          </a><a class="mobile-nav-subitem" href="/products/in-situ-flue-stack-gas-analyzer/">
+            <span class="mobile-nav-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M5 20V6h14v14M8 6V3h8v3M3 20h18M9 11h6M12 11v5M12 16h7"></path>
+              </svg>
+            </span>
+            <span>
+              <strong>In-Situ Flue / Stack Gas Analyzer</strong>
+              <small>Heat-traced multi-gas stack analyzer</small>
+            </span>
+          </a><a class="mobile-nav-subitem" href="/products/extractive-flue-stack-gas-analyzer/">
+            <span class="mobile-nav-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M5 20V6h14v14M8 6V3h8v3M8 10h8M8 14h8M8 17h4M3 20h18"></path>
+              </svg>
+            </span>
+            <span>
+              <strong>Extractive Flue / Stack Gas Analyzer</strong>
+              <small>Heated extractive CEMS</small>
+            </span>
+          </a><a class="mobile-nav-subitem" href="/products/cross-duct-gas-analyzer/">
+            <span class="mobile-nav-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M3 7h5v10H3V7Zm13 0h5v10h-5V7ZM8 12h8M5 10h1M18 10h1M5 14h1M18 14h1"></path>
+              </svg>
+            </span>
+            <span>
+              <strong>Cross Duct Gas Analyzer</strong>
+              <small>In-situ TDLAS process analyzer</small>
+            </span>
+          </a><a class="mobile-nav-subitem" href="/products/iot-data-logger/">
+            <span class="mobile-nav-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M4 7h16v13H4V7Zm3 3h7v5H7v-5Zm10 0v1m0 3v1M7 18h10M7 7V3m10 4V3"></path>
+              </svg>
+            </span>
+            <span>
+              <strong>IoT Data Logger</strong>
+              <small>Connected logging · CPCB / SPCB</small>
+            </span>
+          </a>
+          </section><section class="mobile-nav-category" aria-labelledby="mobile-nav-products-gas-safety">
+            <h3 id="mobile-nav-products-gas-safety">Gas safety</h3>
+            <a class="mobile-nav-subitem" href="/products/portable-single-gas-detector/">
+            <span class="mobile-nav-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M8 3h8v3h2v14H6V6h2V3Zm2 5v5h4V8h-4Zm-1 8h6M9 18h2M13 18h2"></path>
+              </svg>
+            </span>
+            <span>
+              <strong>Portable Single Gas Detector</strong>
+              <small>Personal one-gas safety monitor</small>
+            </span>
+          </a><a class="mobile-nav-subitem" href="/products/portable-multi-gas-detector/">
+            <span class="mobile-nav-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M7 3h10v3h2v15H5V6h2V3Zm2 5h2v2H9V8Zm4 0h2v2h-2V8Zm-4 5h2v2H9v-2Zm4 0h2v2h-2v-2Zm-4 5h6"></path>
+              </svg>
+            </span>
+            <span>
+              <strong>Portable Multi Gas Detector</strong>
+              <small>Four-gas confined-space monitor</small>
+            </span>
+          </a><a class="mobile-nav-subitem" href="/products/fixed-gas-detector/">
+            <span class="mobile-nav-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M5 5h14v12H5V5Zm3 3h8v4H8V8Zm1 9v3h6v-3M8 14h2M12 14h2M16 14h1"></path>
+              </svg>
+            </span>
+            <span>
+              <strong>Fixed Gas Detector</strong>
+              <small>Flameproof 24/7 gas transmitter</small>
+            </span>
+          </a>
+          </section>
+        </div>
+      </section>
+
+
+      <section class="mobile-nav-group" data-mobile-nav-group>
+        <button class="mobile-nav-row" type="button" aria-expanded="false" aria-controls="mobile-nav-company" data-mobile-nav-disclosure>
+          <span>Company</span>
+          <span aria-hidden="true">▾</span>
+        </button>
+        <div class="mobile-nav-submenu" id="mobile-nav-company" data-mobile-nav-items>
+          <a class="mobile-nav-subitem" href="/about/">
+            <span class="mobile-nav-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M6.5 17.5v-6.3L12 6.5l5.5 4.7v6.3H14v-4h-4v4z"></path>
+              </svg>
+            </span>
+            <span>
+              <strong>About Vepolink</strong>
+              <small>Company</small>
+            </span>
+          </a>
+        </div>
+      </section>
+
+        <div class="mobile-nav-actions">
+          <a href="https://enviro.vepolink.com" target="_blank" rel="noopener noreferrer">Sign in</a>
+          <a class="button button-dark" href="mailto:sales@vepolink.com">Book a walkthrough</a>
+        </div>
+      </nav>
+    </header>
+</site-header>
+
+  <main class="not-found-page">
+    <div class="not-found-grid">
+      <section class="not-found-copy" aria-labelledby="not-found-title">
+        <p class="status-pill not-found-status-pill"><span></span>HTTP 404 · no data stream at this address</p>
+        <h1 id="not-found-title">This channel is<br><em>offline.</em></h1>
+        <p class="not-found-description">The page you asked for is not reporting. It may have been moved, renamed, or never existed. The rest of the monitoring platform is still transmitting normally.</p>
+        <div class="not-found-actions">
+          <a href="/">Back to platform <span class="not-found-arrow" aria-hidden="true">→</span></a>
+          <a href="/water-quality-monitoring/">View monitoring solutions <span class="not-found-arrow" aria-hidden="true">→</span></a>
+        </div>
+      </section>
+
+      <section class="not-found-panel" aria-labelledby="not-found-destinations-title">
+        <div class="not-found-panel-head">
+          <span id="not-found-destinations-title" class="mono">Live channels</span>
+          <span class="not-found-status mono">all nominal</span>
+        </div>
+        <div class="not-found-destinations">
+          <a class="not-found-destination" href="/">
+            <span><strong>Platform overview</strong><small>The complete monitoring stack</small></span>
+            <span class="not-found-arrow" aria-hidden="true">→</span>
+          </a>
+          <a class="not-found-destination" href="/water-quality-monitoring/">
+            <span><strong>Water quality</strong><small>Effluent and intake monitoring</small></span>
+            <span class="not-found-arrow" aria-hidden="true">→</span>
+          </a>
+          <a class="not-found-destination" href="/stack-emission-monitoring/">
+            <span><strong>Stack emission</strong><small>CEMS and OCEMS telemetry</small></span>
+            <span class="not-found-arrow" aria-hidden="true">→</span>
+          </a>
+          <a class="not-found-destination" href="/ambient-air-monitoring/">
+            <span><strong>Ambient air</strong><small>CAAQMS and outdoor networks</small></span>
+            <span class="not-found-arrow" aria-hidden="true">→</span>
+          </a>
+          <a class="not-found-destination" href="/indoor-air-monitoring/">
+            <span><strong>Indoor air</strong><small>IAQ across occupied spaces</small></span>
+            <span class="not-found-arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+  </main>
+  <site-footer>
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="/" aria-label="Vepolink home">
+            <img src="/assets/vepolink-logo-horizontal-trimmed.png" width="185" height="36" alt="Vepolink">
+          </a>
+          <p>Real-time data acquisition, monitoring and analytics for environmental compliance. Designed for industries that take environment seriously.</p>
+        </div>
+        <nav class="footer-group footer-platform" aria-label="Footer platform links">
+          <h2>Platform</h2>
+          <a href="/#platform">Environmental platform</a><a href="/water-quality-monitoring/">Water quality monitoring</a><a href="/stack-emission-monitoring/">Stack emission monitoring</a><a href="/ambient-air-monitoring/">Ambient air monitoring</a><a href="/indoor-air-monitoring/">Indoor air quality monitoring</a>
+        </nav>
+        <nav class="footer-group footer-company" aria-label="Footer company links">
+          <h2>Company</h2>
+          <a href="/about/">About</a><a href="mailto:techsupport@vepolink.com">Careers</a><a href="mailto:sales@vepolink.com">Channel partners</a><a href="tel:+919810416132">Support</a><a href="mailto:techsupport@vepolink.com">Contact</a>
+        </nav>
+      </div>
+      <div class="shell footer-bottom">
+        <p class="mono">© 2026 Vepolink Technologies LLP · Monitoring purity</p>
+        <nav aria-label="Legal links">
+          <a href="mailto:techsupport@vepolink.com">Privacy</a>
+          <a href="mailto:techsupport@vepolink.com">Terms</a>
+          <a href="mailto:techsupport@vepolink.com">Security</a>
+          <a href="mailto:techsupport@vepolink.com">SLA</a>
+          <a href="mailto:techsupport@vepolink.com">Data residency</a>
+        </nav>
+      </div>
+    </footer>
+</site-footer>
+  <script defer src="/assets/shared-ui.js?v=20261004footer4"></script>
+  <script defer src="/assets/site.js?v=20261004footer4"></script>
+</body>
+</html>

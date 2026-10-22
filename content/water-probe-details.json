@@ -1,0 +1,1792 @@
+{
+  "sourceAuthority": "Advance Analytik sensor pages and their linked datasheets, reviewed 2026-09-23. Supersedes the user’s draft Vepolink PDF.",
+  "sensors": [
+    {
+      "id": "ph-digital",
+      "name": "Digital pH Probe",
+      "measurement": "pH",
+      "group": "core",
+      "symbol": "pH",
+      "outputs": [
+        "digital"
+      ],
+      "range": "0–14 pH",
+      "method": "Glass electrode with temperature compensation",
+      "lead": "Track pH continuously through an RS-485 connection, with a glass electrode and built-in temperature compensation.",
+      "features": [
+        "RS-485 with Modbus RTU supports two-way communication.",
+        "Integrated PT1000 temperature sensing supports compensation.",
+        "Protected power and communication circuits support field installation."
+      ],
+      "install": "Use the 9–36 VDC supply and confirm the Modbus address, register map and wiring with the receiver. The temperature channel range is not the operating-temperature limit.",
+      "care": "Keep the glass bulb and reference junction clean. Verify readings with suitable pH buffers and follow the electrode storage instructions.",
+      "apps": [
+        "Water treatment",
+        "Wastewater treatment",
+        "Process pH control"
+      ],
+      "related": [
+        "ph-analog",
+        "orp-analog",
+        "ec-digital"
+      ],
+      "pending": "Confirm the operating-temperature limits; the source page and its datasheet give different lower limits.",
+      "source": {
+        "slug": "vizsens-ph-digital",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-ph-digital.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-pH-Digital.pdf"
+      },
+      "url": "/products/water-monitoring-probes/ph-digital/",
+      "specs": [
+        [
+          "Main material",
+          "Shell: 316L stainless steel + POM; cable: polyurethane; glass electrode"
+        ],
+        [
+          "Measurement range",
+          "0–14 pH"
+        ],
+        [
+          "Resolution",
+          "0.01 pH"
+        ],
+        [
+          "Precision",
+          "±0.1 pH"
+        ],
+        [
+          "Repeatability",
+          "±0.1 pH"
+        ],
+        [
+          "Temperature channel range",
+          "−15 to 110 °C"
+        ],
+        [
+          "Temperature resolution",
+          "0.1 °C"
+        ],
+        [
+          "Temperature accuracy",
+          "0.5 °C"
+        ],
+        [
+          "Pressure range",
+          "0–0.1 MPa"
+        ],
+        [
+          "Operating temperature",
+          "Confirm for the selected configuration"
+        ],
+        [
+          "Power supply",
+          "9–36 VDC"
+        ],
+        [
+          "Dimensions",
+          "Ø34 × 252 mm"
+        ],
+        [
+          "Protection",
+          "IP68, protective casing"
+        ],
+        [
+          "Cable length",
+          "10 m standard; extensions up to 200 m"
+        ],
+        [
+          "Communication",
+          "RS-485 / Modbus RTU"
+        ]
+      ],
+      "outputLabel": "Digital",
+      "connection": "RS-485 / Modbus",
+      "image": "digital-electrode.webp",
+      "imageSource": {
+        "status": "source-page-assignment",
+        "source": "https://www.advanceanalytik.com/products/productImages/imgpH.png",
+        "sourcePage": "https://www.advanceanalytik.com/products/sensors/vizsens-ph-digital.html",
+        "note": "Supplier product-page assignment accepted per user clarification: similar products can share photographs; repetition alone is not treated as an error."
+      },
+      "principle": "The glass electrode responds to the sample relative to a reference electrode. Temperature sensing and signal processing are integrated into the probe, which sends measurements over Modbus RTU.",
+      "confirmation": "Confirm the operating-temperature limits for the supplied model; the temperature channel range is a separate specification."
+    },
+    {
+      "id": "ph-analog",
+      "name": "Analog pH Probe",
+      "measurement": "pH",
+      "group": "core",
+      "symbol": "pH",
+      "outputs": [
+        "analog"
+      ],
+      "range": "0–14 pH",
+      "method": "Combined glass and reference electrode",
+      "lead": "Measure how acidic or alkaline the water is using a combined glass electrode and Ag/AgCl reference.",
+      "features": [
+        "Combined measuring and reference electrodes in a polypropylene body.",
+        "0–14 pH measurement for treatment and process water.",
+        "An optional conversion module provides an RS-485 connection."
+      ],
+      "install": "Connect to an appropriate pH electrode input or transmitter. An analog electrode is not automatically a powered 4–20 mA transmitter; confirm the receiver and any conversion module.",
+      "care": "Clean deposits from the glass bulb and reference junction, verify with pH buffers, and keep the electrode in the specified storage solution.",
+      "apps": [
+        "Water treatment",
+        "Aquaculture",
+        "Process pH control"
+      ],
+      "related": [
+        "ph-digital",
+        "orp-analog",
+        "tds-analog"
+      ],
+      "source": {
+        "slug": "vizsens-ph-analog",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-ph-analog.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-pH-Analog.pdf"
+      },
+      "url": "/products/water-monitoring-probes/ph-analog/",
+      "specs": [
+        [
+          "Main material",
+          "Black Polypropylene, Ag/Agcl Reference Gel"
+        ],
+        [
+          "Weight",
+          "0.2kg"
+        ],
+        [
+          "Dimensions",
+          "Dia. 28.7mm * Length 195mm"
+        ],
+        [
+          "Cable Length",
+          "Standard: 10m, extendable to 20m"
+        ],
+        [
+          "Measurement range",
+          "0–14 pH"
+        ],
+        [
+          "Measurement Accuracy",
+          "pH: ±0.1pH; Temperature: ±0.5°C"
+        ],
+        [
+          "Temperature Range",
+          "0-80°C"
+        ],
+        [
+          "Pressure Range",
+          "≤ 0.6MPa"
+        ],
+        [
+          "Zero Potential pH Value",
+          "7 ± 0.25pH (15mV)"
+        ],
+        [
+          "Slope",
+          "≥ 95%"
+        ],
+        [
+          "Internal Resistance",
+          "≤ 250MΩ"
+        ],
+        [
+          "Alkaline Error",
+          "0.2pH (1mol/L Na+ pH14) (25°C)"
+        ],
+        [
+          "Response time",
+          "≤10 s after stirring"
+        ]
+      ],
+      "outputLabel": "Analog electrode",
+      "connection": "Compatible electrode input or transmitter",
+      "image": "analog-electrode.webp",
+      "imageSource": {
+        "status": "source-page-assignment",
+        "source": "https://www.advanceanalytik.com/products/productImages/img003.png",
+        "sourcePage": "https://www.advanceanalytik.com/products/sensors/vizsens-ph-analog.html",
+        "note": "Supplier product-page assignment accepted per user clarification: similar products can share photographs; repetition alone is not treated as an error."
+      },
+      "principle": "A glass indicating electrode and reference electrode share one body. A compatible measuring instrument reads their potential difference and converts it into a pH result.",
+      "confirmation": "Confirm the selected range, interface, cable and mounting against the current model datasheet before ordering."
+    },
+    {
+      "id": "orp-analog",
+      "name": "Analog ORP Probe",
+      "measurement": "ORP / Redox",
+      "group": "core",
+      "symbol": "ORP",
+      "outputs": [
+        "analog"
+      ],
+      "range": "−2000 to +2000 mV",
+      "method": "Measuring electrode against a reference electrode",
+      "lead": "Follow oxidation-reduction conditions with a combination electrode that measures solution potential against an Ag/AgCl reference.",
+      "features": [
+        "Continuous redox potential measurement across a ±2000 mV range.",
+        "Polypropylene housing with an Ag/AgCl reference gel.",
+        "Optional conversion module for an RS-485 connection."
+      ],
+      "install": "Use a receiver designed for an ORP electrode. Confirm the terminal connection and any transmitter needed for the plant input.",
+      "care": "Keep the electrode and reference junction free of deposits. Verify response with a suitable redox standard; the listed quinhydrone values are reference checks, not measurement accuracy.",
+      "apps": [
+        "Disinfection control",
+        "Water treatment",
+        "Industrial process water"
+      ],
+      "related": [
+        "ph-analog",
+        "rcl",
+        "ozone"
+      ],
+      "source": {
+        "slug": "vizsens-orp-analog",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-orp-analog.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-orp-Analog.pdf"
+      },
+      "url": "/products/water-monitoring-probes/orp-analog/",
+      "specs": [
+        [
+          "Main materials",
+          "Black Polypropylene, Ag/Agcl Reference Gel"
+        ],
+        [
+          "Measurement range",
+          "−2000 to +2000 mV"
+        ],
+        [
+          "Pressure range",
+          "≤0.6MPa"
+        ],
+        [
+          "Temperature range",
+          "0-80 °C"
+        ],
+        [
+          "Zero potential value",
+          "86 ± 15mV (25 °C) (in pH 7.00 solution containing saturated quinhydrone)"
+        ],
+        [
+          "Quinhydrone check, pH 4",
+          "≥170 mV at 25 °C in saturated quinhydrone solution"
+        ],
+        [
+          "Response time",
+          "≤ 10 sec (Reach 95% of the end value) (After stirring)"
+        ],
+        [
+          "Dimensions",
+          "Dia28.7mm * L 195mm"
+        ],
+        [
+          "Weight",
+          "0.2kg"
+        ],
+        [
+          "Cable length",
+          "Standard: 10m, the maximum can be extended to 20m"
+        ]
+      ],
+      "outputLabel": "Analog electrode",
+      "connection": "Compatible electrode input or transmitter",
+      "image": "analog-electrode.webp",
+      "imageSource": {
+        "status": "source-page-assignment",
+        "source": "https://www.advanceanalytik.com/products/productImages/img003.png",
+        "sourcePage": "https://www.advanceanalytik.com/products/sensors/vizsens-orp-analog.html",
+        "note": "Supplier product-page assignment accepted per user clarification: similar products can share photographs; repetition alone is not treated as an error."
+      },
+      "principle": "The measuring electrode and reference establish an electrical potential in the sample. The result describes oxidation-reduction conditions in millivolts and is distinct from a conductivity measurement.",
+      "confirmation": "Confirm the selected range, interface, cable and mounting against the current model datasheet before ordering."
+    },
+    {
+      "id": "ec-digital",
+      "name": "Digital Conductivity Probe",
+      "measurement": "Conductivity / EC",
+      "group": "core",
+      "symbol": "EC",
+      "outputs": [
+        "digital"
+      ],
+      "range": "10 µS/cm–200 mS/cm",
+      "method": "Four-electrode conductivity cell",
+      "lead": "Measure conductivity across a wide range with a four-electrode graphite cell, automatic range switching and RS-485 communication.",
+      "features": [
+        "Four-electrode sensing with graphite electrodes.",
+        "PT1000 temperature sensing supports compensation.",
+        "Modbus communication and a 3/4-inch mounting thread."
+      ],
+      "install": "Provide 9–36 VDC and confirm Modbus settings. Choose the mounting and cable length for the site; temperature measurement capability does not extend the electrode operating limit.",
+      "care": "Inspect the cell for coating and deposits. Clean using the model instructions and verify with conductivity standards appropriate to the working range.",
+      "apps": [
+        "Water treatment",
+        "Industrial process water",
+        "Salinity monitoring"
+      ],
+      "related": [
+        "ec-analog",
+        "tds-analog",
+        "ph-digital"
+      ],
+      "pending": "Housing information follows the specification table and datasheet. Confirm material and temperature-compensation limits for the supplied model.",
+      "source": {
+        "slug": "vizsens-ec-digital",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-ec-digital.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-EC-Digital.pdf"
+      },
+      "url": "/products/water-monitoring-probes/ec-digital/",
+      "specs": [
+        [
+          "Main material",
+          "316L stainless steel + POM"
+        ],
+        [
+          "Dimensions",
+          "Ø34 × 210 mm"
+        ],
+        [
+          "Cable length",
+          "10 m standard; extensions up to 200 m"
+        ],
+        [
+          "Mounting thread",
+          "3/4 inch"
+        ],
+        [
+          "Measurement range",
+          "10 µS/cm–200 mS/cm"
+        ],
+        [
+          "Accuracy",
+          "±2% of full scale"
+        ],
+        [
+          "Resolution",
+          "0.01–1 µS/cm, depending on range"
+        ],
+        [
+          "Repeatability",
+          "±1%"
+        ],
+        [
+          "Temperature channel range",
+          "0–100 °C"
+        ],
+        [
+          "Electrode temperature",
+          "0–45 °C"
+        ],
+        [
+          "Pressure range",
+          "0–0.1 MPa"
+        ],
+        [
+          "Power supply",
+          "9–36 VDC"
+        ],
+        [
+          "Communication",
+          "RS-485 / Modbus"
+        ],
+        [
+          "Protection",
+          "IP68, protective casing"
+        ]
+      ],
+      "outputLabel": "Digital",
+      "connection": "RS-485 / Modbus",
+      "image": "digital-electrode.webp",
+      "imageSource": {
+        "status": "source-page-assignment",
+        "source": "https://www.advanceanalytik.com/products/productImages/imgpH.png",
+        "sourcePage": "https://www.advanceanalytik.com/products/sensors/vizsens-ec-digital.html",
+        "note": "Supplier product-page assignment accepted per user clarification: similar products can share photographs; repetition alone is not treated as an error."
+      },
+      "principle": "Four electrodes measure electrical conductance through the water. The graphite sensing cell, automatic range switching and temperature compensation support measurements across changing conductivity conditions.",
+      "confirmation": "Confirm the housing material, mounting and temperature-compensation limits for the supplied configuration."
+    },
+    {
+      "id": "ec-analog",
+      "name": "Analog Conductivity Probe",
+      "measurement": "Conductivity / EC",
+      "group": "core",
+      "symbol": "EC",
+      "outputs": [
+        "analog"
+      ],
+      "range": "Range depends on model",
+      "method": "Glass-platinum conductivity electrode",
+      "lead": "Monitor conductivity with a glass-platinum electrode and temperature compensation, connected to a suitable conductivity instrument.",
+      "features": [
+        "Polypropylene body with a glass-platinum electrode.",
+        "PT1000A temperature compensation.",
+        "10 m standard cable with extensions up to 20 m."
+      ],
+      "install": "Confirm the cell constant, measurement range and electrode input before selecting the receiver. Specify any transmitter required for a 4–20 mA plant input.",
+      "care": "Keep the cell free of deposits and verify it using an appropriate conductivity standard. Check the temperature input as part of commissioning.",
+      "apps": [
+        "Water treatment",
+        "Industrial process water",
+        "Aquaculture"
+      ],
+      "related": [
+        "ec-digital",
+        "tds-analog",
+        "ph-analog"
+      ],
+      "pending": "Confirm the conductivity range and cell constant. The source page and linked datasheet specify different ranges.",
+      "source": {
+        "slug": "vizsens-ec-analog",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-ec-analog.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-EC-Analog.pdf"
+      },
+      "url": "/products/water-monitoring-probes/ec-analog/",
+      "specs": [
+        [
+          "Measurement range",
+          "Confirm for the selected configuration"
+        ],
+        [
+          "Main materials",
+          "Black polypropylene shell, glass platinum electrode"
+        ],
+        [
+          "Weight",
+          "0.2kg"
+        ],
+        [
+          "Dimensions",
+          "Dia28.7mm * L 195mm"
+        ],
+        [
+          "Cable length",
+          "Standard: 10m, the maximum can be extended to 20m"
+        ],
+        [
+          "Temperature range",
+          "0-80 °C"
+        ],
+        [
+          "Pressure range",
+          "≤0.6MPa"
+        ],
+        [
+          "Response time",
+          "≤10 sec (Reach 95% of the end value) (After stirring)"
+        ],
+        [
+          "Medium temperature",
+          "0~80 °C"
+        ],
+        [
+          "Temperature Compensation",
+          "PT1000A"
+        ]
+      ],
+      "outputLabel": "Analog electrode",
+      "connection": "Compatible electrode input or transmitter",
+      "image": "analog-electrode.webp",
+      "imageSource": {
+        "status": "source-page-assignment",
+        "source": "https://www.advanceanalytik.com/products/productImages/img003.png",
+        "sourcePage": "https://www.advanceanalytik.com/products/sensors/vizsens-ec-analog.html",
+        "note": "Supplier product-page assignment accepted per user clarification: similar products can share photographs; repetition alone is not treated as an error."
+      },
+      "principle": "The glass-platinum cell uses electrical voltage and current to determine conductivity. The receiving instrument must use the appropriate cell constant and temperature input.",
+      "confirmation": "Confirm the analog conductivity range and cell constant before selecting the receiver."
+    },
+    {
+      "id": "tds-analog",
+      "name": "Analog TDS Probe",
+      "measurement": "Total dissolved solids",
+      "group": "core",
+      "symbol": "TDS",
+      "outputs": [
+        "analog"
+      ],
+      "range": "0–20,000 mg/L",
+      "method": "Conductivity-derived dissolved solids measurement",
+      "lead": "Track dissolved solids using a glass-platinum electrode and temperature compensation, configured for the water being measured.",
+      "features": [
+        "0–20,000 mg/L range specified at K = 1.",
+        "PT1000 temperature compensation.",
+        "Polypropylene housing and a 10 m standard cable."
+      ],
+      "install": "Use a compatible TDS or conductivity receiver. Confirm the cell constant and the conversion used to report dissolved solids for the site water.",
+      "care": "Clean electrode deposits and verify against an appropriate reference. The relationship between conductivity and dissolved solids depends on the dissolved ions.",
+      "apps": [
+        "Water treatment",
+        "Process water",
+        "Aquaculture"
+      ],
+      "related": [
+        "ec-analog",
+        "ec-digital",
+        "ph-analog"
+      ],
+      "source": {
+        "slug": "vizsens-tds-analog",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-tds-analog.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-TDS-Analog.pdf"
+      },
+      "url": "/products/water-monitoring-probes/tds-analog/",
+      "specs": [
+        [
+          "Main Material",
+          "Black polypropylene shell, glass platinum electrode"
+        ],
+        [
+          "Weight",
+          "0.2kg"
+        ],
+        [
+          "Dimensions",
+          "Dia 28.7 mm * L 195 mm"
+        ],
+        [
+          "Cable Length",
+          "Standard: 10m, extendable to 20m"
+        ],
+        [
+          "Measurement Range",
+          "TDS: 0 to 20,000 mg/L (K = 1)"
+        ],
+        [
+          "Measurement Accuracy",
+          "±1% or 1 mg/L"
+        ],
+        [
+          "Temperature Range",
+          "0-80°C"
+        ],
+        [
+          "Pressure Range",
+          "≤0.6 MPa"
+        ],
+        [
+          "Response Time",
+          "≤10 sec (Reach 95% of the end value after stirring)"
+        ],
+        [
+          "Temperature Compensation",
+          "PT1000"
+        ]
+      ],
+      "outputLabel": "Analog electrode",
+      "connection": "Compatible electrode input or transmitter",
+      "image": "analog-electrode.webp",
+      "imageSource": {
+        "status": "source-page-assignment",
+        "source": "https://www.advanceanalytik.com/products/productImages/img003.png",
+        "sourcePage": "https://www.advanceanalytik.com/products/sensors/vizsens-tds-analog.html",
+        "note": "Supplier product-page assignment accepted per user clarification: similar products can share photographs; repetition alone is not treated as an error."
+      },
+      "principle": "The probe uses an electrical conductivity measurement to derive a dissolved-solids value. The conversion should be configured for the composition of the water rather than treated as a direct measurement of every dissolved substance.",
+      "confirmation": "Confirm the selected range, interface, cable and mounting against the current model datasheet before ordering."
+    },
+    {
+      "id": "odo",
+      "name": "Optical Dissolved Oxygen Probe",
+      "measurement": "Dissolved oxygen",
+      "group": "core",
+      "symbol": "DO",
+      "outputs": [
+        "digital"
+      ],
+      "range": "0–20 mg/L",
+      "method": "Luminescence quenching",
+      "lead": "Measure dissolved oxygen optically for continuous monitoring, without consuming oxygen at the sensing cap.",
+      "features": [
+        "Reports concentration or percentage saturation.",
+        "Temperature compensation and built-in diagnostics.",
+        "Factory calibration with field calibration available."
+      ],
+      "install": "Connect the 9–36 VDC supply and RS-485 receiver. Select stainless steel or titanium to suit the water. Keep the sensing cap in representative water, clear of trapped bubbles.",
+      "care": "Keep the optical cap clean and inspect it for damage. Verify calibration and replace the cap according to the selected model instructions.",
+      "apps": [
+        "Aeration monitoring",
+        "Aquaculture",
+        "Surface water"
+      ],
+      "related": [
+        "ph-digital",
+        "turbidity",
+        "nh4n"
+      ],
+      "source": {
+        "slug": "vizsens-odo",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-odo.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-ODO-Sensor.pdf"
+      },
+      "url": "/products/water-monitoring-probes/odo/",
+      "specs": [
+        [
+          "Dimensions",
+          "Ø49.5 × 251.3 mm"
+        ],
+        [
+          "Measurement range",
+          "0–20 mg/L or 0–200% saturation"
+        ],
+        [
+          "Accuracy",
+          "±3% of reading or ±0.3 mg/L, whichever is greater"
+        ],
+        [
+          "Temperature accuracy",
+          "±0.5 °C"
+        ],
+        [
+          "Resolution",
+          "0.01 mg/L"
+        ],
+        [
+          "Repeatability",
+          "±0.3 mg/L"
+        ],
+        [
+          "Pressure range",
+          "≤0.3 MPa"
+        ],
+        [
+          "Body material",
+          "316L stainless steel for fresh water; titanium alloy for marine use"
+        ],
+        [
+          "Cover",
+          "Polyphenylene + glass fibre"
+        ],
+        [
+          "Cable material",
+          "Polyurethane"
+        ],
+        [
+          "Weight",
+          "1.4 kg"
+        ],
+        [
+          "Cable length",
+          "10 m standard; extensions up to 100 m"
+        ],
+        [
+          "Power supply",
+          "9–36 VDC"
+        ],
+        [
+          "Communication",
+          "RS-485 / Modbus"
+        ],
+        [
+          "Storage temperature",
+          "−15 to 60 °C"
+        ],
+        [
+          "Measuring temperature",
+          "0–45 °C"
+        ],
+        [
+          "Protection",
+          "IP68 / NEMA 6P"
+        ]
+      ],
+      "outputLabel": "Digital",
+      "connection": "RS-485 / Modbus",
+      "image": "odo.webp",
+      "imageSource": {
+        "media": "image8.png",
+        "rows": [
+          64
+        ],
+        "anchorRow": 63,
+        "status": "unambiguous"
+      },
+      "principle": "Blue LED light excites the luminescent sensing cap, which emits red light. Oxygen changes the luminescence response; the sensor uses that change to determine dissolved oxygen concentration.",
+      "confirmation": "Confirm the selected range, interface, cable and mounting against the current model datasheet before ordering."
+    },
+    {
+      "id": "rcl",
+      "name": "Residual Chlorine Probe",
+      "measurement": "Residual chlorine",
+      "group": "core",
+      "symbol": "RCL",
+      "outputs": [
+        "digital"
+      ],
+      "range": "0–2 mg/L; 0–20 optional",
+      "method": "Constant-voltage electrochemical measurement",
+      "lead": "Monitor residual chlorine through a controlled sample flow, using a constant-voltage electrode and two-point calibration.",
+      "features": [
+        "Standard 0–2 mg/L range with a 0–20 mg/L option.",
+        "Manual or automatic temperature compensation.",
+        "Flow-cell installation with 30–60 L/h sample flow."
+      ],
+      "install": "Provide the required sample flow and confirm the chlorine species, pH conditions and receiving instrument. The linked datasheet specifies 12 VDC and RS-485 Modbus.",
+      "care": "Maintain flow through the cell, keep the electrode clean and verify calibration against the appropriate reference method. Set the service interval from site conditions.",
+      "apps": [
+        "Drinking water treatment",
+        "Disinfection monitoring",
+        "Process water"
+      ],
+      "related": [
+        "ph-digital",
+        "orp-analog",
+        "ozone"
+      ],
+      "pending": "Confirm the cable and complete flow-cell configuration. Source documents give different cable lengths; no annual-only calibration interval is assumed.",
+      "source": {
+        "slug": "vizsens-rcl",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-rcl.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-RCL.pdf"
+      },
+      "url": "/products/water-monitoring-probes/rcl/",
+      "specs": [
+        [
+          "Principle",
+          "Constant-voltage electrochemical method"
+        ],
+        [
+          "Measurement range",
+          "0–2 mg/L; 0–20 mg/L optional"
+        ],
+        [
+          "Sample pH",
+          "5–8"
+        ],
+        [
+          "Accuracy",
+          "±3% or ±0.3 mg/L, whichever is greater"
+        ],
+        [
+          "Temperature compensation",
+          "Manual or automatic"
+        ],
+        [
+          "Repeatability",
+          "±0.3 mg/L"
+        ],
+        [
+          "Pressure range",
+          "≤0.3 MPa"
+        ],
+        [
+          "Calibration",
+          "Two-point"
+        ],
+        [
+          "Flow rate",
+          "30–60 L/h"
+        ],
+        [
+          "Material",
+          "316L stainless steel shell"
+        ],
+        [
+          "Dimensions",
+          "Ø13.5 × 178.5 mm, electrode"
+        ],
+        [
+          "Cable length",
+          "Confirm for the selected configuration"
+        ],
+        [
+          "Power supply",
+          "12 VDC"
+        ],
+        [
+          "Communication",
+          "RS-485 / Modbus"
+        ],
+        [
+          "Mounting",
+          "PG13.5"
+        ],
+        [
+          "Operating temperature",
+          "0–50 °C, non-freezing"
+        ]
+      ],
+      "outputLabel": "Digital",
+      "connection": "RS-485 / Modbus",
+      "image": "rcl.webp",
+      "imageSource": {
+        "status": "unambiguous",
+        "source": "https://www.advanceanalytik.com/products/sensors/vizsens-rcl.html",
+        "imageUrl": "https://www.advanceanalytik.com/products/productImages/img010.png"
+      },
+      "principle": "The electrode operates at a controlled potential and the measurement uses the resulting current. A suitable flow cell maintains sample delivery to the sensing surface.",
+      "confirmation": "Confirm the chlorine species, flow cell, cable and receiving interface together."
+    },
+    {
+      "id": "turbidity",
+      "name": "Turbidity Probe",
+      "measurement": "Turbidity",
+      "group": "core",
+      "symbol": "NTU",
+      "outputs": [
+        "digital"
+      ],
+      "range": "0.01–100 / 4000 NTU",
+      "method": "Infrared light scattering",
+      "lead": "Measure suspended-particle effects on water clarity with infrared optical sensing and an optional automatic cleaning brush.",
+      "features": [
+        "Select a 0.01–100 or 0.01–4000 NTU range.",
+        "Optional cleaning brush for fouling-prone installations.",
+        "Digital output with diagnostics for continuous monitoring."
+      ],
+      "install": "Select the range for the expected water clarity and keep the optical path clear of bubbles and obstructions. Confirm the probe power supply and RS-485 configuration.",
+      "care": "Clean the optical surfaces and verify with suitable turbidity standards. Include the optional brush in the maintenance plan when specified.",
+      "apps": [
+        "Water treatment",
+        "Wastewater monitoring",
+        "Surface water"
+      ],
+      "related": [
+        "turbidity-low",
+        "ss",
+        "odo"
+      ],
+      "source": {
+        "slug": "vizsens-turb",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-turb.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-turb.pdf"
+      },
+      "url": "/products/water-monitoring-probes/turbidity/",
+      "specs": [
+        [
+          "Dimensions",
+          "Diameter: 60mm, Length: 261mm"
+        ],
+        [
+          "Weight",
+          "1.65kg"
+        ],
+        [
+          "Protective Rating",
+          "IP68/NEMA6P"
+        ],
+        [
+          "Measurement ranges",
+          "0.01–100 NTU or 0.01–4000 NTU"
+        ],
+        [
+          "Resolution",
+          "0.01~0.1NTU, based on range"
+        ],
+        [
+          "Repeatability",
+          "±2%"
+        ],
+        [
+          "Main Material",
+          "Body: SUS316L (fresh water), Titanium alloy (Ocean marine)"
+        ],
+        [
+          "Pressure Range",
+          "≤0.4 MPa"
+        ],
+        [
+          "Flow Rate",
+          "≤2.5m/s, 8.2ft/s"
+        ],
+        [
+          "Accuracy",
+          "<±2% of reading or ±0.1 NTU, whichever is greater"
+        ],
+        [
+          "Measuring Temperature",
+          "0-45 °C"
+        ],
+        [
+          "Body",
+          "SUS316L (fresh water), Titanium alloy (Ocean marine)"
+        ],
+        [
+          "Cover",
+          "Polyphenylene + glass fiber"
+        ],
+        [
+          "Cable",
+          "Polyurethane"
+        ],
+        [
+          "Cable Length",
+          "Standard: 10m, maximum extendable length: 100m"
+        ]
+      ],
+      "outputLabel": "Digital",
+      "connection": "RS-485 / Modbus",
+      "image": "turbidity.webp",
+      "imageSource": {
+        "source": "https://www.advanceanalytik.com/products/productImages/img014.png",
+        "sourcePage": "https://www.advanceanalytik.com/products/sensors/vizsens-turb.html",
+        "status": "source-page-assignment",
+        "note": "Supplier product-page assignment accepted per user clarification: similar products can share photographs; repetition alone is not treated as an error."
+      },
+      "principle": "Infrared light interacts with particles in the water. The sensor uses the optical response to report turbidity; the selected range and clean optical surfaces determine the usable measurement.",
+      "confirmation": "Confirm the selected range, interface, cable and mounting against the current model datasheet before ordering."
+    },
+    {
+      "id": "turbidity-low",
+      "name": "Low-range Turbidity Sensor",
+      "measurement": "Turbidity",
+      "group": "core",
+      "symbol": "NTU",
+      "outputs": [
+        "digital"
+      ],
+      "range": "Up to 100 NTU",
+      "method": "Optical measurement in a flow cell",
+      "lead": "Monitor low-turbidity water in a dedicated flow-through assembly with controlled sample flow and a digital connection.",
+      "features": [
+        "Dedicated flow-through measurement up to 100 NTU.",
+        "12 VDC supply and RS-485 Modbus communication.",
+        "IP65 indoor assembly with separate inlet and outlet connections."
+      ],
+      "install": "Mount indoors and feed 300–700 mL/min through the cell. Use the 1/4 NPT inlet and 1/2 NPT outlet. This IP65 assembly is not an immersion probe.",
+      "care": "Keep the flow cell clean and free of trapped bubbles. Verify the low-range response using suitable standards and maintain a steady sample flow.",
+      "apps": [
+        "Drinking water treatment",
+        "Filtered water monitoring",
+        "Process water"
+      ],
+      "related": [
+        "turbidity",
+        "rcl",
+        "ec-digital"
+      ],
+      "pending": "Confirm the lower measurement limit, resolution and accuracy for the selected version; the source page and datasheet differ at the low end.",
+      "source": {
+        "slug": "vizsens-turb-lo",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-turb-lo.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-turb-Lo.pdf"
+      },
+      "url": "/products/water-monitoring-probes/turbidity-low/",
+      "specs": [
+        [
+          "Measurement range",
+          "Up to 100 NTU; confirm the lower limit"
+        ],
+        [
+          "Repeatability",
+          "±2%"
+        ],
+        [
+          "Flow Rate",
+          "300mL/min ≤ X ≤ 700mL/min"
+        ],
+        [
+          "Pipe Fitting",
+          "Injection Port: 1/4NPT; Discharge Outlet: 1/2NPT"
+        ],
+        [
+          "Power Supply",
+          "12VDC"
+        ],
+        [
+          "Material",
+          "Machine: ABS+SUS316L; Sealing Element: Acrylonitrile Butadiene Rubber; Cable: Polyurethane"
+        ],
+        [
+          "Communication Protocol",
+          "MODBUS RS485"
+        ],
+        [
+          "Measuring Temperature",
+          "0-45 °C"
+        ],
+        [
+          "Dimensions",
+          "304*207*392.5 mm (L*W*H)"
+        ],
+        [
+          "Weight",
+          "2.1kg"
+        ],
+        [
+          "Protective Rate",
+          "IP65"
+        ],
+        [
+          "Cable Length",
+          "Three-meter standard cable, The LED version can be extended up to 30 meters"
+        ]
+      ],
+      "outputLabel": "Digital",
+      "connection": "RS-485 / Modbus",
+      "image": "turbidity-low.webp",
+      "imageSource": {
+        "status": "unambiguous",
+        "source": "https://www.advanceanalytik.com/products/sensors/vizsens-turb-lo.html",
+        "imageUrl": "https://www.advanceanalytik.com/products/productImages/img015.png"
+      },
+      "principle": "A dedicated flow cell presents a controlled water sample to the optical measurement. A steady sample supply and a clean cell are important when assessing low turbidity.",
+      "confirmation": "Confirm the lower measurement limit, resolution and accuracy for the selected version."
+    },
+    {
+      "id": "uv-cod",
+      "name": "UV COD Probe",
+      "measurement": "UV COD",
+      "group": "organic",
+      "symbol": "COD",
+      "outputs": [],
+      "range": "Range depends on model",
+      "method": "UV-visible absorption",
+      "lead": "Follow organic contamination continuously using UV-visible absorption, with optical compensation and automatic cleaning.",
+      "features": [
+        "Direct immersion measurement without chemical reagents.",
+        "Optical compensation for colour and turbidity.",
+        "Automatic cleaning to reduce deposits on the measurement window."
+      ],
+      "install": "Select the optical path and calibration for the water matrix. COD, BOD and TOC values are optical estimates that need a site-appropriate correlation, rather than separate wet-chemistry tests.",
+      "care": "Inspect and clean the optical window and cleaning mechanism. Verify the correlation against the appropriate laboratory reference method when the water matrix changes.",
+      "apps": [
+        "Wastewater treatment",
+        "Industrial effluent",
+        "Surface water monitoring"
+      ],
+      "related": [
+        "oiw",
+        "turbidity",
+        "ss"
+      ],
+      "pending": "Confirm optical path, COD-equivalent range, housing material, pressure rating and output interface. The source page and datasheet describe different configurations.",
+      "source": {
+        "slug": "vizsens-uvcod",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-uvcod.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-UVCOD.pdf"
+      },
+      "url": "/products/water-monitoring-probes/uv-cod/",
+      "specs": [
+        [
+          "Measurement range",
+          "Confirm for the selected configuration"
+        ],
+        [
+          "Accuracy",
+          "±5 %（KHP Standard solution）"
+        ],
+        [
+          "repeatibility",
+          "±2 %（KHP Standard solution）"
+        ],
+        [
+          "Resolution",
+          "0.01 mg/L"
+        ],
+        [
+          "Measuring temperature",
+          "0-45 °C"
+        ],
+        [
+          "Cable Length",
+          "Standard:10m,can be extended to 100m"
+        ],
+        [
+          "Sensor Protection",
+          "IP68"
+        ],
+        [
+          "Operating Temperature",
+          "0 °C to 50 °C"
+        ],
+        [
+          "Dimensions",
+          "Diameter: 34mm, Length: 217mm"
+        ]
+      ],
+      "outputLabel": "Output to be confirmed",
+      "connection": "Interface to be confirmed",
+      "image": "uv-cod.webp",
+      "imageSource": {
+        "status": "unambiguous",
+        "source": "https://www.advanceanalytik.com/products/sensors/vizsens-uvcod.html",
+        "imageUrl": "https://www.advanceanalytik.com/products/productImages/img011.png"
+      },
+      "principle": "Organic substances absorb ultraviolet and visible light. The probe measures that absorption and applies compensation and calibration to report organic-load estimates, including COD-equivalent values.",
+      "confirmation": "Confirm optical path, COD-equivalent range, housing material, pressure rating and output interface."
+    },
+    {
+      "id": "ss",
+      "name": "Suspended Solids Probe",
+      "measurement": "Suspended solids / sludge",
+      "group": "solids-algae",
+      "symbol": "SS",
+      "outputs": [
+        "digital"
+      ],
+      "range": "Up to 120,000 mg/L",
+      "method": "Dual-beam infrared light scattering",
+      "lead": "Monitor suspended-solids and sludge concentration with infrared optical sensing, configurable ranges and optional automatic cleaning.",
+      "features": [
+        "Three concentration ranges up to 20,000, 45,000 or 120,000 mg/L.",
+        "Optional automatic cleaning for deposit-prone sites.",
+        "RS-485 Modbus communication and onboard diagnostics."
+      ],
+      "install": "Select the range and cleaning configuration for the sludge. Install in representative, well-mixed water and confirm the required supply and receiver.",
+      "care": "Keep the optical surfaces clean and check the measurement against representative samples. Accuracy depends on sludge homogeneity and the calibration used.",
+      "apps": [
+        "Wastewater treatment",
+        "Sludge monitoring",
+        "Industrial process water"
+      ],
+      "related": [
+        "turbidity",
+        "odo",
+        "uv-cod"
+      ],
+      "source": {
+        "slug": "vizsens-ss",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-ss.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-SS.pdf"
+      },
+      "url": "/products/water-monitoring-probes/ss/",
+      "specs": [
+        [
+          "Dimensions",
+          "Diameter: 60mm, Length: 251.5mm - (without cleaning) Diameter: 60mm, Length: 261.5mm - (with cleaning)"
+        ],
+        [
+          "Weight",
+          "1.65kg"
+        ],
+        [
+          "Protective Rate",
+          "IP68/NEMA6P"
+        ],
+        [
+          "Main Material",
+          "Body: SUS316L (fresh water), Titanium alloy (Ocean marine)"
+        ],
+        [
+          "Measurement ranges",
+          "0.01–20,000 / 45,000 / 120,000 mg/L"
+        ],
+        [
+          "Accuracy",
+          "<±5% of measured value; depends on sludge homogeneity"
+        ],
+        [
+          "Resolution",
+          "0.01-1mg/L, based on range"
+        ],
+        [
+          "Repeatability",
+          "±2%"
+        ],
+        [
+          "Pressure Range",
+          "≤0.4 MPa"
+        ],
+        [
+          "Flow Rate",
+          "≤2.5m/s, 8.2ft/s"
+        ],
+        [
+          "Communication Protocol",
+          "MODBUS RS485"
+        ],
+        [
+          "Measuring Temperature",
+          "0-45 °C"
+        ],
+        [
+          "Cover",
+          "Polyphenylene + glass fiber"
+        ],
+        [
+          "Cable Length",
+          "Standard: 10m, the maximum may be extended to 100m"
+        ]
+      ],
+      "outputLabel": "Digital",
+      "connection": "RS-485 / Modbus",
+      "image": "ss.webp",
+      "imageSource": {
+        "media": "image6.png",
+        "rows": [
+          91
+        ],
+        "anchorRow": 90,
+        "status": "unambiguous"
+      },
+      "principle": "A dual-beam infrared system measures light scattered by suspended particles. The concentration result depends on the selected range, calibration and how uniformly the solids are distributed in the sample.",
+      "confirmation": "Confirm the selected range, interface, cable and mounting against the current model datasheet before ordering."
+    },
+    {
+      "id": "cphl",
+      "name": "Chlorophyll-a Probe",
+      "measurement": "Chlorophyll",
+      "group": "solids-algae",
+      "symbol": "Chl-a",
+      "outputs": [
+        "digital"
+      ],
+      "range": "0–500 µg/L",
+      "method": "Chlorophyll-a fluorescence",
+      "lead": "Track chlorophyll-a fluorescence directly in the water for continuous observation of algal activity.",
+      "features": [
+        "Direct optical measurement without sample extraction.",
+        "Digital communication over RS-485 Modbus.",
+        "Use multiple monitoring points where distribution is uneven."
+      ],
+      "install": "Use the specified low-voltage supply and confirm the receiving interface. The source recommends water turbidity below 50 NTU and multiple points where distribution varies.",
+      "care": "Keep the optical window clean and verify the response using the recommended reference. Fluorescence needs interpretation alongside the site water conditions.",
+      "apps": [
+        "Reservoir monitoring",
+        "Lake profiling",
+        "Environmental research"
+      ],
+      "related": [
+        "bga",
+        "turbidity",
+        "odo"
+      ],
+      "source": {
+        "slug": "vizsens-cphl",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-cphl.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-CPHL.pdf"
+      },
+      "url": "/products/water-monitoring-probes/cphl/",
+      "specs": [
+        [
+          "Main Material",
+          "Body: SUS316L (fresh water), Titanium alloy (marine);"
+        ],
+        [
+          "Power Supply",
+          "DC 6~12V, current < 50mA"
+        ],
+        [
+          "Pressure Range",
+          "≤0.4MPa"
+        ],
+        [
+          "Measurement Range",
+          "0-500 µg/L"
+        ],
+        [
+          "Reference-dye accuracy",
+          "±5% of the signal corresponding to 1 ppb Rhodamine B dye"
+        ],
+        [
+          "Resolution",
+          "0.01µg/L"
+        ],
+        [
+          "Repeatability",
+          "±3%"
+        ],
+        [
+          "Communication Protocol",
+          "MODBUS RS485"
+        ],
+        [
+          "Measuring Temperature",
+          "0-45 °C"
+        ],
+        [
+          "Dimension and Weight",
+          "Dia 30mm * L 223mm, 0.55kg"
+        ],
+        [
+          "Protective Rate",
+          "Sensor: IP68/NEMA6P"
+        ],
+        [
+          "Cable Length",
+          "Standard: 10m, the maximum may be extended to 100m"
+        ]
+      ],
+      "outputLabel": "Digital",
+      "connection": "RS-485 / Modbus",
+      "image": "algae.webp",
+      "imageSource": {
+        "source": "https://www.advanceanalytik.com/products/productImages/img016.png",
+        "sourcePage": "https://www.advanceanalytik.com/products/sensors/vizsens-cphl.html",
+        "status": "source-page-assignment",
+        "note": "Supplier product-page assignment accepted per user clarification: similar products can share photographs; repetition alone is not treated as an error."
+      },
+      "principle": "The optical system excites chlorophyll-a at a suitable wavelength and measures its fluorescence. The fluorescence response provides an indicator of chlorophyll-a content without extracting a laboratory sample.",
+      "confirmation": "Confirm the selected range, interface, cable and mounting against the current model datasheet before ordering."
+    },
+    {
+      "id": "bga",
+      "name": "Blue-green Algae Probe",
+      "measurement": "Blue-green algae",
+      "group": "solids-algae",
+      "symbol": "BGA",
+      "outputs": [
+        "digital"
+      ],
+      "range": "0–300,000 cells/mL",
+      "method": "Pigment fluorescence",
+      "lead": "Follow a fluorescence-based indicator of blue-green algae, with readings reported in cells per millilitre.",
+      "features": [
+        "0–300,000 cells/mL reported range.",
+        "RS-485 Modbus communication.",
+        "Multipoint monitoring supports uneven algae distribution."
+      ],
+      "install": "Confirm the enclosure rating and permissible immersion before installation. Use representative monitoring locations and observe the stated turbidity condition.",
+      "care": "Keep the optical window clear and verify using the specified reference method. Fluorescence does not directly identify toxins or every cyanobacterial species.",
+      "apps": [
+        "Reservoir monitoring",
+        "Surface water",
+        "Environmental research"
+      ],
+      "related": [
+        "cphl",
+        "turbidity",
+        "odo"
+      ],
+      "pending": "Confirm the enclosure rating before immersion: the web table lists IP65/NEMA 4X while the linked datasheet lists IP68/NEMA 6P.",
+      "source": {
+        "slug": "vizsens-bga",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-bga.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-BGA.pdf"
+      },
+      "url": "/products/water-monitoring-probes/bga/",
+      "specs": [
+        [
+          "Measurement Range",
+          "0—300,000 cells/mL"
+        ],
+        [
+          "Reference-dye accuracy",
+          "±10% of the signal corresponding to 1 ppb Rhodamine B dye"
+        ],
+        [
+          "Resolution",
+          "20 cells/mL"
+        ],
+        [
+          "Repeatability",
+          "±3%"
+        ],
+        [
+          "Communication Protocol",
+          "MODBUS RS485"
+        ],
+        [
+          "Main Material",
+          "Body: SUS316L + Polyvinyl Chloride, Cover: Polyoxymethylene, Cable: Polyurethane"
+        ],
+        [
+          "Pressure Range",
+          "≤0.4MPa"
+        ],
+        [
+          "Dimension and Weight",
+          "Dia 30mm * L 223mm, 0.55kg"
+        ],
+        [
+          "Cable length",
+          "Standard: 10m, the maximum may be extended to 100m"
+        ],
+        [
+          "Water conditions",
+          "Turbidity below 50 NTU; consider multipoint monitoring for uneven algae distribution"
+        ],
+        [
+          "Power Supply",
+          "9~36 VDC"
+        ],
+        [
+          "Measuring Temperature",
+          "0-45 °C"
+        ],
+        [
+          "Enclosure protection",
+          "Confirm before immersion"
+        ]
+      ],
+      "outputLabel": "Digital",
+      "connection": "RS-485 / Modbus",
+      "image": "algae.webp",
+      "imageSource": {
+        "source": "https://www.advanceanalytik.com/products/productImages/img016.png",
+        "sourcePage": "https://www.advanceanalytik.com/products/sensors/vizsens-bga.html",
+        "status": "source-page-assignment",
+        "note": "Supplier product-page assignment accepted per user clarification: similar products can share photographs; repetition alone is not treated as an error."
+      },
+      "principle": "The optical system measures pigment fluorescence as an indicator of blue-green algae. A calibration expresses that signal in cells per millilitre; the response can vary with the organisms and water conditions.",
+      "confirmation": "Confirm the enclosure rating and permissible immersion before installation."
+    },
+    {
+      "id": "oiw",
+      "name": "Oil in Water Probe",
+      "measurement": "Oil in water",
+      "group": "organic",
+      "symbol": "OIW",
+      "outputs": [
+        "digital"
+      ],
+      "range": "Range depends on model",
+      "method": "Ultraviolet fluorescence",
+      "lead": "Detect oil-related fluorescence in water with a UV optical sensor and an optional self-cleaning brush.",
+      "features": [
+        "UV fluorescence with optical and electronic filtering.",
+        "RS-485 Modbus connection.",
+        "Optional brush for fouling-prone installations."
+      ],
+      "install": "Confirm the oil type, reporting units and concentration range for the application. Position the probe in representative water and select a suitable body material.",
+      "care": "Inspect the optical window for oil films and deposits. Verify calibration for the target oil and the actual water matrix; plan brush maintenance if fitted.",
+      "apps": [
+        "Industrial effluent",
+        "Process water",
+        "Surface water monitoring"
+      ],
+      "related": [
+        "uv-cod",
+        "turbidity",
+        "ss"
+      ],
+      "pending": "Confirm range, detection limit and resolution. The source page and datasheet disagree, and the listed resolution has no usable unit.",
+      "source": {
+        "slug": "vizsens-oiw",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-oiw.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-OIW.pdf"
+      },
+      "url": "/products/water-monitoring-probes/oiw/",
+      "specs": [
+        [
+          "Measurement range",
+          "Confirm for the selected configuration"
+        ],
+        [
+          "Principle",
+          "Ultraviolet fluorescence method"
+        ],
+        [
+          "Main Material",
+          "Body: SUS316L, titanium alloy; Cable: Polyurethane"
+        ],
+        [
+          "Protection Level",
+          "IP68"
+        ],
+        [
+          "Sensor Interface",
+          "Support RS-485, MODBUS protocol"
+        ],
+        [
+          "Dimension",
+          "Diameter 45*Length 191mm"
+        ],
+        [
+          "Installation",
+          "Immersion type"
+        ],
+        [
+          "Probe Cable Length",
+          "10 meters (default), Expandable upto 50 meters"
+        ],
+        [
+          "Temperature",
+          "0 to 50°C"
+        ],
+        [
+          "Self-Cleaning Brush",
+          "Optional"
+        ]
+      ],
+      "outputLabel": "Digital",
+      "connection": "RS-485 / Modbus",
+      "image": "oiw.webp",
+      "imageSource": {
+        "media": "image1.png",
+        "rows": [
+          128
+        ],
+        "anchorRow": 129,
+        "status": "unambiguous"
+      },
+      "principle": "Ultraviolet excitation produces fluorescence from responsive oil components. Optical and electronic filtering distinguish the measured response from background light, while calibration relates it to the target oil.",
+      "confirmation": "Confirm the target oil, reporting units, range, detection limit and resolution."
+    },
+    {
+      "id": "nh4n",
+      "name": "Ammonia Nitrogen Probe",
+      "measurement": "Ammonia nitrogen",
+      "group": "nutrients",
+      "symbol": "NH₄-N",
+      "outputs": [
+        "digital"
+      ],
+      "range": "Range depends on model",
+      "method": "NH4-N measurement with compensation",
+      "lead": "Monitor ammonia nitrogen continuously with pH and temperature compensation and a digital connection.",
+      "features": [
+        "NH4-N monitoring with pH and temperature compensation.",
+        "RS-485 Modbus communication.",
+        "5 m standard cable, with custom lengths available."
+      ],
+      "install": "Confirm the nitrogen range, water chemistry and calibration requirements. The source specifies up to 10 m immersion for this probe; verify the supplied configuration before installation.",
+      "care": "Clean the sensing surfaces and verify with appropriate standards. Set calibration and sensor maintenance intervals for the site water and interfering ions.",
+      "apps": [
+        "Wastewater treatment",
+        "Nutrient monitoring",
+        "Environmental monitoring"
+      ],
+      "related": [
+        "no3n",
+        "ph-digital",
+        "odo"
+      ],
+      "pending": "Confirm the sensing configuration, NH4-N range, accuracy and resolution; the source page and its datasheet publish different values.",
+      "source": {
+        "slug": "vizsens-nh4n",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-nh4n.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-NH4N.pdf"
+      },
+      "url": "/products/water-monitoring-probes/nh4n/",
+      "specs": [
+        [
+          "Measurement range",
+          "Confirm for the selected configuration"
+        ],
+        [
+          "pH channel range",
+          "5–10"
+        ],
+        [
+          "pH accuracy",
+          "±0.1 pH"
+        ],
+        [
+          "pH Resolution",
+          "0.01"
+        ],
+        [
+          "Protection Level",
+          "IP68/NEMA6P;"
+        ],
+        [
+          "Repeatibility",
+          "±5% or ±0.2mg/L"
+        ],
+        [
+          "Deepest Depth",
+          "10 meters underwater"
+        ],
+        [
+          "Temperature Range",
+          "0 ~ 50°C"
+        ],
+        [
+          "Probe Cable Length",
+          "5 meters (default), can be customized"
+        ],
+        [
+          "Housing Material",
+          "Polyoxymethylene (An Engineering Thermoplastic)"
+        ]
+      ],
+      "outputLabel": "Digital",
+      "connection": "RS-485 / Modbus",
+      "image": "nh4n.webp",
+      "imageSource": {
+        "media": "image3.png",
+        "rows": [
+          137
+        ],
+        "anchorRow": 134,
+        "status": "unambiguous"
+      },
+      "principle": "The probe reports ammonia nitrogen and compensates for pH and temperature. Select the sensing configuration and calibration for the expected concentration, water chemistry and interfering ions.",
+      "confirmation": "Confirm the sensing configuration, NH4-N range, accuracy and resolution."
+    },
+    {
+      "id": "no3n",
+      "name": "Nitrate Nitrogen Probe",
+      "measurement": "Nitrate nitrogen",
+      "group": "nutrients",
+      "symbol": "NO₃-N",
+      "outputs": [
+        "digital"
+      ],
+      "range": "0–3000 mg/L as NO3-N",
+      "method": "Nitrate measurement with compensation",
+      "lead": "Follow nitrate nitrogen with automatic pH and temperature compensation and an RS-485 Modbus output.",
+      "features": [
+        "0–3000 mg/L reported as nitrate nitrogen.",
+        "Automatic pH and temperature compensation.",
+        "Low-voltage digital interface with a 5 m standard cable."
+      ],
+      "install": "Use a 6–12 VDC supply and confirm the Modbus configuration. Select the probe together with the required calibration method and water chemistry.",
+      "care": "Verify with standard solution and plan calibration for the site conditions. The stated accuracy is a laboratory result obtained within six hours of calibration.",
+      "apps": [
+        "Nutrient monitoring",
+        "Wastewater treatment",
+        "Environmental monitoring"
+      ],
+      "related": [
+        "nh4n",
+        "ph-digital",
+        "odo"
+      ],
+      "pending": "Confirm nitrate resolution and sensing configuration; the source page lists 0.1 ppm while its datasheet lists 0.01 ppm.",
+      "source": {
+        "slug": "vizsens-no3n",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-no3n.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-NO3N.pdf"
+      },
+      "url": "/products/water-monitoring-probes/no3n/",
+      "specs": [
+        [
+          "pH Range",
+          "3-10"
+        ],
+        [
+          "pH Accuracy",
+          "±0.1"
+        ],
+        [
+          "pH Resolution",
+          "0.01"
+        ],
+        [
+          "Housing Material",
+          "Polyoxymethylene"
+        ],
+        [
+          "Nitrate nitrogen range",
+          "0–3000 mg/L as NO3-N"
+        ],
+        [
+          "Accuracy",
+          "±10% or ±0.2 mg/L, obtained within 6 h of calibration with standard solution under laboratory conditions"
+        ],
+        [
+          "Protection Level",
+          "IP68"
+        ],
+        [
+          "Temperature Range",
+          "0〜50 °C"
+        ],
+        [
+          "Power Supply",
+          "DC 6~12V, current<50mA"
+        ],
+        [
+          "Output Signal",
+          "Digital RS-485 output, MODBUS protocol"
+        ],
+        [
+          "Dimensions",
+          "Diameter: 55mm, Length: 345mm"
+        ],
+        [
+          "Cable Length",
+          "5 meters (default), can be customizable"
+        ]
+      ],
+      "outputLabel": "Digital",
+      "connection": "RS-485 / Modbus",
+      "image": "no3n.webp",
+      "imageSource": {
+        "media": "image9.png",
+        "rows": [
+          145
+        ],
+        "anchorRow": 146,
+        "status": "unambiguous"
+      },
+      "principle": "The probe reports nitrate nitrogen and applies pH and temperature compensation. Its laboratory accuracy qualification makes calibration conditions an important part of interpreting field performance.",
+      "confirmation": "Confirm nitrate resolution, calibration conditions and the sensing configuration."
+    },
+    {
+      "id": "ozone",
+      "name": "Dissolved Ozone Probe",
+      "measurement": "Dissolved ozone",
+      "group": "core",
+      "symbol": "O₃",
+      "outputs": [],
+      "range": "0–20 ppm",
+      "method": "Two-electrode membrane measurement",
+      "lead": "Measure dissolved ozone in a controlled sample flow using a two-electrode system and a selective permeable membrane.",
+      "features": [
+        "0–20 ppm measurement with integrated temperature compensation.",
+        "Approximately 15 s T90 response.",
+        "Flow-cell operation at 250–500 mL/min."
+      ],
+      "install": "Provide the specified flow through the measuring cell and confirm the power, output and receiving instrument. Internal digital processing alone does not establish an external digital interface.",
+      "care": "Inspect the membrane and follow the electrode maintenance instructions. Calibrate the slope against the appropriate analytical reference on the receiving instrument.",
+      "apps": [
+        "Drinking water treatment",
+        "Ozone disinfection",
+        "Process water"
+      ],
+      "related": [
+        "rcl",
+        "orp-analog",
+        "ph-digital"
+      ],
+      "pending": "Confirm external output, supply voltage and enclosure protection for the selected assembly; these are not specified in the source technical table.",
+      "source": {
+        "slug": "vizsens-o3",
+        "url": "https://www.advanceanalytik.com/products/sensors/vizsens-o3.html",
+        "datasheet": "https://www.advanceanalytik.com/products/productsDataSheets/Vizsens-O3.pdf"
+      },
+      "url": "/products/water-monitoring-probes/ozone/",
+      "specs": [
+        [
+          "Measurement Range",
+          "0~20 ppm"
+        ],
+        [
+          "Precision, 0–2 ppm",
+          "<1%; specified only for this subrange"
+        ],
+        [
+          "pH Range",
+          "2~11"
+        ],
+        [
+          "Sample flow through cell",
+          "250–500 mL/min"
+        ],
+        [
+          "Response time",
+          "T90: about 15s (up to 90% of the measured value)"
+        ],
+        [
+          "Slope calibration",
+          "On the measuring device, determined by analytical methods"
+        ],
+        [
+          "Temp compensation",
+          "Integrated automatic temp. compensation"
+        ],
+        [
+          "Material",
+          "PVC-U, Semipermeable membrane, ABS"
+        ],
+        [
+          "Operating temperatures",
+          "Water: 0–45 °C; ambient: 0–55 °C"
+        ],
+        [
+          "Size",
+          "Diameter 25mm * length 220mm"
+        ],
+        [
+          "Cable length",
+          "Standard:10m, the maximum may be extended to 100m"
+        ]
+      ],
+      "outputLabel": "Output to be confirmed",
+      "connection": "Interface to be confirmed",
+      "image": "ozone.webp",
+      "imageSource": {
+        "status": "unambiguous",
+        "source": "https://www.advanceanalytik.com/products/sensors/vizsens-o3.html",
+        "imageUrl": "https://www.advanceanalytik.com/products/productImages/vizsens-o3.png"
+      },
+      "principle": "A permeable membrane separates the sample from a two-electrode measuring system. The membrane design reduces chemical interference, while integrated temperature compensation supports the result.",
+      "confirmation": "Confirm external output, supply voltage and enclosure protection for the selected assembly."
+    }
+  ]
+}
