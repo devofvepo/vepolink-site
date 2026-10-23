@@ -9657,11 +9657,10 @@ body.open {
 
     .close {
       position: absolute;
-      top: 5px;
-      right: 25px;
+      top: 0px;
+      right: 0px;
       width: 45px;
       height: 45px;
-      border: 1px solid var(--ink-3);
       border-radius: 3px;
       display: flex;
       flex-wrap: wrap;
@@ -9670,7 +9669,7 @@ body.open {
       cursor: pointer;
 
       svg {
-        --size: 20px;
+        --size: 28px;
         height: auto;
         width: var(--size);
         height: var(--size);
@@ -9693,7 +9692,7 @@ body.open {
     .walkthrough-content {
       height: 100%;
       padding: 15px;
-      background: gainsboro;
+      background: linear-gradient(45deg, var(--line-2), var(--paper));
       border-radius: 11px;
 
       .walkthrough-badge {
@@ -9723,10 +9722,11 @@ body.open {
       }
 
       h2 {
-        color: #12202b;
+        color: var(--ink);
         margin: 0 0 20px;
-        font-size: 42px;
-        line-height: 1.15;
+        font-size: 36px;
+        line-height: 1.12;
+        font-weight: 700;
 
         @media screen and (max-width: 991px) {
           margin: 0 0 20px;
@@ -10028,18 +10028,16 @@ img.pro-thumb-js {
   .close {
     position: absolute;
     --size: 42px;
-    right: 10px;
-    top: 10px;
+    right: 33px;
+    top: 33px;
     width: var(--size);
     height: var(--size);
     border-radius: 3px;
-    border: 1px solid var(--ink);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    background: var(--card);
     z-index: 1;
 
     @media screen and (max-width: 767px) {
@@ -10050,7 +10048,7 @@ img.pro-thumb-js {
     }
 
     svg {
-      --size: 20px;
+      --size: 25px;
       width: var(--size);
       height: var(--size);
     }
@@ -10068,7 +10066,7 @@ img.pro-thumb-js {
 
     .brochure-modal-heading {
       padding: 15px;
-      background: gainsboro;
+      background: linear-gradient(45deg, var(--line-2), var(--paper));
       border-radius: 11px;
       display: flex;
       flex-direction: column;
@@ -10102,7 +10100,6 @@ img.pro-thumb-js {
       }
 
       h2 {
-        color: #12202b;
         margin: 0 0;
         font-size: 25px;
         line-height: 1.15;

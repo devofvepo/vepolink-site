@@ -620,7 +620,7 @@
             <h3>Book Your Walkthrough</h3>
             <p>Fill in your details and our team will contact you.</p>
           </div>
-          <form action="" id="form-book-walkthrough" class="inner-form">
+          <form id="form-book-walkthrough" class="inner-form"  data-parsley-validate>
             <div class="col-2">
               <div class="form-input">
                 <label for="fullName">Full Name <span>*</span></label>
@@ -638,7 +638,7 @@
             <div class="col-2">
               <div class="form-input">
                 <label for="email">Work Email <span>*</span></label>
-                <input type="email" id="email" name="email" placeholder="name@company.com" autocomplete="email"
+                <input type="email" id="email" name="email"  data-parsley-trigger="change" placeholder="name@company.com" autocomplete="email"
                   required>
               </div>
             </div>
@@ -855,6 +855,7 @@
         </div>
       </div>
     </div>
+   
   `;
 
   return {

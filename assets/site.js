@@ -707,4 +707,13 @@
     handleCurrentActiveSection();
   }
 
+
+  const formBookWalk = document.querySelector("#form-book-walkthrough");
+  formBookWalk.parsley().on('field:validated', function () {
+    var ok = formBookWalk.parsley().isValid();
+    console.log(ok);
+  }).on('form:submit', function () {
+    console.log("submit");
+    return false; // Don't submit form for this demo
+  });
 })();
